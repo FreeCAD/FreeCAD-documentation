@@ -42,4 +42,4 @@ Der Befehl <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> **Fast
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners BOM/de
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners BOM/de

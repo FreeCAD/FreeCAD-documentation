@@ -339,4 +339,4 @@ Siehe [CAM Skripten](CAM_scripting/de.md).
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > CAM Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [CAM](Category_CAM.md) > CAM Workbench/de

@@ -32,4 +32,4 @@ Der Befehl <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24p
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners MatchTypeInner/de
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners MatchTypeInner/de

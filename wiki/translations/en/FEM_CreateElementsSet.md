@@ -39,4 +39,4 @@ Hides the elements selected by a polygon from the FEM mesh or results mesh, maki
 
 
 ---
-⏵ [documentation index](../README.md) > FEM CreateElementsSet/en
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CreateElementsSet/en

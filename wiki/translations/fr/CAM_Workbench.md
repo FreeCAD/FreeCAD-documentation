@@ -275,4 +275,4 @@ Voir la page [CAM Ecrire un script](CAM_scripting/fr.md).
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > CAM Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [CAM](Category_CAM.md) > CAM Workbench/fr

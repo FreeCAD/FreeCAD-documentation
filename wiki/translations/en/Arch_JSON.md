@@ -24,4 +24,4 @@ Note that facets form triangles and their integer values reference points in the
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch JSON/en
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch JSON/en

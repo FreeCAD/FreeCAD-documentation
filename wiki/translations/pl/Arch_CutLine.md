@@ -47,4 +47,4 @@ Narzędzie **Linia Cięcia** przecina obiekt architektury, taki jak [ściana](Ar
 
 
 ---
-⏵ [documentation index](../README.md) > Arch CutLine/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch CutLine/pl

@@ -46,4 +46,4 @@ Esta herramienta identifica y selecciona las mallas no sólidas (no [manifold](h
 
 
 ---
-⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/es
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch SelectNonSolidMeshes/es

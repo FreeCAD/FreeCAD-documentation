@@ -526,4 +526,4 @@ Le fichier créé durant ce tutoriel peut être téléchargé [ici](http://yorik
 
 
 ---
-⏵ [documentation index](../README.md) > Arch tutorial/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch tutorial/fr

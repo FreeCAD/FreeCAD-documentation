@@ -164,4 +164,4 @@ Si la forma de los objetos exportados se basa en una extrusión o en una operaci
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch IFC/es
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch IFC/es

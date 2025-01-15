@@ -42,4 +42,4 @@ Exportiert die aktuellen Ansicht-Eigenschaften in eine pov-Datei für die Verwen
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing WriteView/de
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing WriteView/de

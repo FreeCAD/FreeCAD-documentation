@@ -48,4 +48,4 @@ Ustawia położenie kamery wybranego projektu raytracingu tak, aby odpowiadało 
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing ResetCamera/pl
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing ResetCamera/pl

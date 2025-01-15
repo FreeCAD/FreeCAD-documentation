@@ -276,4 +276,4 @@ Para algumas ideias do que pode ser alcançado com as ferramentas do PartDesign,
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/pt-br
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/pt-br

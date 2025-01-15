@@ -42,4 +42,4 @@ Exportiert das ausgewählte Teil in eine pov-Datei zur Verwendung in einem POV-R
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing WritePart/de
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing WritePart/de

@@ -65,4 +65,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-⏵ [documentation index](../README.md) > Arch RemoveShape/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch RemoveShape/de

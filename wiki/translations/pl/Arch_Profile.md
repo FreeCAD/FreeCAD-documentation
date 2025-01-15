@@ -113,4 +113,4 @@ Gdzie pierwszym elementem listy jest numer porządkowy, który nie został jeszc
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Profile/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Profile/pl

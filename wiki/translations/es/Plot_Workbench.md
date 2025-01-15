@@ -71,4 +71,4 @@ Siendo el módulo de graficado una capa encima de `matplotlib`, usted puede hace
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/es
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Category_Plot.md) > Plot Workbench/es

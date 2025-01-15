@@ -94,4 +94,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Floor/sv
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Floor/sv

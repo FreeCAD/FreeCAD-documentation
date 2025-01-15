@@ -107,4 +107,4 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Panel/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Panel/fr

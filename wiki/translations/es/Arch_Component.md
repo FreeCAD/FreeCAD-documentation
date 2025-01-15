@@ -188,4 +188,4 @@ El objeto del Arch componente es también una base compartida por todos los dem�
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Component/es
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Component/es

@@ -78,4 +78,4 @@ mesh_obj.ViewObject.Visibility = False
 
 
 ---
-⏵ [documentation index](../README.md) > Arch 3Views/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch 3Views/fr

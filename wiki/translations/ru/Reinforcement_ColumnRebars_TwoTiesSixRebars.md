@@ -368,4 +368,4 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement ColumnRebars TwoTiesSixRebars/ru
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Reinforcement](Category_Reinforcement.md) > [BIM](Category_BIM.md) > Reinforcement ColumnRebars TwoTiesSixRebars/ru

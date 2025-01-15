@@ -66,4 +66,4 @@ base = Arch.joinWalls([Wall1, Wall2])
 
 
 ---
-⏵ [documentation index](../README.md) > Arch MergeWalls/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch MergeWalls/fr

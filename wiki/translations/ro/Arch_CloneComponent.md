@@ -53,4 +53,4 @@ Componenta clonei va avea pur și simplu proprietatea **CloneOf**setată la obie
 
 
 ---
-⏵ [documentation index](../README.md) > Arch CloneComponent/ro
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch CloneComponent/ro

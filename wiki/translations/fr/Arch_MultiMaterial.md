@@ -61,4 +61,4 @@ Cela correspond à peu près à une combinaison de [IfcMaterialLayerSet](https:/
 
 
 ---
-⏵ [documentation index](../README.md) > Arch MultiMaterial/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch MultiMaterial/fr

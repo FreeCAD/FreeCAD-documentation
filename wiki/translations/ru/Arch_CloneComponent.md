@@ -53,4 +53,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > Arch CloneComponent/ru
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch CloneComponent/ru

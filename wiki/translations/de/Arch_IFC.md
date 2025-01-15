@@ -103,4 +103,4 @@ Wenn die Form der exportierten Objekte auf einer Extrusion oder einer booleschen
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch IFC/de
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch IFC/de

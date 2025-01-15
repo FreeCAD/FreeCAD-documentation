@@ -367,4 +367,4 @@ slabReinforcementGroup = editSlabReinforcement(
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement SlabRebars/en
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Reinforcement](Category_Reinforcement.md) > [BIM](Category_BIM.md) > Reinforcement SlabRebars/en

@@ -47,4 +47,4 @@ La commande <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fa
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners Move/fr
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Move/fr

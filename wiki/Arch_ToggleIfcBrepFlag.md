@@ -20,4 +20,4 @@ The **Arch ToggleIfcBrepFlag** tool turns the IfcBrep flag of a selected [BIM](B
 
 
 ---
-⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch ToggleIfcBrepFlag

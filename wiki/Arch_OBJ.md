@@ -44,4 +44,4 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch OBJ
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch OBJ

@@ -61,4 +61,4 @@ Setează camera pentru proiectul selectat de raytracing pentru a se potrivi cu v
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing ResetCamera/ro
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing ResetCamera/ro

@@ -91,4 +91,4 @@ If the shape of exported objects is based on an extrusion or a boolean operation
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch IFC/en
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch IFC/en

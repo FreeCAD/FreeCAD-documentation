@@ -38,4 +38,4 @@ Der [Draft-Konstruktions](Draft_ToggleConstructionMode/de.md)-Stil kann in den [
 
 
 ---
-⏵ [documentation index](../README.md) > Arch ToggleSubs/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch ToggleSubs/de

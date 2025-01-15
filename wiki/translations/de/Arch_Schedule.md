@@ -107,4 +107,4 @@ Es ist möglich, eigene Eigenschaften zu Objekten hinzuzufügen. Diese werden [D
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Schedule/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Schedule/de

@@ -206,4 +206,4 @@ Modul Architektura může být použit v pythonovských skriptech a [makrech](ma
 
 
 ---
-⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Arch Workbench/cs
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > [Arch](Category_Arch.md) > Arch Workbench/cs

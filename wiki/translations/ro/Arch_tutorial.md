@@ -702,4 +702,4 @@ Fișierul creat pe durata acestui tutorial poate fi găsit la [here](http://yori
 
 
 ---
-⏵ [documentation index](../README.md) > Arch tutorial/ro
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch tutorial/ro

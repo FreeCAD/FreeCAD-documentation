@@ -648,4 +648,4 @@ Gli elementi di fissaggio con dimensioni metriche hanno icone arancioni. Gli ele
 
 
 ---
-⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [External_Workbenches](Category_External_Workbenches.md) > Fasteners Workbench/it
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [External_Workbenches](Category_External_Workbenches.md) > [Fasteners](Category_Fasteners.md) > Fasteners Workbench/it

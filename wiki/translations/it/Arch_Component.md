@@ -175,4 +175,4 @@ L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri ogg
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Component/it
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Component/it

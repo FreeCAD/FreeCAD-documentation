@@ -68,4 +68,4 @@ for obj in selection:
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Survey/sv
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Survey/sv

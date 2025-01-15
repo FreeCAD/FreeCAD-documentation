@@ -134,4 +134,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-⏵ [documentation index](../README.md) > Arch CutPlane/ru
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch CutPlane/ru

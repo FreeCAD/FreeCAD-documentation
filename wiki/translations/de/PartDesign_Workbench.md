@@ -243,4 +243,4 @@ Ein paar Ideen, was mit den Part-Design-Werkzeugen erstellt werden kann, findet 
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/de

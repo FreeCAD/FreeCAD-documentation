@@ -87,4 +87,4 @@ new_obj = Arch.meshToShape(Box)
 
 
 ---
-⏵ [documentation index](../README.md) > Arch MeshToShape/sv
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch MeshToShape/sv

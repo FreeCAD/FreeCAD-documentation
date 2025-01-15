@@ -557,4 +557,4 @@ Ein paar Ideen, was mit den Sketcher-Werkzeugen erstellt werden kann, findet man
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/de

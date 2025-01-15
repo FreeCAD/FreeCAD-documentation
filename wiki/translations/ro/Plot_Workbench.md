@@ -67,4 +67,4 @@ Deoarece Plot este un strat peste `matplotlib`, aveți libertatea de a folosi or
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/ro
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Category_Plot.md) > Plot Workbench/ro

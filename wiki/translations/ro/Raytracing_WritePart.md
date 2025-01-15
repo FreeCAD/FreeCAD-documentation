@@ -57,4 +57,4 @@ Exportă piesa selectată către un fișier tip pov pentru a fi utilizat într-u
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing WritePart/ro
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing WritePart/ro

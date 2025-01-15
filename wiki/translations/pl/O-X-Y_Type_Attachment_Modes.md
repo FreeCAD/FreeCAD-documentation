@@ -43,4 +43,4 @@ Jeśli parametr **Odniesienie 3** nie zostanie podany, FreeCAD dokona wyboru dom
 
 
 ---
-⏵ [documentation index](../README.md) > O-X-Y Type Attachment Modes/pl
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > O-X-Y Type Attachment Modes/pl

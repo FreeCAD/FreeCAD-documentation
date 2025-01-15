@@ -520,4 +520,4 @@ Das Arch-Modul kann in [Python](Python.md)-Skripten und [Makros](Makros.md) mith
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > BIM Workbench/de
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [BIM](Category_BIM.md) > BIM Workbench/de

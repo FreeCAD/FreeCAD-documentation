@@ -46,4 +46,4 @@ Acest instrument identifică și selectează obiecte non solide/neprintabile 3D 
 
 
 ---
-⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/ro
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch SelectNonSolidMeshes/ro

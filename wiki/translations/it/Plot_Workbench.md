@@ -71,4 +71,4 @@ Poiché il modulo Grafico è costruito su `matplotlib`, si è liberi di utilizza
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/it
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Category_Plot.md) > Plot Workbench/it

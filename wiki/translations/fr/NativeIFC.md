@@ -182,4 +182,4 @@ Des propriétés géométriques modifiables telles que la \"hauteur\" ou la \"la
 
 
 ---
-⏵ [documentation index](../README.md) > NativeIFC/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > NativeIFC/fr

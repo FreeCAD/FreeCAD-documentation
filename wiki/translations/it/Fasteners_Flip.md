@@ -38,4 +38,4 @@ Il comando <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fas
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners Flip/it
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Flip/it

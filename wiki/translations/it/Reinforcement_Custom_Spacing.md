@@ -14,4 +14,4 @@ L\'output della finestra di dialogo Distribuzione barre viene generato quando l\
 
 
 ---
-⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Custom Spacing/it
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [Reinforcement](Category_Reinforcement.md) > [BIM](Category_BIM.md) > Reinforcement Custom Spacing/it

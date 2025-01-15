@@ -6,4 +6,4 @@ L\'atelier BIM prend en charge l\'importation des fichiers [3DS](https://en.wiki
 
 
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File%20Formats.md) > Arch 3DS/fr
+⏵ [documentation index](../README.md) > [File Formats](Category_File%20Formats.md) > [BIM](Category_BIM.md) > Arch 3DS/fr

@@ -6,4 +6,4 @@ L\'ambiente BIM supporta l\'importazione dei file [3DS](https://en.wikipedia.org
 
 
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File%20Formats.md) > Arch 3DS/it
+⏵ [documentation index](../README.md) > [File Formats](Category_File%20Formats.md) > [BIM](Category_BIM.md) > Arch 3DS/it

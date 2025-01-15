@@ -20,4 +20,4 @@ The **Arch SelectNonSolidMeshes** tool identifies and selects the non-solid (non
 
 
 ---
-⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch SelectNonSolidMeshes

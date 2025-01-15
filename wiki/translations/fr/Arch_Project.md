@@ -28,4 +28,4 @@ Remarquez que, bien que tout autre objet BIM puisse être ajouté à un projet, 
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Project/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Project/fr

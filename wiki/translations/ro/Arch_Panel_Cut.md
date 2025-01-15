@@ -168,4 +168,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Panel Cut/ro
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Panel Cut/ro

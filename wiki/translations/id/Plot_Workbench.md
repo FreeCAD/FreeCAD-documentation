@@ -63,4 +63,4 @@ Since the Plot Workbench is a layer on top of `matplotlib`, you are free to use 
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Workbench/id
+⏵ [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > [Plot](Category_Plot.md) > Plot Workbench/id

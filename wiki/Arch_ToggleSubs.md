@@ -31,4 +31,4 @@ The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in th
 
 
 ---
-⏵ [documentation index](../README.md) > Arch ToggleSubs
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch ToggleSubs

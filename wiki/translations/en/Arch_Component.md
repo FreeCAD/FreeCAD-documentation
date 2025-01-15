@@ -84,4 +84,4 @@ The Arch component object is also a base shared by all other Arch objects ([Arch
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Component/en
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Component/en

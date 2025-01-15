@@ -95,4 +95,4 @@ Das Arch-Objekt Komponente ist auch eine Basis, die von allen anderen Arch-Objek
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Component/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Component/de

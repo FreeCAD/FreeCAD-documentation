@@ -55,4 +55,4 @@ FEM Collecter un maillage permet donc à FreeCAD d\'être utilisé avec des solv
 
 
 ---
-⏵ [documentation index](../README.md) > FEM MeshGroup/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshGroup/fr

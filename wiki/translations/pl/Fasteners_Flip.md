@@ -38,4 +38,4 @@ Polecenie <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Odwr
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners Flip/pl
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Flip/pl

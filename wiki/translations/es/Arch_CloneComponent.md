@@ -44,4 +44,4 @@ El componente de clonación simplemente tendrá su propiedad **CloneOf** estable
 
 
 ---
-⏵ [documentation index](../README.md) > Arch CloneComponent/es
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch CloneComponent/es

@@ -6,4 +6,4 @@ The BIM Workbench supports importing [3DS](https://en.wikipedia.org/wiki/.3ds) f
 
 
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File%20Formats.md) > Arch 3DS/en
+⏵ [documentation index](../README.md) > [File Formats](Category_File%20Formats.md) > [BIM](Category_BIM.md) > Arch 3DS/en

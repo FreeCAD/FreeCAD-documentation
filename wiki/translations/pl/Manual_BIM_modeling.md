@@ -138,4 +138,4 @@ Nasza strona jest już gotowa i możemy ją wyeksportować do formatu SVG lub DX
 
 
 ---
-⏵ [documentation index](../README.md) > Manual:BIM modeling/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Manual:BIM modeling/pl

@@ -46,4 +46,4 @@ Ukrywa elementy zaznaczone wielokątem z siatki MES lub siatki wyników, umożli
 
 
 ---
-⏵ [documentation index](../README.md) > FEM CreateElementsSet/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM CreateElementsSet/pl

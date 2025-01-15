@@ -564,4 +564,4 @@ Aby uzyskać kilka pomysłów na to, co można osiągnąć za pomocą narzędzi 
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/pl

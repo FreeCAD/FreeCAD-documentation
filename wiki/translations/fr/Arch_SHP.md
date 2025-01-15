@@ -24,4 +24,4 @@ A noter que toute la question des unités géoréférencées, avec des centaines
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch SHP/fr
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch SHP/fr

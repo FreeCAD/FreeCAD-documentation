@@ -466,4 +466,4 @@ The IfcOpenShell project has also developed \"IFC Pipeline\", a self-hosted IFC 
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > IfcOpenShell/en
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > [BIM](Category_BIM.md) > [FEM](Category_FEM.md) > IfcOpenShell/en

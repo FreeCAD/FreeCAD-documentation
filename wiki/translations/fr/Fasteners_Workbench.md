@@ -638,4 +638,4 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 
 ---
-⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [External_Workbenches](Category_External_Workbenches.md) > Fasteners Workbench/fr
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [External_Workbenches](Category_External_Workbenches.md) > [Fasteners](Category_Fasteners.md) > Fasteners Workbench/fr

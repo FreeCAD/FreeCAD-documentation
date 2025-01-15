@@ -44,4 +44,4 @@ Obecnie obsługiwane są tylko POV-Ray i Luxrender.
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing Render/pl
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing Render/pl

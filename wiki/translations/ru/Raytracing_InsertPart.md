@@ -47,4 +47,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing InsertPart/ru
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing InsertPart/ru

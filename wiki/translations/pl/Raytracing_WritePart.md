@@ -42,4 +42,4 @@ Eksport wybranego elementu do pliku o formacie POV-Ray, do użycia w projekcie P
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing WritePart/pl
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing WritePart/pl

@@ -14,4 +14,4 @@ The Collada import functionality in the BIM workbench depends on [pycollada](htt
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch DAE
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch DAE

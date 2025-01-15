@@ -94,4 +94,4 @@ This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IF
 
 
 ---
-⏵ [documentation index](../README.md) > Arch SetMaterial/ro
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch SetMaterial/ro

@@ -256,4 +256,4 @@ BIM расшифровывается как [Building Information Modeling (Ин
 
 
 ---
-⏵ [documentation index](../README.md) > Manual:BIM modeling/ru
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Manual:BIM modeling/ru

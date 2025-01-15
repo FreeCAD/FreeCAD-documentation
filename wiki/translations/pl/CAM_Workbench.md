@@ -279,4 +279,4 @@ Zobacz również: [skrypty dla środowiska Path](CAM_scripting/pl.md)
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > CAM Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [CAM](Category_CAM.md) > CAM Workbench/pl

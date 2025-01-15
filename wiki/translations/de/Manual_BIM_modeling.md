@@ -138,4 +138,4 @@ Unsere Seite ist nun fertig und wir können sie im SVG- oder DXF-Format ausgeben
 
 
 ---
-⏵ [documentation index](../README.md) > Manual:BIM modeling/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Manual:BIM modeling/de

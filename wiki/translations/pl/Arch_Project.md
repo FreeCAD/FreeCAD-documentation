@@ -30,4 +30,4 @@ Należy zauważyć, że chociaż do Projektu można dodać dowolny inny obiekt B
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Project/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Project/pl

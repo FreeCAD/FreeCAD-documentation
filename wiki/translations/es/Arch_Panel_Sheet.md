@@ -180,4 +180,4 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Panel Sheet/es
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Panel Sheet/es

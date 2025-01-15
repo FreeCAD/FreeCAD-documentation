@@ -103,4 +103,4 @@ Możliwe jest dodawanie własnych właściwości do obiektów. Są one nazywane 
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Schedule/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Schedule/pl

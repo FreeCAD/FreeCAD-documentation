@@ -42,4 +42,4 @@ Exportiert die aktuellen Kameraeigenschaften in eine pov-Datei zur Verwendung in
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing WriteCamera/de
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing WriteCamera/de

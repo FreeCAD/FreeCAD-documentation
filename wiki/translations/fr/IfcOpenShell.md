@@ -510,4 +510,4 @@ Le projet IfcOpenShell a également développé \"IFC Pipeline\", un programme d
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > IfcOpenShell/fr
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > [BIM](Category_BIM.md) > [FEM](Category_FEM.md) > IfcOpenShell/fr

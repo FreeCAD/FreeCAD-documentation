@@ -158,4 +158,4 @@ Editable geometric properties such as \"Height\" or \"Width\" are then added to 
 
 
 ---
-⏵ [documentation index](../README.md) > NativeIFC/en
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > NativeIFC/en

@@ -43,4 +43,4 @@ Si **Reference3** n\'est pas donné, FreeCAD le choisit par défaut.
 
 
 ---
-⏵ [documentation index](../README.md) > O-X-Y Type Attachment Modes/fr
+⏵ [documentation index](../README.md) > [Part](Category_Part.md) > O-X-Y Type Attachment Modes/fr

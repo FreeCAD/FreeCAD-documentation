@@ -37,4 +37,4 @@ Exports the selected part to a pov-file for use in a POV-Ray project.
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing WritePart/ru
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing WritePart/ru

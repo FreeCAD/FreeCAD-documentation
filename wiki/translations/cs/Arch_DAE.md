@@ -52,4 +52,4 @@ Importní funkcionalita Collady v modulu Architektura závisí na [pycollada](ht
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch DAE/cs
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch DAE/cs

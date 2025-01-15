@@ -23,4 +23,4 @@ L\'outil **Arch Basculer en B-rep IFC** active/désactive l\'indicateur IfcBrep 
 
 
 ---
-⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch ToggleIfcBrepFlag/fr

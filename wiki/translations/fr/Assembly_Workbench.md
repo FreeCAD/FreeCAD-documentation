@@ -952,4 +952,4 @@ Pour ce faire, double-cliquez sur l\'objet Distance dans l\'arborescence et modi
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Assembly Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Assembly](Category_Assembly.md) > Assembly Workbench/fr

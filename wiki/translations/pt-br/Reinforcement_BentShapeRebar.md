@@ -163,4 +163,4 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement BentShapeRebar/pt-br
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Reinforcement](Category_Reinforcement.md) > [BIM](Category_BIM.md) > Reinforcement BentShapeRebar/pt-br

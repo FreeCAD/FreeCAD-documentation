@@ -24,4 +24,4 @@ Należy zauważyć, że kwestia jednostek georeferencyjnych, przy setkach system
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch SHP/pl
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch SHP/pl

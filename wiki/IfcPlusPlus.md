@@ -238,4 +238,4 @@ QT5_ADD_RESOURCES(SimpleViewerExample_RESOURCES_RCC ${RESOURCES})
 
 
 ---
-⏵ [documentation index](../README.md) > IfcPlusPlus
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [FEM](Category_FEM.md) > IfcPlusPlus

@@ -93,4 +93,4 @@ L\'objet Composant de Arch est également une base partagée par tous les autres
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Component/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Component/fr

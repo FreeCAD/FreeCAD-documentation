@@ -57,4 +57,4 @@ print(list_bad)
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Check/sv
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Check/sv

@@ -204,4 +204,4 @@ L\'atelier Arch peut être utilisé dans des scripts [Python](Python/fr.md) et d
 
 
 ---
-⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Arch Workbench/fr
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > [Arch](Category_Arch.md) > Arch Workbench/fr

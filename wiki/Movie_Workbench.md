@@ -67,4 +67,4 @@ The [Movie Workbench](Movie_Workbench.md) is available through the [Addon Manage
 
 
 ---
-⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [External_Workbenches](Category_External_Workbenches.md) > Movie Workbench
+⏵ [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [External_Workbenches](Category_External_Workbenches.md) > [Movie](Category_Movie.md) > Movie Workbench

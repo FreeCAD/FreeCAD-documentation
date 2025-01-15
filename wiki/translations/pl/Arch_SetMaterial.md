@@ -58,4 +58,4 @@ Odpowiada to w przybliżeniu [IfcMaterial](https://standards.buildingsmart.org/I
 
 
 ---
-⏵ [documentation index](../README.md) > Arch SetMaterial/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch SetMaterial/pl

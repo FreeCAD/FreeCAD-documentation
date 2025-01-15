@@ -254,4 +254,4 @@ Bliska interakcja między środowiskami pracy jest planowana na przyszłe wersje
 
 
 ---
-⏵ [documentation index](../README.md) > Tutorial for open windows/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/pl

@@ -50,4 +50,4 @@ Der Algorithmus hinter dem Verschachtelungswerkzeug befindet sich in ständiger 
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Nest/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Nest/de

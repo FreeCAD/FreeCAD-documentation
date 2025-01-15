@@ -56,4 +56,4 @@ Zapisuje wstępnie zdefiniowane zmienne wyjściowe z modelu *(siły i momenty)* 
 
 
 ---
-⏵ [documentation index](../README.md) > FEM ConstraintSectionPrint/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSectionPrint/pl

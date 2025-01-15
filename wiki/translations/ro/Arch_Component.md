@@ -197,4 +197,4 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Component/ro
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Component/ro

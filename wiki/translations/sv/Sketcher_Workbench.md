@@ -499,4 +499,4 @@ For some ideas of what can be achieved with Sketcher tools, have a look at: [Ske
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/sv
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/sv

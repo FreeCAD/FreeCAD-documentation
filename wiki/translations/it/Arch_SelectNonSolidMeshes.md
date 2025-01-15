@@ -49,4 +49,4 @@ Questo strumento identifica e seleziona i mesh non-solido, non-[manifold](https:
 
 
 ---
-⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/it
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch SelectNonSolidMeshes/it

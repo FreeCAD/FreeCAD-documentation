@@ -518,4 +518,4 @@ Das IfcOpenShell Projekt hat auch \"IFC Pipeline\" entwickelt, ein selbstgehoste
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > IfcOpenShell/de
+⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > [BIM](Category_BIM.md) > [FEM](Category_FEM.md) > IfcOpenShell/de

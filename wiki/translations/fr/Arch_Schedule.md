@@ -101,4 +101,4 @@ Il est possible d\'ajouter vos propres propriétés aux objets. Celles-ci sont a
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Schedule/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Schedule/fr

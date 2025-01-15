@@ -238,4 +238,4 @@ Ora la pagina è pronta, e può essere esportata nel formato SVG o DXF, o stampa
 
 
 ---
-⏵ [documentation index](../README.md) > Manual:BIM modeling/it
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Manual:BIM modeling/it

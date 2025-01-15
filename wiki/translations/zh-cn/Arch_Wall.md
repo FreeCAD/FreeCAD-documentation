@@ -239,4 +239,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Wall/zh-cn
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Wall/zh-cn

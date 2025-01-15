@@ -90,4 +90,4 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 ---
-⏵ [documentation index](../README.md) > Arch SplitMesh/cs
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch SplitMesh/cs

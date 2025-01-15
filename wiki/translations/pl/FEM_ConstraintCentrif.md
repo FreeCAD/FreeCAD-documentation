@@ -50,4 +50,4 @@ Definiuje obciążenie siłą odśrodkową bryły.
 
 
 ---
-⏵ [documentation index](../README.md) > FEM ConstraintCentrif/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintCentrif/pl

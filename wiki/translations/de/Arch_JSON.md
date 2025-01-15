@@ -24,4 +24,4 @@ Beachte, dass Facetten Dreiecke bilden und ihre Integer-Werte sich auf Punkte im
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch JSON/de
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch JSON/de

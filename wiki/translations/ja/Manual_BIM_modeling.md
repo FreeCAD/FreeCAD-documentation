@@ -152,4 +152,4 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
 
 
 ---
-⏵ [documentation index](../README.md) > Manual:BIM modeling/ja
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Manual:BIM modeling/ja

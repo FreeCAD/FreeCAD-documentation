@@ -141,4 +141,4 @@ truss.HeightEnd = 400
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Truss/it
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Truss/it

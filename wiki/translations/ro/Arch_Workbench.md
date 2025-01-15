@@ -224,4 +224,4 @@ Modulul Arch poate fi folosit în scripturile [Python](Python.md) scripts și [m
 
 
 ---
-⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Arch Workbench/ro
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > [Arch](Category_Arch.md) > Arch Workbench/ro

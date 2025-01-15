@@ -35,4 +35,4 @@ The <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> **Fasteners B
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners BOM
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners BOM

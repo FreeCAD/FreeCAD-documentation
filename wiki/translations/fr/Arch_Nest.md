@@ -48,4 +48,4 @@ L\'algorithme qui gère l\'outil Calepinage est en constante évolution et n\'es
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Nest/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Nest/fr

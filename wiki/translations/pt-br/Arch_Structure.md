@@ -166,4 +166,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Structure/pt-br
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Structure/pt-br

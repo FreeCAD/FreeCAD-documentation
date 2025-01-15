@@ -26,4 +26,4 @@ The clone component will simply have its **CloneOf** property set to the selecte
 
 
 ---
-⏵ [documentation index](../README.md) > Arch CloneComponent/en
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch CloneComponent/en

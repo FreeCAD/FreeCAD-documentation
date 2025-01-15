@@ -137,4 +137,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Arch Rebar/ru
+⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [BIM](Category_BIM.md) > Arch Rebar/ru

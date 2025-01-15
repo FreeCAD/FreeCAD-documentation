@@ -476,6 +476,7 @@ class MediaWiki:
                 if not c in cats:
                     cats.append(c)
             tcs = re.findall(r"\{\{(.*?) Tools navi",content)
+            tcs.extend(re.findall(r"\{\{(.*?)\_Tools\_navi",content))
             for tc in tcs:
                 if not tc in cats:
                     cats.append(tc)

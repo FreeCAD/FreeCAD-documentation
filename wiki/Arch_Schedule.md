@@ -94,4 +94,4 @@ It is possible to add your own properties to objects. These are called [Dynamic 
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Schedule
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Schedule

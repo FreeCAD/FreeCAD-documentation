@@ -296,4 +296,4 @@ The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbe
 
 
 ---
-⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > Arch Workbench/ru
+⏵ [documentation index](../README.md) > [Obsolete_Workbenches](Category_Obsolete_Workbenches.md) > [Arch](Category_Arch.md) > Arch Workbench/ru

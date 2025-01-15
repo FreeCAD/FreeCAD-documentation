@@ -56,4 +56,4 @@ solid = Arch.closeHole(Wall.Shape)
 
 
 ---
-⏵ [documentation index](../README.md) > Arch CloseHoles/en
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch CloseHoles/en

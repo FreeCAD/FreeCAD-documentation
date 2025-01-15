@@ -420,4 +420,4 @@ Chcesz poznać przyszłość środowiska pracy Rysunek Techniczny? Odwiedź stro
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [TechDraw](Category_TechDraw.md) > TechDraw Workbench/pl

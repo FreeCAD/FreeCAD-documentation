@@ -255,4 +255,4 @@ A closer interaction between the workbenches is planed for future versions of Fr
 
 
 ---
-⏵ [documentation index](../README.md) > Tutorial for open windows/en
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/en

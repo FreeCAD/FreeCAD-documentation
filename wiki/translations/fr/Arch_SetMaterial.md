@@ -54,4 +54,4 @@ Cela correspond à peu près à [IfcMaterial](https://standards.buildingsmart.or
 
 
 ---
-⏵ [documentation index](../README.md) > Arch SetMaterial/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch SetMaterial/fr

@@ -241,4 +241,4 @@ Aby uzyskać kilka pomysłów na to, co można osiągnąć za pomocą narzędzi 
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/pl

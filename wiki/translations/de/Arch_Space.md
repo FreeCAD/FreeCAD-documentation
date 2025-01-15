@@ -165,4 +165,4 @@ Arch.removeSpaceBoundaries(Space, selection)
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Space/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Space/de

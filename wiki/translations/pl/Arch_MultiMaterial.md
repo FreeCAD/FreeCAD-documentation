@@ -67,4 +67,4 @@ Z grubsza odpowiada to kombinacji [IfcMaterialLayerSet](https://standards.buildi
 
 
 ---
-⏵ [documentation index](../README.md) > Arch MultiMaterial/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch MultiMaterial/pl

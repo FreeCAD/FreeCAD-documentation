@@ -14,4 +14,4 @@ Die Collada-Importfunktionalität im Arbeitsbereich BIM hängt von [pycollada](h
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch DAE/de
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch DAE/de

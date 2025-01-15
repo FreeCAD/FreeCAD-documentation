@@ -529,4 +529,4 @@ Plik utworzony podczas tego ćwiczenia można znaleźć [ze strony yorik-a](http
 
 
 ---
-⏵ [documentation index](../README.md) > Arch tutorial/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch tutorial/pl

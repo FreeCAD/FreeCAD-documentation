@@ -246,4 +246,4 @@ Les deux outils Draft Rotate et Move utilisent le système Snapping Draft. Diff�
 
 
 ---
-⏵ [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Arch panel tutorial/fr
+⏵ [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > [BIM](Category_BIM.md) > [Draft](Category_Draft.md) > Arch panel tutorial/fr

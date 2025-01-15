@@ -774,4 +774,4 @@ Manage tools, bits, and the Tool Library. Based on the ToolBit architecture.
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > CAM Workbench/zh
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [CAM](Category_CAM.md) > CAM Workbench/zh

@@ -35,4 +35,4 @@ Il componente clone ha semplicemente la sua proprietà **CloneOf** impostata sul
 
 
 ---
-⏵ [documentation index](../README.md) > Arch CloneComponent/it
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch CloneComponent/it

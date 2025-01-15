@@ -83,4 +83,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-⏵ [documentation index](../README.md) > Arch AxisSystem/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch AxisSystem/fr

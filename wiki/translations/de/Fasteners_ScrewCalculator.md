@@ -38,4 +38,4 @@ Der Befehl <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners ScrewCalculator/de
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ScrewCalculator/de

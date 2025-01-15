@@ -706,4 +706,4 @@ Soubor vytvořený tímto výukovým programem najdete [zde](http://yorik.uncrea
 
 
 ---
-⏵ [documentation index](../README.md) > Arch tutorial/cs
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch tutorial/cs

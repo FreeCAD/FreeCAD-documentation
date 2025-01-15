@@ -24,4 +24,4 @@ Nota che le faccette formano triangoli e i loro valori di riferimento delle valo
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch JSON/it
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch JSON/it

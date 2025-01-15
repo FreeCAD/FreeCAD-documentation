@@ -184,4 +184,4 @@ Edytowalne właściwości geometryczne, takie jak \"Wysokość\" lub \"Szerokoś
 
 
 ---
-⏵ [documentation index](../README.md) > NativeIFC/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > NativeIFC/pl

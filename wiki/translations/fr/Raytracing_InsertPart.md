@@ -36,4 +36,4 @@ Insére une vue d\'une pièce dans un projet de Lancer de rayons.
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing InsertPart/fr
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing InsertPart/fr

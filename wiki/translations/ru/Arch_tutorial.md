@@ -685,4 +685,4 @@ To populate a spreadsheet with values extracted from the model the Arch_Schedule
 
 
 ---
-⏵ [documentation index](../README.md) > Arch tutorial/ru
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch tutorial/ru

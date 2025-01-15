@@ -58,4 +58,4 @@ To narzędzie umożliwia więc używanie programu FreeCAD z zewnętrznymi solver
 
 
 ---
-⏵ [documentation index](../README.md) > FEM MeshGroup/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshGroup/pl

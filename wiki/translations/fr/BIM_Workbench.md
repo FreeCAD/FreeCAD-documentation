@@ -515,4 +515,4 @@ L\'atelier Arch peut être utilisé dans des scripts [Python](Python/fr.md) et d
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > BIM Workbench/fr
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [BIM](Category_BIM.md) > BIM Workbench/fr

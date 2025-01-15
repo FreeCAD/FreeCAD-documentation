@@ -24,4 +24,4 @@ Notez que les facettes forment des triangles et leurs valeurs entières référe
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch JSON/fr
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch JSON/fr

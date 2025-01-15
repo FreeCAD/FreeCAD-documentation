@@ -954,4 +954,4 @@ Per farlo fare doppio clic sull\'oggetto Distance nella vista ad Albero e cambia
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Assembly Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Assembly](Category_Assembly.md) > Assembly Workbench/it

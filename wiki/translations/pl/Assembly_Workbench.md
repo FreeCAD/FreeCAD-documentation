@@ -953,4 +953,4 @@ Aby ruszać amortyzatorem, kliknij dwukrotnie na obiekcie Distance w widoku drze
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Assembly Workbench/pl
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Assembly](Category_Assembly.md) > Assembly Workbench/pl

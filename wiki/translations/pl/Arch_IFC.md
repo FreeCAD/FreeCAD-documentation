@@ -103,4 +103,4 @@ Jeśli kształt eksportowanych obiektów opiera się na wyciskaniu lub operacji 
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch IFC/pl
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch IFC/pl

@@ -51,4 +51,4 @@ Algorytm stojący za narzędziem Zagnieżdżanie, jest w ciągłej ewolucji i ob
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Nest/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Nest/pl

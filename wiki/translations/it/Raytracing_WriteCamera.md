@@ -57,4 +57,4 @@ Esporta le proprietà correnti della fotocamera in un file POV da usare in un pr
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing WriteCamera/it
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing WriteCamera/it

@@ -35,4 +35,4 @@ Komponent klona będzie miał po prostu właściwość **CloneOf** ustawioną na
 
 
 ---
-⏵ [documentation index](../README.md) > Arch CloneComponent/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch CloneComponent/pl

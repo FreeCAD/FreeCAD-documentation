@@ -42,4 +42,4 @@ Eksport aktualnych właściwości widoku do pliku Pov przeznaczonego do użytku 
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing WriteView/pl
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing WriteView/pl

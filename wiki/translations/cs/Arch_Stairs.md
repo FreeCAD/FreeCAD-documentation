@@ -218,4 +218,4 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Stairs/cs
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Stairs/cs

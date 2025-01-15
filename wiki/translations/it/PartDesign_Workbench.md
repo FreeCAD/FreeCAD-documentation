@@ -241,4 +241,4 @@ Per alcune idee su cosa si può ottenere con gli strumenti di Part Design, dare 
 
 
 ---
-⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/it
+⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/it

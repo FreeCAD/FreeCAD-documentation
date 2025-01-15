@@ -17,4 +17,4 @@ Arch.makeWall(baseline, length=None, width=200, height=2000)
 
 
 ---
-⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > Arch API/hr
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > [BIM](Category_BIM.md) > Arch API/hr

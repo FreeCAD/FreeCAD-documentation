@@ -201,4 +201,4 @@ Dall\'ambiente Spreadsheet il foglio di calcolo può quindi essere esportato nor
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Schedule/it
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Schedule/it

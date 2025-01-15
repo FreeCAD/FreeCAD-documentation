@@ -15,4 +15,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Raytracing Preferences/ru
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Raytracing](Category_Raytracing.md) > Raytracing Preferences/ru

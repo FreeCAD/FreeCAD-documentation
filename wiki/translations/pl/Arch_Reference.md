@@ -70,4 +70,4 @@ Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Reference/pl
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Reference/pl

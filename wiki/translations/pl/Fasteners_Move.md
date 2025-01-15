@@ -49,4 +49,4 @@ Polecenie <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Prze
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners Move/pl
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners Move/pl

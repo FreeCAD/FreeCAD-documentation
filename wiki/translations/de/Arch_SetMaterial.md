@@ -62,4 +62,4 @@ Dies entspricht in etwa [IfcMaterial](https://standards.buildingsmart.org/IFC/DE
 
 
 ---
-⏵ [documentation index](../README.md) > Arch SetMaterial/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch SetMaterial/de

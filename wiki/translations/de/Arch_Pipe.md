@@ -152,4 +152,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Pipe/de
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Pipe/de

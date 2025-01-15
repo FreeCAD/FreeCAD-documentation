@@ -79,4 +79,4 @@ Algoritmul din spatele instrumentului Nest (Economizor) este în evoluție const
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Nest/ro
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Nest/ro

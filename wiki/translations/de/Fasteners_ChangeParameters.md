@@ -39,4 +39,4 @@ Der Befehl <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:2
 
 
 ---
-⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > Fasteners ChangeParameters/de
+⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Fasteners](Category_Fasteners.md) > Fasteners ChangeParameters/de

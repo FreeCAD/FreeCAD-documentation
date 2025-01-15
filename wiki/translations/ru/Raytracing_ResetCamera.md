@@ -47,4 +47,4 @@ Sets the camera of the selected raytracing project to match the current view.
 
 
 ---
-⏵ [documentation index](../README.md) > Raytracing ResetCamera/ru
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing ResetCamera/ru

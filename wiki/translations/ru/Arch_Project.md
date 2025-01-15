@@ -39,4 +39,4 @@ Note that, although any other BIM object can be added to a Project, which the IF
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Project/ru
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Project/ru

@@ -138,4 +138,4 @@ Notre page est maintenant prête, et nous pouvons l\'exporter vers les formats S
 
 
 ---
-⏵ [documentation index](../README.md) > Manual:BIM modeling/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Manual:BIM modeling/fr

@@ -37,4 +37,4 @@ Le composant clone aura simplement sa propriété **CloneOf** définie sur l\'ob
 
 
 ---
-⏵ [documentation index](../README.md) > Arch CloneComponent/fr
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch CloneComponent/fr

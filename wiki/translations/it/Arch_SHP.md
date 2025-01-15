@@ -24,4 +24,4 @@ Notare che al momento non viene trattata tutta la questione delle unità georefe
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch SHP/it
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch SHP/it

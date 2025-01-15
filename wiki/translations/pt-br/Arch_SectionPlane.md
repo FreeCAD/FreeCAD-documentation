@@ -131,4 +131,4 @@ FreeCAD.ActiveDocument.recompute()
 
 
 ---
-⏵ [documentation index](../README.md) > Arch SectionPlane/pt-br
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch SectionPlane/pt-br

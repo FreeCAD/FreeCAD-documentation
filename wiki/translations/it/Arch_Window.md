@@ -302,4 +302,4 @@ Door = Arch.makeWindowPreset("Simple door",
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Window/it
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Window/it

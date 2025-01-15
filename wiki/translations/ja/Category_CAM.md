@@ -5,7 +5,7 @@ This category lists pages related to the [CAM Workbench](CAM_Workbench.md).
 
 |     |     |     |
 | --- | --- | --- |
-|
+| [CAM Workbench/ja](CAM_Workbench/ja.md) |
 
 
 

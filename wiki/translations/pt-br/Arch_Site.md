@@ -185,4 +185,4 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 
 
 ---
-⏵ [documentation index](../README.md) > Arch Site/pt-br
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch Site/pt-br

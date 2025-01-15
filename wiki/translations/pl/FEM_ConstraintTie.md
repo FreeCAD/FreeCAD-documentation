@@ -79,4 +79,4 @@ Jednym istotnym ograniczeniem tej funkcji jest to, że nie można nakładać war
 
 
 ---
-⏵ [documentation index](../README.md) > FEM ConstraintTie/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintTie/pl

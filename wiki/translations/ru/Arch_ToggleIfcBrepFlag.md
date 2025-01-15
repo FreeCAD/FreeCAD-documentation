@@ -48,4 +48,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag/ru
+⏵ [documentation index](../README.md) > [BIM](Category_BIM.md) > Arch ToggleIfcBrepFlag/ru

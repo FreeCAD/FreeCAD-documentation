@@ -14,4 +14,4 @@ La funzionalità di importazione di Collada nell\'ambiente BIM dipende da [pycol
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch DAE/it
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [BIM](Category_BIM.md) > Arch DAE/it
