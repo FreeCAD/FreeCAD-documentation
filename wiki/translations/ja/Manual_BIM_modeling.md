@@ -151,13 +151,5 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Manual:BIM modeling/ja

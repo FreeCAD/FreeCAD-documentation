@@ -82,4 +82,4 @@ Zatem z kształtów można budować bardzo złożone części lub, odwrotnie, wy
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > OpenCASCADE/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > OpenCASCADE/pl

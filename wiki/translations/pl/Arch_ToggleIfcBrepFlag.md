@@ -24,13 +24,5 @@ Narzędzie **Przełącz flagę Brep IFC** włącza / wyłącza flagę IfcBrep wy
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag/pl

@@ -75,4 +75,4 @@ Du kannst Erweiterungen manuell installieren, es ist jedoch viel einfacher, einf
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macros/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > [Macros](Category_Macros.md) > Macros/de

@@ -776,4 +776,4 @@ Alcuni altri link che riguardano le IDE per Python e che possono essere interess
 
 
 ---
-⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Python Code](Category_Python Code.md) > Python Development Environment/it
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Python Development Environment/it

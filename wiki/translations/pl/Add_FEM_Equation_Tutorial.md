@@ -206,4 +206,4 @@ Właśnie utworzyliśmy klasę nowego równania. Aby mieć do niej dostęp z GUI
 
 
 ---
-⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Add FEM Equation Tutorial/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Add FEM Equation Tutorial/pl

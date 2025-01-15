@@ -111,13 +111,5 @@ Lorsque le premier élément de la liste est un numéro ordonné pas encore util
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Profile/fr

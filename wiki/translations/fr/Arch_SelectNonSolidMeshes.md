@@ -22,13 +22,5 @@ L\'outil **Arch Sélection de maillages non-manifold** identifie et sélectionne
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/fr

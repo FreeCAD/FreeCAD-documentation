@@ -87,4 +87,4 @@ Aby korzystać z BOLTS dla FreeCAD wymagane są:
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > BOLTSFC Workbench/pl
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > [Addons](Category_Addons.md) > BOLTSFC Workbench/pl

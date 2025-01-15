@@ -69,4 +69,4 @@ Ponadto niektóre klasyfikacje *(takie jak \"szablon\" i \"test\")* są używane
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > LGTM/pl
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Testing](Category_Testing.md) > LGTM/pl

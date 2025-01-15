@@ -172,4 +172,4 @@ Zobacz wątek na forum, [PDF wewnątrz projektu](https://forum.freecadweb.org/vi
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/pl
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/pl

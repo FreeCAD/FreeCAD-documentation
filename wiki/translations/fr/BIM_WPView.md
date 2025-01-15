@@ -15,13 +15,5 @@ L\'outil **BIM Vue du plan de travail** centre la vue sur le plan de travail en 
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM WPView/fr

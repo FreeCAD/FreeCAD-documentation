@@ -38,13 +38,5 @@ Le gestionnaire des vues BIM affichera tous les niveaux (éléments de construct
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Views/fr

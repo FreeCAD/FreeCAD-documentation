@@ -37,4 +37,4 @@ Sia Collada (\*.dae) che STL sono formati mesh. Per utilizzare questi file all\'
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [File_Formats](Category_File_Formats.md) > Importing From Sketchup/it
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [File_Formats](Category_File_Formats.md) > Importing From Sketchup/it

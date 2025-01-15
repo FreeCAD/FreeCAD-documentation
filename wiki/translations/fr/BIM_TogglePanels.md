@@ -14,13 +14,5 @@ L\'outil **BIM Bascule des panneaux inférieurs** permet d\'activer ou de désac
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM TogglePanels/fr

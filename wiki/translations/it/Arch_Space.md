@@ -194,11 +194,6 @@ Arch.removeSpaceBoundaries(Space, selection)
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Space/it

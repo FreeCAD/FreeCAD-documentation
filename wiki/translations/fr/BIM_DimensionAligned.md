@@ -29,13 +29,5 @@ L\'outil **BIM Dimension alignée** crée une dimension alignée, un objet **Dim
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM DimensionAligned/fr

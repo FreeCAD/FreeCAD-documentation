@@ -160,4 +160,4 @@ Après l\'installation, les outils sont disponibles dans la barre d\'outils Gear
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > FCGear Workbench/fr
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > FCGear Workbench/fr

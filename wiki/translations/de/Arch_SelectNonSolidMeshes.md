@@ -24,13 +24,5 @@ Das Werkzeug **Arch NichtmannigfaltigeNetzeAuswählen** findet in einer ausgewä
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/de

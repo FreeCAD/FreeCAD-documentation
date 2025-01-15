@@ -24,13 +24,5 @@ Narzędzie **Zaznacz siatki typu non-manifold** identyfikuje i wybiera siatki ni
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/pl

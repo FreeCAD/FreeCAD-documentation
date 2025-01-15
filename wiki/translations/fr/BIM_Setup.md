@@ -18,13 +18,5 @@ En survolant chaque paramètre avec la souris, vous obtiendrez une infobulle exp
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Setup/fr

@@ -58,13 +58,5 @@ Les fichiers IFC attachés à un projet sont automatiquement enregistrés chaque
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Project/fr

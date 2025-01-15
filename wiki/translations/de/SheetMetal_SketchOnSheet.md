@@ -103,4 +103,4 @@ Dieses Dingens besteht aus einem Blechprofil mit hinzugefügten Löchern.  Es m�
 
 
 ---
-⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal SketchOnSheet/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External%20Command%20Reference.md) > SheetMetal SketchOnSheet/de

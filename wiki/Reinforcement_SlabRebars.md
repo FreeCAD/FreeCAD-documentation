@@ -378,12 +378,7 @@ slabReinforcementGroup = editSlabReinforcement(
 
 -   [Slab Having L-Shape Rebars Reinforcement Mesh](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh.md)
 
- <img alt="" src=images/L-Shape_Rebars_isometric_view.png  style="width:800px;"> 
-
-
-
-
- {{BIM_Tools_navi}}
+ <img alt="" src=images/L-Shape_Rebars_isometric_view.png  style="width:800px;">
 
 
 

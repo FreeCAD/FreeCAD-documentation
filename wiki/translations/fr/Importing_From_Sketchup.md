@@ -33,4 +33,4 @@ Collada (\*.dae) et STL sont des formats maillés. Pour utiliser ces fichiers da
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [File_Formats](Category_File_Formats.md) > Importing From Sketchup/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [File_Formats](Category_File_Formats.md) > Importing From Sketchup/fr

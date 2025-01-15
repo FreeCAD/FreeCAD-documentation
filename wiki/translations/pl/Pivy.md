@@ -167,4 +167,4 @@ Te linki dostarczają dokumentacji referencyjnej dla Coin v3.x. Różnice w stos
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Pivy/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Pivy/pl

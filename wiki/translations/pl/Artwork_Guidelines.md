@@ -235,4 +235,4 @@ Obraz w skali szarości pozwala łatwiej zidentyfikować problemy z kontrastem, 
 
 
 ---
-⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/pl
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Artwork Guidelines/pl

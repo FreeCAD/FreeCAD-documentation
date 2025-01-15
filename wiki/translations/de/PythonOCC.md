@@ -48,4 +48,4 @@ PythonOCC kann man auch selbst kompilieren (siehe [instructions](https://github.
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PythonOCC/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > PythonOCC/de

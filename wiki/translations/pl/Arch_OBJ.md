@@ -49,13 +49,5 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch OBJ/pl

@@ -105,11 +105,6 @@ It is possible to add your own properties to objects. These are called [Dynamic 
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Schedule/pt-br

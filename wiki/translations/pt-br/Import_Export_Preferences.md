@@ -653,4 +653,4 @@ Nesta página você pode especificar o seguinte:
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Preferences](Category_Preferences.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export Preferences/pt-br
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [Preferences](Category_Preferences.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export Preferences/pt-br

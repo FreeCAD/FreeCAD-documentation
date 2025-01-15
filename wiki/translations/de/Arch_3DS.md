@@ -5,13 +5,5 @@ Der Arbeitsbereich BIM unterstützt das Importieren von [3ds](https://de.wikiboo
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > Arch 3DS/de
+⏵ [documentation index](../README.md) > [File Formats](Category_File%20Formats.md) > Arch 3DS/de

@@ -69,4 +69,4 @@ Pour utiliser CFD pour FreeCAD
 
 
 ---
-⏵ [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Cfd Workbench/fr
+⏵ [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User%20Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Cfd Workbench/fr

@@ -21,4 +21,4 @@ L\'intention de cette page est d\'aider à orienter les utilisateurs qui sont en
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [3rd Party](Category_3rd Party.md) > Developing FreeCAD with KDevelop/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [3rd Party](Category_3rd%20Party.md) > Developing FreeCAD with KDevelop/fr

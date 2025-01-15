@@ -67,4 +67,4 @@ Uwaga, getPyObject() and init() są szczególnymi przypadkami i nie są zgodne z
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FeaturePython methods/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > FeaturePython methods/pl

@@ -667,4 +667,4 @@ Sur cette page, vous pouvez spécifier les éléments suivants :
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Preferences](Category_Preferences.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export Preferences/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [Preferences](Category_Preferences.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export Preferences/fr

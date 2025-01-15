@@ -51,11 +51,6 @@ The <img alt="" src=images/BIM_DimensionHorizontal.svg  style="width:24px;"> [BI
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM DimensionHorizontal/pt-br

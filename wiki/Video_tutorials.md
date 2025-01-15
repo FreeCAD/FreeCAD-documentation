@@ -73,4 +73,4 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > Video tutorials

@@ -37,13 +37,5 @@ Styl [konstrukcji](Draft_ToggleConstructionMode/pl.md) można ustawić w [Prefer
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch ToggleSubs/pl

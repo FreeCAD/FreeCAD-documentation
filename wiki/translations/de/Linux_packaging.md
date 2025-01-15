@@ -14,4 +14,4 @@ für Windows und MacOS, siehe [Paketerstellung](Packaging/de.md).
 
 
 ---
-⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Linux packaging/de
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Linux packaging/de

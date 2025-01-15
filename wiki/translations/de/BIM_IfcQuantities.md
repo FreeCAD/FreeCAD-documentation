@@ -27,13 +27,5 @@ Der Größenmanager kann auch dazu verwendet werden, die tatsächlichen Werte **
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcQuantities/de

@@ -147,13 +147,5 @@ doc.recompute()
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Roof/en

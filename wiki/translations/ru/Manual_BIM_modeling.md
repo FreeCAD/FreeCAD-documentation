@@ -254,11 +254,6 @@ BIM расшифровывается как [Building Information Modeling (Ин
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Manual:BIM modeling/ru

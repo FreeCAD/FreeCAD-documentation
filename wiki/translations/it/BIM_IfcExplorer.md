@@ -62,11 +62,6 @@ Lo scopo di questo explorer è semplicemente quello di permettere di controllare
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcExplorer/it

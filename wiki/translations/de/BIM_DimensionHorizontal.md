@@ -29,13 +29,5 @@ Das Werkzeug <img alt="" src=images/BIM_DimensionHorizontal.svg  style="width:24
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM DimensionHorizontal/de

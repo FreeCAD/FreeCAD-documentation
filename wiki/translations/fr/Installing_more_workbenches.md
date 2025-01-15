@@ -55,4 +55,4 @@ Voir aussi une description détaillée sur la page [Comment installer un atelier
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Installing more workbenches/fr

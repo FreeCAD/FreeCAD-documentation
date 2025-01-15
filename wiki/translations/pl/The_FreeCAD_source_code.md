@@ -35,4 +35,4 @@ Poniżej znajduje się kilka wskazówek i przydatnych informacji, które naprowa
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > The FreeCAD source code/pl

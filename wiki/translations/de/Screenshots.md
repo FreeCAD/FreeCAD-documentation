@@ -140,4 +140,4 @@ Hier gibt es einige Bildschirmfotos, die verschiedene Bereiche von FreeCAD zeige
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Screenshots](Category_Screenshots.md) > Screenshots/de
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > [Screenshots](Category_Screenshots.md) > Screenshots/de

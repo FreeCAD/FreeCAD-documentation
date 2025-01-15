@@ -73,4 +73,4 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 
 ---
-⏵ [documentation index](../README.md) > [Tutorials/ru]] (не переведённые - в ](Category_Tutorials/ru]] (не переведённые - в .md) > [Common Questions](Category_Common Questions.md) > Video tutorials/ru
+⏵ [documentation index](../README.md) > [Tutorials/ru]] (не переведённые - в ](Category_Tutorials/ru]]%20(не%20переведённые%20-%20в%20.md) > [Common Questions](Category_Common%20Questions.md) > Video tutorials/ru

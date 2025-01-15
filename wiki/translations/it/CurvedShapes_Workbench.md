@@ -53,4 +53,4 @@ Si consiglia di installarlo tramite <img alt="" src=images/Std_AddonMgr.svg  sty
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > CurvedShapes Workbench/it
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > [Addons](Category_Addons.md) > CurvedShapes Workbench/it

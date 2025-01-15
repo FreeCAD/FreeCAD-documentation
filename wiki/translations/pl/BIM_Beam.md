@@ -28,13 +28,5 @@ Narzędzie **BIM: Belka** tworzy obiekt **Belka**, poziomy element konstrukcyjny
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Beam/pl

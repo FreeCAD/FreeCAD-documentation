@@ -39,13 +39,5 @@ Das Werkzeug **BIM Bibliothek** ermöglicht im aktuellen Modell ein Objekt aus d
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Library/de

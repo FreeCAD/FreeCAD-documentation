@@ -50,11 +50,6 @@ The <img alt="" src=images/BIM_SetWPFront.svg  style="width:24px;"> [BIM SetWPFr
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM SetWPFront/pt-br

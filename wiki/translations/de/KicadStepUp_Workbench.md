@@ -149,4 +149,4 @@ Neue Arbeitsbereiche sind in der Entwicklung, bleib dran!
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > KicadStepUp Workbench/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > KicadStepUp Workbench/de

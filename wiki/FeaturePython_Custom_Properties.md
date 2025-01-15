@@ -1490,4 +1490,4 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 
 
 ---
-⏵ [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > FeaturePython Custom Properties
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer%20Documentation.md) > FeaturePython Custom Properties

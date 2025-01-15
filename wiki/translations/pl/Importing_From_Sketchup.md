@@ -37,4 +37,4 @@ Zarówno Collada *(\*.dae)*, jak i STL są formatami siatki. Aby użyć tych pli
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [File_Formats](Category_File_Formats.md) > Importing From Sketchup/pl
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [File_Formats](Category_File_Formats.md) > Importing From Sketchup/pl

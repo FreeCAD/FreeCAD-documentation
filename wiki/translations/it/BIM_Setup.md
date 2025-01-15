@@ -30,13 +30,5 @@ Passando il mouse sopra ogni impostazione, viene mostrato un suggerimento che sp
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Setup/it

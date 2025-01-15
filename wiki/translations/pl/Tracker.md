@@ -175,4 +175,4 @@ Dla dociekliwych: mamy tu zastosowanie wyrażenia regularnego MantisBT do tej op
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Tracker/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Administration](Category_Administration.md) > Tracker/pl

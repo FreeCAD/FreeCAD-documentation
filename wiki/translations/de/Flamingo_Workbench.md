@@ -521,4 +521,4 @@ Neue Arbeitsbereiche sind in Entwicklung, bleib dran!
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Flamingo Workbench/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Flamingo Workbench/de

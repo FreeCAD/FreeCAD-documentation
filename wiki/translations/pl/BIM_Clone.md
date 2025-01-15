@@ -17,13 +17,5 @@ Narzędzie **Klon** pracy BIM, jest skrótem do standardowego narzędzia [Klon](
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Clone/pl

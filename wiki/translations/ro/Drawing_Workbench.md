@@ -92,4 +92,4 @@ Unele note despre partea de programare a modulului de desen vor fi adăugate la 
 
 
 ---
-⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/ro
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete%20Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/ro

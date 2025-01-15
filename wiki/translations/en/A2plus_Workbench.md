@@ -618,4 +618,4 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > A2plus Workbench/en

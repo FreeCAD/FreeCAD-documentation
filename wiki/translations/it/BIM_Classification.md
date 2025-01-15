@@ -37,13 +37,5 @@ Il gestore delle classificazioni consente di attribuire una classe standard a un
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Classification/it

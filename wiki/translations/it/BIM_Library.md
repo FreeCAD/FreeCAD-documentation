@@ -72,13 +72,5 @@ Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggett
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Library/it

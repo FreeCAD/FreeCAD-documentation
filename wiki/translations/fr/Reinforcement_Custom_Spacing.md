@@ -11,8 +11,6 @@ Le résultat produit par la boîte de dialogue Rebar Distribution lorsque l\'uti
 
 <img alt="" src=images/RebarDistribution.png  style="width:800px;">
 
-{{BIM_Tools_navi}}
-
 
 
 ---

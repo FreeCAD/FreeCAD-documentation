@@ -41,4 +41,4 @@ La page [Tutoriels](Tutorials/fr.md) fournit des exemples de création de solide
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/fr

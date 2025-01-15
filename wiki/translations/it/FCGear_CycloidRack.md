@@ -120,4 +120,4 @@ Vedere [Ingranaggio cicloidale](FCGear_CycloidGear/it#Formule_utili.md).
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CycloidRack/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External%20Command%20Reference.md) > FCGear CycloidRack/it

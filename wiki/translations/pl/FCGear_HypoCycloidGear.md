@@ -62,4 +62,4 @@ Aby wyświetlić tarcze krzywkowe i zestaw rolek *(sworzni)* w różnych kolorac
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear HypoCycloidGear/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External%20Command%20Reference.md) > FCGear HypoCycloidGear/pl

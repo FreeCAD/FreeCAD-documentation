@@ -19,4 +19,4 @@ Cet atelier peut être installé à partir du <img alt="" src=images/Std_AddonMg
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MeshRemodel Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > MeshRemodel Workbench/fr

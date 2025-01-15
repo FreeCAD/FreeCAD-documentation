@@ -42,4 +42,4 @@ Schließlich ist es erwähnenswert, dass benutzerdefinierte parametrische Objekt
 
 
 ---
-⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Parametric objects/de
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser%20Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Parametric objects/de

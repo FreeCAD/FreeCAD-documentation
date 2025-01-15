@@ -46,13 +46,5 @@ Lo strumento **Arch CutLine** taglia un oggetto Arch solido come un [Muro](Arch_
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch CutLine/it

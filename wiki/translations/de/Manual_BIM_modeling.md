@@ -137,13 +137,5 @@ Unsere Seite ist nun fertig und wir können sie im SVG- oder DXF-Format ausgeben
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Manual:BIM modeling/de

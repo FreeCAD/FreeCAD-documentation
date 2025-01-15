@@ -266,9 +266,7 @@ l\'[atelier TechDraw](TechDraw_Workbench/fr.md) n\'a qu\'un contrôle minimal su
 Une interaction plus étroite entre les ateliers est prévue pour les futures versions de FreeCAD. Dans ces versions, on s\'attend à ce que les problèmes de longue date soient résolus, tels que le contrôle des caractéristiques des lignes et des faces (largeur de ligne, couleur de ligne, couleur de face, motifs de hachures, etc\...).
 
 
-{{BIM_Tools_navi
-
-}} {{Draft_Tools_navi}} {{TechDraw_Tools_navi}}
+ {{Draft_Tools_navi}} {{TechDraw_Tools_navi}}
 
 
 

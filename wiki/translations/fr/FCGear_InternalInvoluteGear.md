@@ -121,4 +121,4 @@ Voir [FCGear InvoluteGear](FCGear_InvoluteGear/fr#Formules_utiles.md).
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InternalInvoluteGear/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External%20Command%20Reference.md) > FCGear InternalInvoluteGear/fr

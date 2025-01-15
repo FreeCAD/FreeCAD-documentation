@@ -202,4 +202,4 @@ Le dépôt de ces scripts se trouve à [realthunder/FreeCADMakeImage](https://gi
 
 
 ---
-⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > AppImage/fr
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Testing](Category_Testing.md) > AppImage/fr

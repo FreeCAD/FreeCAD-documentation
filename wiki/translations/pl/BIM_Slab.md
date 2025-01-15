@@ -31,13 +31,5 @@ Narzędzie **BIM: Płyta** tworzy obiekt **Płyta**, poziomy element konstrukcyj
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Slab/pl

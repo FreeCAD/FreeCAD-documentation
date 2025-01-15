@@ -28,13 +28,5 @@ Można również użyć menedżera ilości, aby zmienić lub naprawić rzeczywis
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcQuantities/pl

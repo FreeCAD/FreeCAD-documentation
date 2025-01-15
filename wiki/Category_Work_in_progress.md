@@ -22,9 +22,9 @@ This category is for pages that are under construction and should not be touched
 | [Quickstart guide for Fusion360 users](Quickstart_guide_for_Fusion360_users.md) | [Sandbox:seawasp](Sandbox_seawasp.md) | [Sandbox:TechDraw template creation tutorial](Sandbox_TechDraw_template_creation_tutorial.md) |
 | [WikiPages](WikiPages.md) | [WikiPages/de](WikiPages/de.md) | [WikiPages/en](WikiPages/en.md) |
 | [WikiPages/es](WikiPages/es.md) | [WikiPages/fr](WikiPages/fr.md) | [WikiPages/it](WikiPages/it.md) |
-| [WikiPages/ko](WikiPages/ko.md) | [WikiPages/pl](WikiPages/pl.md) | [WikiPages/pt-br](WikiPages/pt-br.md) |
-| [WikiPages/ru](WikiPages/ru.md) | [Template:Work in progress](Template_Work_in_progress.md) | [Template:Work in progress/fr](Template_Work_in_progress/fr.md) |
-| [Template:Work in progress/pl](Template_Work_in_progress/pl.md) |
+| [WikiPages/ja](WikiPages/ja.md) | [WikiPages/ko](WikiPages/ko.md) | [WikiPages/pl](WikiPages/pl.md) |
+| [WikiPages/pt-br](WikiPages/pt-br.md) | [WikiPages/ru](WikiPages/ru.md) | [Template:Work in progress](Template_Work_in_progress.md) |
+| [Template:Work in progress/fr](Template_Work_in_progress/fr.md) | [Template:Work in progress/pl](Template_Work_in_progress/pl.md) |
 
 
 

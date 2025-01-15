@@ -125,4 +125,4 @@ Aby dodać polecenie do menu **solve** (Rozwiąż) środowiska pracy MES, poszuk
 
 
 ---
-⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Add Button to FEM Toolbar Tutorial/pl
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Add Button to FEM Toolbar Tutorial/pl

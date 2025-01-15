@@ -195,11 +195,6 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Component/ro

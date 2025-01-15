@@ -56,13 +56,5 @@ Menedżer widoków BIM pokaże wszystkie poziomy *(części budynku)* i pośredn
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Views/pl

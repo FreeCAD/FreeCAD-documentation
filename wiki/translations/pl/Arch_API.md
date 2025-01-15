@@ -15,11 +15,6 @@ Arch.makeWall(baseline, length=None, width=200, height=2000)
 ```
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > Arch API/pl

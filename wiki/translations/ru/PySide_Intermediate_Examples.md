@@ -796,4 +796,4 @@ These same commands can be executed on a user generated window, the syntax does 
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide Intermediate Examples/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > PySide Intermediate Examples/ru

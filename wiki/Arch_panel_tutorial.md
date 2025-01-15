@@ -199,9 +199,7 @@ Both Draft Rotate and Move tools make use of the Draft Snapping system. Differen
 ![](images/Arch_panel_tutorial_20.jpg )
 
 
-{{BIM_Tools_navi
-
-}} {{Draft_Tools_navi}} {{Sketcher Tools navi}}
+ {{Draft_Tools_navi}} {{Sketcher Tools navi}}
 
 
 

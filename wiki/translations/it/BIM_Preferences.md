@@ -64,11 +64,6 @@ Questa pagina è stata aggiornata per la versione 0.22.
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [BIM](BIM_Workbench.md) > BIM Preferences/it

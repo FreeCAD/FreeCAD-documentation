@@ -92,13 +92,5 @@ L\'objet Composant de Arch est également une base partagée par tous les autres
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Component/fr

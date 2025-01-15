@@ -67,4 +67,4 @@ Das SheetMetal-**Unfold**-Objekt, wird von einem [Part-Formelement](Part_Feature
 
 
 ---
-⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Unfold/de
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External%20Command%20Reference.md) > SheetMetal Unfold/de

@@ -25,13 +25,5 @@ L\'outil **Classification** vous permet d\'attribuer une classe standard à un o
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Classification/fr

@@ -92,11 +92,6 @@ This roughly corresponds to [IfcMaterial](https://standards.buildingsmart.org/IF
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch SetMaterial/ro

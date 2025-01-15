@@ -467,4 +467,4 @@ Ora fai doppio clic sul file batch per avviare FreeCAD. ([vedere](https://forum.
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/it

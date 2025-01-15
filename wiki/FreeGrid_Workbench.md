@@ -46,4 +46,4 @@ The <img alt="" src=images/FreeGridWorkbench.svg  style="width:24px;"> **FreeGri
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [FreeGrid](Category_FreeGrid.md) > FreeGrid Workbench
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > [FreeGrid](Category_FreeGrid.md) > FreeGrid Workbench

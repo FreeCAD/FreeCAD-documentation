@@ -33,4 +33,4 @@ Help.show("http://myserver.com/myfolder/Draft_Line.html")
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Help](Help_Workbench.md) > Help Module/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > [Help](Help_Workbench.md) > Help Module/en

@@ -136,4 +136,4 @@ Od wersji FreeCAD v0.17.9940 zalecaną metodą instalacji wszystkich powyższych
 
 
 ---
-⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Installing/pl
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser%20Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Installing/pl

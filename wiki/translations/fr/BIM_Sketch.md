@@ -27,13 +27,5 @@ L\'outil **BIM Esquisse** crée une nouvelle esquisse sur le plan de travail en 
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Sketch/fr

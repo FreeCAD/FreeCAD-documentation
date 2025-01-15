@@ -902,4 +902,4 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Assembly3 Workbench/it

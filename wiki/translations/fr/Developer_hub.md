@@ -147,4 +147,4 @@ FreeCAD, bien qu\'utilisable dans certains domaines, n\'est qu\'au début d\'un 
 
 
 ---
-⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/fr
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Developer hub/fr

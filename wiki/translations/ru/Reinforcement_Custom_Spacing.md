@@ -23,8 +23,6 @@
 
 <img alt="" src=images/RebarDistribution.png  style="width:800px;">
 
-{{BIM_Tools_navi}}
-
 
 
 ---

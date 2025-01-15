@@ -31,13 +31,5 @@ L\'outil **BIM Dalle** crée un objet **Dalle**, un élément de structure horiz
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Slab/fr

@@ -28,13 +28,5 @@ Das Werkzeug **BIM Stütze** erstellt eine **Stütze** (Column-Objekt), ein vert
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Column/de

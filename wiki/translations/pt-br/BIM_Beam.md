@@ -50,11 +50,6 @@ The **BIM Beam** tool creates a **Beam** object, a horizontal structure element,
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Beam/pt-br

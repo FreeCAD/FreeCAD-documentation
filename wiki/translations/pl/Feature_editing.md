@@ -101,4 +101,4 @@ Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów użycia metody ed
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/pl
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/pl

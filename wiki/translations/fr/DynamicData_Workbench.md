@@ -43,4 +43,4 @@ De nouveaux ateliers sont en développement, restez à l\'écoute !
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > DynamicData Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > DynamicData Workbench/fr

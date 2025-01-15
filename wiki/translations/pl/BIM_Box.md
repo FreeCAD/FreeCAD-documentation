@@ -29,13 +29,5 @@ Narzędzie **Prostopadłościan** umożliwia utworzenie standardowej [Części](
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box/pl

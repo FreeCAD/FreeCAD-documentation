@@ -189,8 +189,6 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 
 </div>
 
-{{BIM_Tools_navi}}
-
 
 
 ---

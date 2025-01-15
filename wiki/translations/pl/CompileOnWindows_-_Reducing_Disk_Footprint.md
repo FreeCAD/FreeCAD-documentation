@@ -176,4 +176,4 @@ Ta partia musi być uruchomiona z uprawnieniami administratora *(lub można usta
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > CompileOnWindows - Reducing Disk Footprint/pl

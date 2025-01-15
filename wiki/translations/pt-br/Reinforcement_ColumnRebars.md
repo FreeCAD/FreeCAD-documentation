@@ -606,8 +606,6 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
 
 </div>
 
-{{BIM_Tools_navi}}
-
 
 
 ---

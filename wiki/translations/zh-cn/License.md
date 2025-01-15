@@ -140,4 +140,4 @@ FreeCAD是一个库和一个应用的混合体，所以要求GPL协议就显得�
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > License/zh-cn
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > License/zh-cn

@@ -23,13 +23,5 @@ Okienko dialogowe **Menadżera okien BIM** pozwala na przeglądanie i modyfikowa
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Windows/pl

@@ -62,4 +62,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/ru
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench/ru

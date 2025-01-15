@@ -16,11 +16,6 @@ import HelicalRebar
 ```
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [API](Category_API.md) > [Reinforcement](Category_Reinforcement.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > Reinforcement API/fr

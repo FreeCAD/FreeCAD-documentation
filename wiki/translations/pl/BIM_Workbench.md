@@ -521,13 +521,5 @@ Moduł Arch może być używany w skryptach [Python](Python.md) i [makrodefiniac
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > BIM Workbench/pl

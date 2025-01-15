@@ -144,4 +144,4 @@ FreeCAD features a [Models library](https://github.com/FreeCAD/FreeCAD-library) 
 
 
 ---
-⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > [Help](Help_Workbench.md) > Help FreeCAD/sv
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Common Questions](Category_Common%20Questions.md) > [Help](Help_Workbench.md) > Help FreeCAD/sv

@@ -37,13 +37,5 @@ The BIM views manager will show all the levels (building parts) and working plan
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Views/hr

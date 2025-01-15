@@ -92,4 +92,4 @@ Da es viele Videos gibt, die sich mit diesem Thema befassen, besuche bitte [Vide
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/de
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > Video tutorials/de

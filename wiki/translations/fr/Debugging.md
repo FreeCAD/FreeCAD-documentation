@@ -438,4 +438,4 @@ Pour les développeurs qui ont besoin d\'approfondir le noyau d\'OpenCasCade, l\
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Debugging/fr

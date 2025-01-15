@@ -55,4 +55,4 @@ Polecenie <img alt="" src=images/Curves_ParametricSolid.svg  style="width:24px;"
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricSolid/pl
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External%20Command%20Reference.md) > [Curves](Category_Curves.md) > Curves ParametricSolid/pl

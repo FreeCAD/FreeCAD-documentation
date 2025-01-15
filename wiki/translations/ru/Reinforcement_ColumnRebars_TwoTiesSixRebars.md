@@ -365,8 +365,6 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
 
 </div>
 
-{{BIM_Tools_navi}}
-
 
 
 ---

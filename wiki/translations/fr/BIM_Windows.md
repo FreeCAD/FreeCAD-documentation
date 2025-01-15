@@ -21,13 +21,5 @@ La fenêtre de dialogue **BIM Gestionnaire de fenêtres** vous permet de parcour
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Windows/fr

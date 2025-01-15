@@ -66,11 +66,6 @@ Lo stile [Costruzione](Draft_ToggleConstructionMode/it.md) di Draft può essere 
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch ToggleSubs/it

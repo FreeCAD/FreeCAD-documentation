@@ -25,13 +25,5 @@ The clone component will simply have its **CloneOf** property set to the selecte
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch CloneComponent/en

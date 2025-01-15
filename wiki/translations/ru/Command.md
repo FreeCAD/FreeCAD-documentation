@@ -102,4 +102,4 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 
 
 ---
-⏵ [documentation index](../README.md) > [Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из ](Category_Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/ru
+⏵ [documentation index](../README.md) > [Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из ](Category_Command_Reference/ru|:Category:Command_Reference/ru]].%20Команды%20могут%20запускаться%20с%20помощью%20кнопки%20на%20панели%20инструментов%20или%20из%20списка%20меню,%20а%20так%20же%20из%20.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > [Glossary](Category_Glossary.md) > Command/ru

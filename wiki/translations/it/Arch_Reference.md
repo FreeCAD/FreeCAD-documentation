@@ -110,11 +110,6 @@ Arch.makeReference("/path/to/some/file.FSCtd", "myPart")
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Reference/it

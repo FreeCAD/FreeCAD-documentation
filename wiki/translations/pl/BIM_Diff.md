@@ -41,13 +41,5 @@ To narzędzie jest głównie przeznaczone do plików IFC, ponieważ korzysta z I
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Diff/pl

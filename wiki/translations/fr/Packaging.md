@@ -8,4 +8,4 @@ Cette page recueille les informations sur le packaging de FreeCAD sur différent
 
 
 ---
-⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Packaging/fr
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Packaging/fr

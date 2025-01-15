@@ -226,4 +226,4 @@ Como el proyecto FreeCAD y su comunidad crecen rápidamente, y también porque e
 
 
 ---
-⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Installing/es
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser%20Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Installing/es

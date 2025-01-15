@@ -85,4 +85,4 @@ Un objet SheetMetal BaseShape est dérivé d\'un objet [Part Feature](Part_Featu
 
 
 ---
-⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal BaseShape/fr
+⏵ [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External%20Command%20Reference.md) > SheetMetal BaseShape/fr

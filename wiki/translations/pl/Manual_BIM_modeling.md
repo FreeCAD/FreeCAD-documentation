@@ -137,13 +137,5 @@ Nasza strona jest już gotowa i możemy ją wyeksportować do formatu SVG lub DX
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Manual:BIM modeling/pl

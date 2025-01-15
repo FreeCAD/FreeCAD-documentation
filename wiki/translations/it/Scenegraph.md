@@ -75,4 +75,4 @@ Si veda [Coin3d snippets](Coin3d_snippets.md) per gentile concessione della rice
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scenegraph/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Scenegraph/it

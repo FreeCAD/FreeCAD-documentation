@@ -95,4 +95,4 @@ No installation is required. Thanks go to the author of the program.
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Coin3d snippets

@@ -65,4 +65,4 @@ Its functionality has been integrated in [Std Base](Std_Base.md). See [Std Impor
 
 
 ---
-⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/zh-cn
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete%20Workbenches.md) > [Image](Category_Image.md) > Image Workbench/zh-cn

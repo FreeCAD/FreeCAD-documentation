@@ -62,15 +62,7 @@ Z grubsza odpowiada to kombinacji [IfcMaterialLayerSet](https://standards.buildi
 
 
 
-## Tworzenie skryptów 
-
-
-
-
-
-{{BIM_Tools_navi
-
-}}
+## Tworzenie skryptów
 
 
 

@@ -29,13 +29,5 @@ The **BIM Door** tool creates a [Window](Arch_Window.md) object using door prese
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Door/hr

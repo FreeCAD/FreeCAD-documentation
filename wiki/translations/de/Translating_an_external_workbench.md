@@ -425,4 +425,4 @@ The file `outfile.ts` will contain the set of strings that are uploaded to Crowd
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Translating an external workbench/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Translating an external workbench/de

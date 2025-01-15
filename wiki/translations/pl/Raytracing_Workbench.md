@@ -156,4 +156,4 @@ Strony te odnoszą się do nowego Środowiska pracy, zaprogramowanego w Pythonie
 
 
 ---
-⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/pl
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete%20Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/pl

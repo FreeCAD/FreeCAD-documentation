@@ -15,4 +15,4 @@ To środowisko pracy jest środowiskiem pracy w nowym stylu. Oznacza to, że jes
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Pyrate Workbench/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Pyrate Workbench/pl

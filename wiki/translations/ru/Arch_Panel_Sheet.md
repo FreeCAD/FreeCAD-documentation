@@ -146,11 +146,6 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Panel Sheet/ru

@@ -938,4 +938,4 @@ Zobacz tę odpowiedź w [Stackoverflow](https://stackoverflow.com/a/35377654), a
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > [3rd Party](Category_3rd Party.md) > Doxygen/pl
+⏵ [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > [3rd Party](Category_3rd%20Party.md) > Doxygen/pl

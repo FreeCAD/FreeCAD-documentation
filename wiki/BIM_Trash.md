@@ -13,10 +13,5 @@ The **BIM Trash** tool moves the selected objects to the \"Trash\" group. The Tr
 
 
 
-
- {{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Trash

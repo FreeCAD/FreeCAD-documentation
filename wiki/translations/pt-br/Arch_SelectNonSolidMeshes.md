@@ -31,11 +31,6 @@ The **Arch SelectNonSolidMeshes** tool identifies and selects the non-solid (non
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/pt-br

@@ -29,13 +29,5 @@ Das Werkzeug <img alt="" src=images/BIM_DimensionAligned.svg  style="width:24px;
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM DimensionAligned/de

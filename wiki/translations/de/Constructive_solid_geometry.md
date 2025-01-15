@@ -41,4 +41,4 @@ Die Seite [Tutorien](tutorials/de.md) stellt einige Beispiele zur Erstellung von
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/de
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/de

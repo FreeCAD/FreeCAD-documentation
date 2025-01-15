@@ -61,4 +61,4 @@ Les composants créés à l\'aide de Rocket Workbench sont essentiellement des p
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Rocket Workbench/fr

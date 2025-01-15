@@ -157,4 +157,4 @@ Now whenever new commits are made, or branches are rebased, by the authors of th
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Developer](Category_Developer.md) > [3rd Party](Category_3rd Party.md) > Developing FreeCAD with GitKraken/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Developer](Category_Developer.md) > [3rd Party](Category_3rd%20Party.md) > Developing FreeCAD with GitKraken/de

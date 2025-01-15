@@ -1068,4 +1068,4 @@ Head to the development section of the [FreeCAD forum](https://forum.freecadweb.
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Source code management/ru

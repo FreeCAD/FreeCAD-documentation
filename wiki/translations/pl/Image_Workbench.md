@@ -50,4 +50,4 @@ Odsunięcie obrazu może być ustawione podczas importu lub zmienione później 
 
 
 ---
-⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Image](Category_Image.md) > Image Workbench/pl
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete%20Workbenches.md) > [Image](Category_Image.md) > Image Workbench/pl

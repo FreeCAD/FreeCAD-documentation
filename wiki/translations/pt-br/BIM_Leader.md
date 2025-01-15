@@ -51,11 +51,6 @@ The <img alt="" src=images/BIM_Leader.svg  style="width:24px;"> [BIM Leader](BIM
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Leader/pt-br

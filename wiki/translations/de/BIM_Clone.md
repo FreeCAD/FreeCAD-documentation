@@ -17,13 +17,5 @@ Das Werkzeug **BIM Klonen** ist eine Abkürzung zum normalen Werkzeug [Draft Klo
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Clone/de

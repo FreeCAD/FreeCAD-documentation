@@ -19,13 +19,5 @@ The **Arch ToggleIfcBrepFlag** tool turns the IfcBrep flag of a selected [BIM](B
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag/en

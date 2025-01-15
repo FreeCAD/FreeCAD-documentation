@@ -146,4 +146,4 @@ W wersji rozwojowej, jak wspomniano powyżej, można przełączyć się z własn
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Common Questions](Category_Common Questions.md) > [Draft](Category_Draft.md) > FreeCAD and DWG Import/pl
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Common Questions](Category_Common%20Questions.md) > [Draft](Category_Draft.md) > FreeCAD and DWG Import/pl

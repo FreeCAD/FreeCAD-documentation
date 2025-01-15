@@ -134,4 +134,4 @@ See [Line drawing function](Line_drawing_function.md).
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/zh-cn
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > [Glossary](Category_Glossary.md) > Command/zh-cn

@@ -100,4 +100,4 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/pl

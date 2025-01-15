@@ -16,13 +16,5 @@ Narzędzie **Przełącz panele** włącza i wyłącza wyświetlanie dolnych pane
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM TogglePanels/pl

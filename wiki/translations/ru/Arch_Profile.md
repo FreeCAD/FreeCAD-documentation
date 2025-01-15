@@ -121,11 +121,6 @@ Where the first element of the list is an order number that is not used yet.
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Profile/ru

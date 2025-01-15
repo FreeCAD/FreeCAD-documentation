@@ -228,4 +228,4 @@ Alcuni attributi e metodi si applicano solo a determinati TopoShapes. Questi ele
 
 
 ---
-⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > TopoShape API/it
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser%20Documentation.md) > TopoShape API/it

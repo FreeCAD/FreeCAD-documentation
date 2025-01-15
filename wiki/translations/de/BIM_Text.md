@@ -28,13 +28,5 @@ Das Werkzeug **BIM Text** erstellt einen Text, entweder ein **Text**-Objekt, in 
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Text/de

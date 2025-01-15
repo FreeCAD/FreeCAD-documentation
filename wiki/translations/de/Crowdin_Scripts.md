@@ -88,4 +88,4 @@ Das updatefromcrowdin.py Skript schiebt Änderungen aus crowdin auf Dein lokales
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/de

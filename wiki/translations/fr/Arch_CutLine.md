@@ -46,13 +46,5 @@ L\'outil **Arch Couper selon une ligne** coupe un objet solide Arch comme un [Ar
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch CutLine/fr

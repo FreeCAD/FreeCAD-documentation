@@ -90,4 +90,4 @@ Kommandot \"CM\" [skapar en ny applikationsmodul](Module_Creation/sv.md).
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > FreeCAD Build Tool/sv

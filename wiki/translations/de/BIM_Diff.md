@@ -41,13 +41,5 @@ Dieses Werkzeug eignet sich hauptsächlich für IFC-Dateien, da es die IFC-Globa
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Diff/de

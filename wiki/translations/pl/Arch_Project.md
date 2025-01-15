@@ -29,13 +29,5 @@ Należy zauważyć, że chociaż do Projektu można dodać dowolny inny obiekt B
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Project/pl

@@ -21,4 +21,4 @@ Este ambiente de trabajo se puede instalar desde el [Gestor de complementos](Std
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [User Documentation](Category_User Documentation.md) > WebTools Workbench/es
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > [User Documentation](Category_User%20Documentation.md) > WebTools Workbench/es

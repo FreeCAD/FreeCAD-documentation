@@ -77,11 +77,6 @@ El algoritmo detrás de la herramienta Nido está en constante evolución y actu
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Nest/es

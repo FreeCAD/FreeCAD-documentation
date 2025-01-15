@@ -49,11 +49,6 @@ Důvod pro použití tohoto prohlížeče je jednoduše v tom, že si můžete z
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcExplorer/cs

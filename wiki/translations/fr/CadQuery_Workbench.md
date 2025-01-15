@@ -69,4 +69,4 @@ La dernière version de CadQuery n\'utilise plus FreeCAD et n\'est pas compatibl
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > CadQuery Workbench/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > CadQuery Workbench/fr

@@ -482,11 +482,6 @@ Editable geometric properties such as \"Height\" or \"Width\" are then added to 
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > NativeIFC/pt-br

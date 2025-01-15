@@ -29,13 +29,5 @@ L\'outil **BIM Dimension verticale** crée une dimension verticale, un objet **D
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM DimensionVertical/fr

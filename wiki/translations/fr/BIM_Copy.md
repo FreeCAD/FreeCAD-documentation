@@ -15,13 +15,5 @@ L'outil **BIM Copie** est un raccourci vers l'outil standard [Draft Déplacer](D
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Copy/fr

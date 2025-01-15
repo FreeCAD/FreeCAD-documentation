@@ -193,8 +193,6 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 
 </div>
 
-{{BIM_Tools_navi}}
-
 
 
 ---

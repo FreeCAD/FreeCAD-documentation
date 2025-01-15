@@ -25,13 +25,5 @@ Vous pouvez également utiliser le gestionnaire de quantités pour modifier ou f
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcQuantities/fr

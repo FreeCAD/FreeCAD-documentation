@@ -13,10 +13,5 @@ The **BIM TogglePanels** tool toggles the display of bottom panels ([Report view
 
 
 
-
- {{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM TogglePanels

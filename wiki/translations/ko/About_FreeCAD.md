@@ -29,4 +29,4 @@ FreeCAD 프로젝트는 비영리 단체인 [FreeCAD 프로젝트 협회(FPA)](h
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/ko
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > About FreeCAD/ko

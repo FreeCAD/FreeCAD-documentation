@@ -532,13 +532,5 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](Macros.m
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > BIM Workbench/es

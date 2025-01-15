@@ -115,4 +115,4 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 
 
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft SVG/pt-br
+⏵ [documentation index](../README.md) > [File Formats](Category_File%20Formats.md) > [Draft](Draft_Workbench.md) > Draft SVG/pt-br

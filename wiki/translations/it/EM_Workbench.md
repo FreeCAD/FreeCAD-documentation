@@ -77,4 +77,4 @@ Per le versioni beta di EM Workbench sono disponibili alcune esercitazioni video
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [EM](Category_EM.md) > EM Workbench/it
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > [EM](Category_EM.md) > EM Workbench/it

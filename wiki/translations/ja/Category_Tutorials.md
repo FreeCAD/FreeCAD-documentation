@@ -7,7 +7,7 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-|
+| [Manual:Installing/ja](Manual_Installing/ja.md) |
 
 
 

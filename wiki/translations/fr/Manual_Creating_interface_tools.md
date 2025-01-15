@@ -131,4 +131,4 @@ Enfin, n\'oubliez pas qu\'il existe beaucoup plus de documentation sur l\'utilis
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Manual:Creating interface tools/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Manual:Creating interface tools/fr

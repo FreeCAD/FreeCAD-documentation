@@ -116,11 +116,6 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Fence/pt-br

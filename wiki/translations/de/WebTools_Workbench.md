@@ -21,4 +21,4 @@ Dieser Arbeitsbereich kann mit dem [Erweiterungsverwalter](Std_AddonMgr/de.md) i
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [User Documentation](Category_User Documentation.md) > WebTools Workbench/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > [User Documentation](Category_User%20Documentation.md) > WebTools Workbench/de

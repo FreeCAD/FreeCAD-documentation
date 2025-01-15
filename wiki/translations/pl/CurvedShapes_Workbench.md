@@ -55,4 +55,4 @@ Zalecana sposób instalacji można wykonać poprzez <img alt="" src=images/Std_A
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > CurvedShapes Workbench/pl
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > [Addons](Category_Addons.md) > CurvedShapes Workbench/pl

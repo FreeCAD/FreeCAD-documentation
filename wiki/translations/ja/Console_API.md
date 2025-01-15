@@ -34,4 +34,4 @@ FreeCAD.PrintMessage("Hello World!\n")
 
 
 ---
-⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Console API/ja
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser%20Documentation.md) > Console API/ja

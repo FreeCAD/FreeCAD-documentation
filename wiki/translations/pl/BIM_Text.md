@@ -29,13 +29,5 @@ Narzędzie **BIM Tekst** tworzy tekst - obiekt **Text** w bieżącym widoku 3D l
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Text/pl

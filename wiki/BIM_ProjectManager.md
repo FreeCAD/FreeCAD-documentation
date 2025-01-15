@@ -34,10 +34,5 @@ The Project tool supports two kinds of templates:
 
 
 
-
- {{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM ProjectManager

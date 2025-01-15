@@ -26,13 +26,5 @@ Le but de cet explorateur est simplement de vous permettre de vérifier ce qui e
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcExplorer/fr

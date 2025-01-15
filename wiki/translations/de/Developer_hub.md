@@ -150,4 +150,4 @@ FreeCAD, obwohl in bestimmten Bereichen verwendbar, steht am Anfang eines langen
 
 
 ---
-⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/de
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Developer hub/de

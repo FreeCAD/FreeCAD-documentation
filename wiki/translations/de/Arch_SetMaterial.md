@@ -61,13 +61,5 @@ Dies entspricht in etwa [IfcMaterial](https://standards.buildingsmart.org/IFC/DE
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch SetMaterial/de

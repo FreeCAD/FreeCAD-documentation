@@ -140,4 +140,4 @@ Voici quelques captures d\'écran montrant différentes parties de FreeCAD. Voir
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Screenshots](Category_Screenshots.md) > Screenshots/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > [Screenshots](Category_Screenshots.md) > Screenshots/fr

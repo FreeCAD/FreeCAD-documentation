@@ -96,4 +96,4 @@ Requisiti:
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [Developer Documentation](Category_Developer Documentation.md) > Add Workbench to Addon Manager/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Add Workbench to Addon Manager/it

@@ -100,11 +100,6 @@ new_obj = Arch.meshToShape(Box)
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch MeshToShape/it

@@ -28,13 +28,5 @@ L\'outil **BIM Vue** crée une nouvelle vue TechDraw à partir d\'un plan de cou
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM TDView/fr

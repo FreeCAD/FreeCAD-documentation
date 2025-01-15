@@ -106,13 +106,5 @@ Es ist möglich, eigene Eigenschaften zu Objekten hinzuzufügen. Diese werden [D
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Schedule/de

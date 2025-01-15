@@ -89,11 +89,6 @@ new_list = Arch.splitMesh(mesh_obj)
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch SplitMesh/it

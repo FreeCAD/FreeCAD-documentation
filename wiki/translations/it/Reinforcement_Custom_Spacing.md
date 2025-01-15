@@ -11,8 +11,6 @@ L\'output della finestra di dialogo Distribuzione barre viene generato quando l\
 
 <img alt="" src=images/RebarDistribution.png  style="width:800px;">
 
-{{BIM_Tools_navi}}
-
 
 
 ---

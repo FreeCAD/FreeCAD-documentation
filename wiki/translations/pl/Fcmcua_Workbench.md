@@ -79,4 +79,4 @@ Węzeł siłownika na serwerze OPC UA działa jako wyzwalacz \"otwarcia\" lub \"
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Fcmcua Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Fcmcua Workbench/pl

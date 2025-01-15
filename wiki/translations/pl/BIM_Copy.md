@@ -17,13 +17,5 @@ Narzędzie **Kopiuj** jest skrótem do standardowego narzędzia [Rysunek roboczy
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Copy/pl

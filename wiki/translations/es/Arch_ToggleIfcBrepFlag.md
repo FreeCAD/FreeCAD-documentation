@@ -38,13 +38,5 @@ Esta herramienta activa / desactiva el indicador IfcBrep de un objeto [ Arch](Ar
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag/es

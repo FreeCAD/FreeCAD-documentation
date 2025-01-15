@@ -54,13 +54,5 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch IfcSpreadsheet/de

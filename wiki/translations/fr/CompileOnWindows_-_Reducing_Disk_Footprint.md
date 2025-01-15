@@ -166,4 +166,4 @@ Ce programme doit être exécuté avec des privilèges d\'administrateur (ou, vo
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > CompileOnWindows - Reducing Disk Footprint/fr

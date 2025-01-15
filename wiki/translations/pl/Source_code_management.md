@@ -1145,4 +1145,4 @@ Przejdź do sekcji rozwoju na [forum FreeCAD](https://forum.freecadweb.org/viewf
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Source code management/pl

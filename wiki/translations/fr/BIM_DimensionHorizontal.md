@@ -29,13 +29,5 @@ L\'outil **BIM Dimension horizontale** crée une dimension horizontale, un objet
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM DimensionHorizontal/fr

@@ -106,13 +106,5 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
-
-
-
-
-{{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Arch Rebar/en

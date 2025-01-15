@@ -15,13 +15,5 @@ La fonctionnalité d\'importation Collada dans l\'atelier BIM dépend de [pycoll
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch DAE/fr

@@ -123,11 +123,6 @@ If the shape of exported objects is based on an extrusion or a boolean operation
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch IFC/pt-br

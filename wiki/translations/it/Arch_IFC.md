@@ -162,11 +162,6 @@ Se la forma degli oggetti esportati si basa su una estrusione o una operazione b
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch IFC/it

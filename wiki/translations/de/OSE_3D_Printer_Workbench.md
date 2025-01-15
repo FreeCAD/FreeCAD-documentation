@@ -4,4 +4,4 @@ Siehe Arbeitsbereich (workbench) im OSE-Wiki: <https://wiki.opensourceecology.or
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > OSE 3D Printer Workbench/de
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > OSE 3D Printer Workbench/de

@@ -173,4 +173,4 @@ Nel caso di questo esempio, si supponga di aver scelto [Curves Workbench/it](Cur
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > How to install additional workbenches/it
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > [Addons](Category_Addons.md) > How to install additional workbenches/it

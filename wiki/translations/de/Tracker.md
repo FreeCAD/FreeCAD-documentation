@@ -176,4 +176,4 @@ Für die Neugierigen hier ist die regex, die MantisBT für diese Operation verwe
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Tracker/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Administration](Category_Administration.md) > Tracker/de

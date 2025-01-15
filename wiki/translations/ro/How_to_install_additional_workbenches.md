@@ -257,4 +257,4 @@ This method is possible but not necessary with the introduction of the [Addon Ma
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > How to install additional workbenches/ro
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > [Addons](Category_Addons.md) > How to install additional workbenches/ro

@@ -219,4 +219,4 @@ buttonBox = QtGui.QDialogButtonBox(QtCore.Qt.Vertical)
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide Beginner Examples/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > PySide Beginner Examples/es

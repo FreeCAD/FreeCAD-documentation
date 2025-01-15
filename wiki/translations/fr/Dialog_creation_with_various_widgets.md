@@ -400,4 +400,4 @@ La page de code et les icônes [Qt Exemples](Qt_Example/fr.md)
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Dialog creation with various widgets/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Dialog creation with various widgets/fr

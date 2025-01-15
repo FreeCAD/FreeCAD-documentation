@@ -52,13 +52,5 @@ This tool is the exact same as the [Draft LayerManager](Draft_LayerManager.md) t
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Layers/it

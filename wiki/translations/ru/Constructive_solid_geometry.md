@@ -41,4 +41,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/ru
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/ru

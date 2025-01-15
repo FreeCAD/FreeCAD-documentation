@@ -97,4 +97,4 @@ print m.A21()               # print m[1][0]
 
 
 ---
-⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Matrix API
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser%20Documentation.md) > Matrix API

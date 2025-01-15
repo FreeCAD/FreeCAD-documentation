@@ -444,8 +444,6 @@ slabReinforcementGroup = editSlabReinforcement(
 
 </div>
 
-{{BIM_Tools_navi}}
-
 
 
 ---

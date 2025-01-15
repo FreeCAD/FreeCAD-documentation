@@ -53,11 +53,6 @@ The **BIM Slab** tool creates a **Slab** object, a horizontal structure element,
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Slab/pt-br

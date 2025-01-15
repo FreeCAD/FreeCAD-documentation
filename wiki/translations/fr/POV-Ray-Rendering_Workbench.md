@@ -117,4 +117,4 @@ Pour terminer l\'installation, le chemin d\'accès à l\'exécutable POV-Ray doi
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > POV-Ray-Rendering Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > POV-Ray-Rendering Workbench/fr

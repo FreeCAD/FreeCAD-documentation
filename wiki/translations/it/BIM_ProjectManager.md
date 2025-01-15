@@ -61,13 +61,5 @@ Dopo aver riempito le diverse opzioni, il contenuto della procedura guidata di i
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM ProjectManager/it

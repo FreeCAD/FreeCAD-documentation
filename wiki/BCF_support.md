@@ -65,4 +65,4 @@ This workbench was created during a GSOC 2019 by user \'podestplatz\'. Relevant 
 
 
 ---
-⏵ [documentation index](../README.md) > [Google Summer of Code](Category_Google Summer of Code.md) > BCF support
+⏵ [documentation index](../README.md) > [Google Summer of Code](Category_Google%20Summer%20of%20Code.md) > BCF support

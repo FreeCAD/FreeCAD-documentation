@@ -28,13 +28,5 @@ L\'outil **BIM Poutre** crée un objet **Poutre**, un élément de structure hor
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Beam/fr

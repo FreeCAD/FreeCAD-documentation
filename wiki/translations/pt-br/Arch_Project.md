@@ -36,11 +36,6 @@ Note that, although any other BIM object can be added to a Project, which the IF
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Project/pt-br

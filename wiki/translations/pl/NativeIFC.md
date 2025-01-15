@@ -183,13 +183,5 @@ Edytowalne właściwości geometryczne, takie jak \"Wysokość\" lub \"Szerokoś
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > NativeIFC/pl

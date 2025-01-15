@@ -159,4 +159,4 @@ In der folgenden Tabelle sind die anderen erweiterten Parameter des Navigationsw
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/de
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > Navigation Cube/de

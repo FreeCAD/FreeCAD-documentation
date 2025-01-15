@@ -104,4 +104,4 @@ Zobacz stronę [Funkcja rysowania linii](Line_drawing_function/pl.md).
 
 
 ---
-⏵ [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]]. Polecenia mogą być uruchamiane za pomocą przycisku paska narzędzi, pozycji menu lub ze skryptu ](Category_Command_Reference|:Category:Command Reference]]. Polecenia mogą być uruchamiane za pomocą przycisku paska narzędzi, pozycji menu lub ze skryptu .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/pl
+⏵ [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]]. Polecenia mogą być uruchamiane za pomocą przycisku paska narzędzi, pozycji menu lub ze skryptu ](Category_Command_Reference|:Category:Command%20Reference]].%20Polecenia%20mogą%20być%20uruchamiane%20za%20pomocą%20przycisku%20paska%20narzędzi,%20pozycji%20menu%20lub%20ze%20skryptu%20.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > [Glossary](Category_Glossary.md) > Command/pl

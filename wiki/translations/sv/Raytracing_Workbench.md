@@ -152,4 +152,4 @@ These pages refer to the new workbench, programmed in Python, meant to replace t
 
 
 ---
-⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/sv
+⏵ [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete%20Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/sv

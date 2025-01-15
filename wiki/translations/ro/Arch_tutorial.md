@@ -700,11 +700,6 @@ Fișierul creat pe durata acestui tutorial poate fi găsit la [here](http://yori
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch tutorial/ro

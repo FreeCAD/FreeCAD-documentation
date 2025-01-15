@@ -23,13 +23,5 @@ The purpose of this explorer is simply to allow you to check what is really writ
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcExplorer/en

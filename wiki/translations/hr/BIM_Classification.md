@@ -32,13 +32,5 @@ The **Classification manager** allows you to attribute a standard class to a BIM
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Classification/hr

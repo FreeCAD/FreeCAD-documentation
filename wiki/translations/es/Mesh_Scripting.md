@@ -96,4 +96,4 @@ Ver también: [Interfaz de programación de aplicaciones Malla](Mesh_API.md). {{
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/es

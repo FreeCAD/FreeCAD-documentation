@@ -75,4 +75,4 @@ GUI 동작을 기록하지 않고도 파이썬 코드를 매크로에 직접 복
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macros/ko
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > [Macros](Category_Macros.md) > Macros/ko

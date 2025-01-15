@@ -173,4 +173,4 @@ The table below lists the other advanced Navigation Cube parameters that can be 
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/ja
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > Navigation Cube/ja

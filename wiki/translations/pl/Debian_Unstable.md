@@ -24,4 +24,4 @@ deb [http://deb.debian.org/debian](http://deb.debian.org/debian) experimental�
 
 
 ---
-⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Debian Unstable/pl
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Debian Unstable/pl

@@ -162,4 +162,4 @@ Le tableau ci-dessous énumère les autres paramètres avancés du cube de navig
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > Navigation Cube/fr

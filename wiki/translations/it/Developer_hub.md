@@ -147,4 +147,4 @@ Serve ancora molto lavoro prima che possa competere con i software commerciali.
 
 
 ---
-⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/it
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Developer hub/it

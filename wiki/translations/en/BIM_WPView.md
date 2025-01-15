@@ -14,13 +14,5 @@ The **BIM WPView** tool centers the view on the current working plane.
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM WPView/en

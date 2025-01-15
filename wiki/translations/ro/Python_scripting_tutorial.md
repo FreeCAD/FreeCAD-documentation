@@ -592,4 +592,4 @@ Acum sunteți gata pentru mai multă programare/script FreeCAD în profunzime. D
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Python scripting tutorial/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Python scripting tutorial/ro

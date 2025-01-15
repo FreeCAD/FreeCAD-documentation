@@ -229,9 +229,7 @@ Atât instrumentele Draft Rotire cât și Move utilizează sistemul de ancorare 
 ![](images/Arch_panel_tutorial_20.jpg )
 
 
-{{BIM_Tools_navi
-
-}} {{Draft_Tools_navi}} {{Sketcher Tools navi}}
+ {{Draft_Tools_navi}} {{Sketcher Tools navi}}
 
 
 

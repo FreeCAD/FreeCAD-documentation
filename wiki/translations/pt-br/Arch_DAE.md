@@ -32,11 +32,6 @@ The Collada import functionality in the BIM workbench depends on [pycollada](htt
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch DAE/pt-br

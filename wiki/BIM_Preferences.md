@@ -19,12 +19,7 @@ This page has been updated for version 1.0.
 
 ## NativeIFC
 
- ![](images/Preferences_BIM_Page_NativeIFC.png ) 
-
-
-
-
- {{BIM_Tools_navi}}
+ ![](images/Preferences_BIM_Page_NativeIFC.png )
 
 
 

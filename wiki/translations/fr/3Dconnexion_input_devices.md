@@ -308,4 +308,4 @@ Si aucun de ces messages n\'apparaît, c\'est que votre version de FreeCAD n\'es
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [3rd Party](Category_3rd Party.md) > 3Dconnexion input devices/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > [3rd Party](Category_3rd%20Party.md) > 3Dconnexion input devices/fr

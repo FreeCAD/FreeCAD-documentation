@@ -283,4 +283,4 @@ Możesz przejść do strony [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scrip
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Python scripting tutorial/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Python scripting tutorial/pl

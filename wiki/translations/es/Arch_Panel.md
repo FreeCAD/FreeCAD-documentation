@@ -178,11 +178,6 @@ Panel = Arch.makePanel(Rect, thickness=36)
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Panel/es

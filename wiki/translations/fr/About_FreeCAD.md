@@ -29,4 +29,4 @@ Le projet FreeCAD est également soutenu par une organisation à but non lucrati
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/fr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > About FreeCAD/fr

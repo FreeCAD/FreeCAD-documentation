@@ -285,4 +285,4 @@ Uzman kullanıcılar, çeşitli özel [dış tezgahlar](external_workbenches.md)
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/tr
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > Feature list/tr

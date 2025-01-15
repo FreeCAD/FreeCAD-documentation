@@ -88,4 +88,4 @@ Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la con
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket RailButton/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Rocket RailButton/fr

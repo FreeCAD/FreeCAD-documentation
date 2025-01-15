@@ -796,4 +796,4 @@ Bon amusement.
 
 
 ---
-⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Python Code](Category_Python Code.md) > Qt Example/fr
+⏵ [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Qt Example/fr

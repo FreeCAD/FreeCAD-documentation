@@ -377,4 +377,4 @@ Poniżej wymienione są wszystkie poradniki, które nie znajdują się w podręc
 
 
 ---
-⏵ [documentation index](../README.md) > [Tutorials]]. Lista kompletna i możliwa do posortowania znajduje się w ](Category_Tutorials]]. Lista kompletna i możliwa do posortowania znajduje się w .md) > [Tutorials](Category_Tutorials.md) > Tutorials/pl
+⏵ [documentation index](../README.md) > [Tutorials]]. Lista kompletna i możliwa do posortowania znajduje się w ](Category_Tutorials]].%20Lista%20kompletna%20i%20możliwa%20do%20posortowania%20znajduje%20się%20w%20.md) > [Tutorials](Category_Tutorials.md) > Tutorials/pl

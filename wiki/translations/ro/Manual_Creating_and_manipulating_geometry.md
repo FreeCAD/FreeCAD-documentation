@@ -396,4 +396,4 @@ Toate cele de mai sus, și multe altele, sunt explicate în detaliu pe pagina [ 
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Manual:Creating and manipulating geometry/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Manual:Creating and manipulating geometry/ro

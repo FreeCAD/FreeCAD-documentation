@@ -28,13 +28,5 @@ L\'outil **BIM Projection 2D** crée une projection 2D des objets sélectionnés
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Shape2DView/fr

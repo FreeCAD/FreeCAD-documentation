@@ -41,13 +41,5 @@ Das Projektwerkzeug unterstützt zwei Arten von Vorlagen:
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM ProjectManager/de

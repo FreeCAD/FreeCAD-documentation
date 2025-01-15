@@ -99,4 +99,4 @@ To środowisko pracy można zainstalować za pomocą [Menadżera dodatków](Std_
 
 
 ---
-⏵ [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Workfeature Workbench/pl
+⏵ [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > [User Documentation](Category_User%20Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Workfeature Workbench/pl

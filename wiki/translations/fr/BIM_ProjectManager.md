@@ -39,13 +39,5 @@ L\'outil Projet prend en charge deux types de modèles :
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM ProjectManager/fr

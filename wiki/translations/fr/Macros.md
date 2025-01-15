@@ -75,4 +75,4 @@ Vous pouvez installer manuellement des extensions, cependant, il est beaucoup pl
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Macros](Category_Macros.md) > Macros/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > [Macros](Category_Macros.md) > Macros/fr

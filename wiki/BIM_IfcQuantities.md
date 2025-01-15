@@ -24,10 +24,5 @@ You can also use the quantities manager to change or fix the actual **Height**, 
 
 
 
-
- {{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcQuantities

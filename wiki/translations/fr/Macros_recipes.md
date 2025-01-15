@@ -800,4 +800,4 @@ Si le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [gestionnair
 
 
 ---
-⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/fr
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python%20Code.md) > Macros recipes/fr

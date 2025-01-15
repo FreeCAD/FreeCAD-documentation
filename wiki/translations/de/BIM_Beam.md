@@ -27,13 +27,5 @@ Das Werkzeug **BIM Balken** erstellt einen **Balken** (Beam-Objekt), ein horizon
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Beam/de

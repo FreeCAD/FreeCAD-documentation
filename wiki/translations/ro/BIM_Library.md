@@ -72,13 +72,5 @@ Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Library/ro

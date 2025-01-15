@@ -391,4 +391,4 @@ They are imported and initialized in `[https://github.com/FreeCAD/FreeCAD/blob/9
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Property/pt-br
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Property/pt-br

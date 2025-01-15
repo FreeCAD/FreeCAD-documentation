@@ -26,13 +26,5 @@ La herramienta BIM Copy es un acceso directo a la herramienta estándar [Draft M
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Copy/es

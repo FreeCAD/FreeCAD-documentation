@@ -32,10 +32,5 @@ The **BIM Library** tool allows you to place, in the current model, an object fr
 
 
 
-
- {{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Library

@@ -242,4 +242,4 @@ En la versión de desarrollo, como se mencionó anteriormente, se puede cambiar 
 
 
 ---
-⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Common Questions](Category_Common Questions.md) > [Draft](Category_Draft.md) > FreeCAD and DWG Import/es
+⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Common Questions](Category_Common%20Questions.md) > [Draft](Category_Draft.md) > FreeCAD and DWG Import/es

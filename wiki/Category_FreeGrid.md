@@ -11,4 +11,4 @@ All relevant pages to the [FreeGrid workbench](FreeGrid_Workbench.md) (an [exter
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Category:FreeGrid
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > [Addons](Category_Addons.md) > Category:FreeGrid

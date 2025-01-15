@@ -46,13 +46,5 @@ Lo strumento Box di BIM consente di creare un [Cuboide](Part_Box/it.md) standard
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box/it

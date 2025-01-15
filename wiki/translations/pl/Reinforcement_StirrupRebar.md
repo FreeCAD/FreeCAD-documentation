@@ -150,10 +150,5 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
 
 
-
-{{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement StirrupRebar/pl

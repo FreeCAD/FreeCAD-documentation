@@ -27,13 +27,5 @@ L'outil **BIM Boîte** vous permet de créer un [Part Cube](Part_Box/fr.md) stan
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box/fr

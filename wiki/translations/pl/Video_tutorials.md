@@ -91,4 +91,4 @@ Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzi�
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/pl
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > Video tutorials/pl

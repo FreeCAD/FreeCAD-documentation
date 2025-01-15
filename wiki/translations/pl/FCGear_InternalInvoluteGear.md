@@ -134,4 +134,4 @@ Zobacz stronę [Koło zębate ewolwentowe](FCGear_InvoluteGear/pl#Przydatne_wzor
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InternalInvoluteGear/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External%20Command%20Reference.md) > FCGear InternalInvoluteGear/pl

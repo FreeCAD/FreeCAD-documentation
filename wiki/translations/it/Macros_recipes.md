@@ -912,4 +912,4 @@ Se non si utilizza [Addon Manager](Std_AddonMgr/it.md), la macro può essere ins
 
 
 ---
-⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/it
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python%20Code.md) > Macros recipes/it

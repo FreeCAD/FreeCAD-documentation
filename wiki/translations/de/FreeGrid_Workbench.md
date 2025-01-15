@@ -98,4 +98,4 @@ Der Arbeitsbereich FreeGrid kann mit dem <img alt="" src=images/AddonManager.svg
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [FreeGrid](Category_FreeGrid.md) > FreeGrid Workbench/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > [FreeGrid](Category_FreeGrid.md) > FreeGrid Workbench/de

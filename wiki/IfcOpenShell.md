@@ -459,7 +459,7 @@ The IfcOpenShell project has also developed \"IFC Pipeline\", a self-hosted IFC 
 -   [Compiling IfcOpenShell for MacOS](Import/Export_IFC_-_compiling_IfcOpenShell.md); an older guide that describes the general process. It may not be needed any more as IfcOpenShell is now distributed together with FreeCAD thanks to [Conda](Conda.md).
 -   What pages link to [this page](Special:WhatLinksHere/IfcOpenShell.md).
 
- {{BIM_Tools_navi}} {{FEM_Tools_navi}}
+  {{FEM_Tools_navi}}
 
 
 

@@ -112,13 +112,5 @@ Gdzie pierwszym elementem listy jest numer porządkowy, który nie został jeszc
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Profile/pl

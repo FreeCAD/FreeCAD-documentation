@@ -5,7 +5,7 @@ This category lists pages related to the [Assembly Workbench](Assembly_Workbench
 
 |     |     |     |
 | --- | --- | --- |
-|
+| [Assembly Workbench/ja](Assembly_Workbench/ja.md) |
 
 
 

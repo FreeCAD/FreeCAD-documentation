@@ -67,4 +67,4 @@ Si vous pensez que votre nom manque dans cette liste, n\'hésitez pas à l\'ajou
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Ship](Category_Ship.md) > Ship Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > [Ship](Category_Ship.md) > Ship Workbench/fr

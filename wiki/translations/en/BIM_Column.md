@@ -23,13 +23,5 @@ The **BIM Column** tool creates a **Column** object, a vertical structure elemen
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Column/en

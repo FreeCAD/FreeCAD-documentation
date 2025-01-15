@@ -16,4 +16,4 @@ Ta strona zbiera strony z dokumentacją dla środowiska pracy [Blacha](SheetMeta
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Category:SheetMetal/pl
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > Category:SheetMetal/pl

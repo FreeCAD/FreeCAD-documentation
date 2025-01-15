@@ -24,10 +24,5 @@ The **BIM Box** tool allows you to create a standard [Part Box](Part_Box.md), bu
 
 
 
-
- {{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box

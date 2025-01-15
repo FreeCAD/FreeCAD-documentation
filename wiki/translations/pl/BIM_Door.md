@@ -28,13 +28,5 @@ Narzędzie **Drzwi** tworzy obiekt [okna](Arch_Window/pl.md) przy użyciu ustawi
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Door/pl

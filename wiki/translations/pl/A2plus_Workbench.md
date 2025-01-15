@@ -717,4 +717,4 @@ Jest to polecenie specyficzne dla środowiska pracy A2plus. Rozwiązuje ono wią
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > A2plus Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > A2plus Workbench/pl

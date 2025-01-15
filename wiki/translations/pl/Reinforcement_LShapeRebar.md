@@ -156,10 +156,5 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 
 
 
-
-{{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement LShapeRebar/pl

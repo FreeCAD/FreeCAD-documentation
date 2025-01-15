@@ -87,11 +87,6 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Equipment/pt-br

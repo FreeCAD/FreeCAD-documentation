@@ -20,13 +20,5 @@ The **BIM Windows Manager** dialog allows you to browse and modify all the [wind
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Windows/hr

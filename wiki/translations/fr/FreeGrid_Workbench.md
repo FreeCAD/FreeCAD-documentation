@@ -57,4 +57,4 @@ L\'<img alt="" src=images/FreeGridWorkbench.svg  style="width:24px;"> **atelier 
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [FreeGrid](Category_FreeGrid.md) > FreeGrid Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > [FreeGrid](Category_FreeGrid.md) > FreeGrid Workbench/fr

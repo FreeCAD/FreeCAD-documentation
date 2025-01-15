@@ -70,11 +70,6 @@ base = Arch.joinWalls([Wall1, Wall2])
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch MergeWalls/pt-br

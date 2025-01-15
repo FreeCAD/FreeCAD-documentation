@@ -524,11 +524,6 @@ J\'espère que ce tutoriel vous aura donné un bon aperçu des outils disponible
 Le fichier créé durant ce tutoriel peut être téléchargé [ici](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd).
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch tutorial/fr

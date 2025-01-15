@@ -44,4 +44,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricSolid/fr
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External%20Command%20Reference.md) > [Curves](Category_Curves.md) > Curves ParametricSolid/fr

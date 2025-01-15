@@ -37,4 +37,4 @@ La página de [tutoriales](tutorials/es.md) proporciona algunos ejemplos sobre l
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/es
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/es

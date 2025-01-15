@@ -177,4 +177,4 @@ FreeCAD에서는 비표준 방향으로 스케치(패딩, 포켓 등)를 배치�
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/ko
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/ko

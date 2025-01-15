@@ -26,13 +26,5 @@ L\'outil **BIM Porte** crée un objet [Fenêtre](Arch_Window/fr.md) à l\'aide d
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Door/fr

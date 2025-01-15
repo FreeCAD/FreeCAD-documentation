@@ -73,4 +73,4 @@ Tuttavia questa decisione viene presa solo per il sistema principale di FreeCAD.
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > License/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > License/it

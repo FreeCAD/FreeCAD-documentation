@@ -108,13 +108,5 @@ truss.HeightEnd = 400
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Truss/fr

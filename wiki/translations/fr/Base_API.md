@@ -28,4 +28,4 @@ Une boîte englobante est un cube orthographique qui permet de décrire les limi
 
 
 ---
-⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Base API/fr
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser%20Documentation.md) > Base API/fr

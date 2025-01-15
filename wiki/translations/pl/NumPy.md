@@ -68,4 +68,4 @@ Otrzymamy:
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > NumPy/pl
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd%20Party.md) > NumPy/pl

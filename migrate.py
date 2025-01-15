@@ -88,7 +88,7 @@ PART_API_PAGES = ["Vertex","Edge","Wire","Face","Shell","Solid","CompSolid","Com
 # templates that are safe to remove entirely
 UNUSED_TEMPLATES = ["Userdocnavi","Powerdocnavi","Arch Tools navi","\\#translation:","clear",
                    "Part Tools navi","Draft Tools navi","UnfinishedDocu","Tutorials navi",
-                   "Arch_Tools_navi"]
+                   "Arch_Tools_navi", "BIM_Tools_navi"]
 
 
 class MediaWiki:
@@ -755,7 +755,7 @@ class MediaWiki:
         w = self.getWorkbench(page)
         for cat in c:
             if cat != w:
-                footer += breadcrumb + "[" + cat + "](Category_" + cat + ".md)"
+                footer += breadcrumb + "[" + cat + "](Category_" + cat.replace(" ","%20") + ".md)"
         if w:
             footer += breadcrumb + "[" + w + "](" + w + "_Workbench.md)"
         footer += breadcrumb + page.replace("_"," ") + "\n"

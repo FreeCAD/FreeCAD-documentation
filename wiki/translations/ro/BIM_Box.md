@@ -51,13 +51,5 @@ Instrumentul BIM Box vă permite să creați un [Part Box](Part_Box.md) standard
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box/ro

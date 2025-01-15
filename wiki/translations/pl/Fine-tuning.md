@@ -173,4 +173,4 @@ Etykieta w Szkicowniku, która wyświetla aktualny stan wiązań (np. \" Nie w p
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Fine-tuning/pl

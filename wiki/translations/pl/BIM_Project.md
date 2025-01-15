@@ -58,13 +58,5 @@ Pliki IFC dołączone do projektu są automatycznie zapisywane przy każdym zapi
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Project/pl

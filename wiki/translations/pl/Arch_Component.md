@@ -96,13 +96,5 @@ Obiekt komponent Architektury jest również bazą współdzieloną przez wszyst
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Component/pl

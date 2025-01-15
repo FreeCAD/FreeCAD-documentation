@@ -73,13 +73,5 @@ La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto 
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Library/es

@@ -135,4 +135,4 @@ See various examples in [Custom icon in tree view](Custom_icon_in_tree_view.md).
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Viewprovider
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Viewprovider

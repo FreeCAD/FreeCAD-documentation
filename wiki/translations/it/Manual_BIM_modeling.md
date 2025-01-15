@@ -237,13 +237,5 @@ Ora la pagina è pronta, e può essere esportata nel formato SVG o DXF, o stampa
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Manual:BIM modeling/it

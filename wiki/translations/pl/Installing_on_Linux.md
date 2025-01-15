@@ -376,4 +376,4 @@ Po zainstalowaniu FreeCAD, nadszedł czas na [rozpoczęcie pracy](Getting_starte
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing on Linux/pl
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Installing on Linux/pl

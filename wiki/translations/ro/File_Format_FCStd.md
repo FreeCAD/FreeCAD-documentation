@@ -261,4 +261,4 @@ Este posibilă schimbara sursei fișierului .FCStd Dar procedura nu este lipsit�
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/ro
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/ro

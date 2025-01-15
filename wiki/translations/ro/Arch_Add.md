@@ -115,13 +115,5 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Add/ro

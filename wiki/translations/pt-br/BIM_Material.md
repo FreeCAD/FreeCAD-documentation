@@ -98,11 +98,6 @@ O gerenciador de materiais permite:
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Material/pt-br

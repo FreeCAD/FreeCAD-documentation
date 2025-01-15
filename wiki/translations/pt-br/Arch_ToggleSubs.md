@@ -44,11 +44,6 @@ The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in th
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch ToggleSubs/pt-br

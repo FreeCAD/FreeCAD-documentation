@@ -16,13 +16,5 @@ Narzędzie **Przenieś do kosza** przenosi wskazane obiekty do grupy \"Kosz\". T
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Trash/pl

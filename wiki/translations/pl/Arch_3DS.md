@@ -5,13 +5,5 @@
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > Arch 3DS/pl
+⏵ [documentation index](../README.md) > [File Formats](Category_File%20Formats.md) > Arch 3DS/pl

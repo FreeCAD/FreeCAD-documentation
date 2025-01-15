@@ -52,13 +52,5 @@ Menadżer materiałów pozwala na:
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Material/pl

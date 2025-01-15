@@ -28,4 +28,4 @@ Both Collada (\*.dae) and STL are mesh formats. To use these files within FreeCA
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [File_Formats](Category_File_Formats.md) > Importing From Sketchup
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [File_Formats](Category_File_Formats.md) > Importing From Sketchup

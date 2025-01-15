@@ -370,4 +370,4 @@ Wenn Du FreeCAD installiert hast, ist es Zeit für die [ersten Schritte](Getting
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing on Linux/de
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Installing on Linux/de

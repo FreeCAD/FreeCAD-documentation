@@ -28,13 +28,5 @@ Cet outil est exactement le même que l\'outil [Gestionnaire de calques](Draft_L
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Layers/fr

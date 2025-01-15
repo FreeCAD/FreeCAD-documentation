@@ -82,4 +82,4 @@ Thus, out of shapes you can build very complex parts or, the other way round, ex
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > OpenCASCADE/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > OpenCASCADE/it

@@ -45,4 +45,4 @@ Assembly4 zostało opracowane na podstawie nowych narzędzi stworzonych dla [Zł
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly4 Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Assembly4 Workbench/pl

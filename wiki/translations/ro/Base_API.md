@@ -29,4 +29,4 @@ O cutie de legare este un cub ortografic, care este o modalitate de a descrie gr
 
 
 ---
-⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Base API/ro
+⏵ [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser%20Documentation.md) > Base API/ro

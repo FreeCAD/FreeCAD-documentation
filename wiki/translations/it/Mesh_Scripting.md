@@ -96,4 +96,4 @@ Vedere anche: [Mesh API](Mesh_API/it.md). {{Top}}  {{Mesh Tools navi}}
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/it

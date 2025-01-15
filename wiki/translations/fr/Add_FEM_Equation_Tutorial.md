@@ -208,4 +208,4 @@ Nous venons de créer une nouvelle classe d\'équation. Pour y accéder depuis l
 
 
 ---
-⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Add FEM Equation Tutorial/fr
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Add FEM Equation Tutorial/fr

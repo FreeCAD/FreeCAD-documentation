@@ -519,13 +519,5 @@ Das Arch-Modul kann in [Python](Python.md)-Skripten und [Makros](Makros.md) mith
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > BIM Workbench/de

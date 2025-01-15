@@ -360,4 +360,4 @@ These are tutorials that are related to scripting or programming. They are geare
 
 
 ---
-⏵ [documentation index](../README.md) > [Tutorials]](페이지 번역버튼 안보임)에서 찾을 수 있으며, 완전하고 정렬 가능한 튜토리얼은 ](Category_Tutorials]](페이지 번역버튼 안보임)에서 찾을 수 있으며, 완전하고 정렬 가능한 튜토리얼은 .md) > [Tutorials](Category_Tutorials.md) > Tutorials/ko
+⏵ [documentation index](../README.md) > [Tutorials]](페이지 번역버튼 안보임)에서 찾을 수 있으며, 완전하고 정렬 가능한 튜토리얼은 ](Category_Tutorials]](페이지%20번역버튼%20안보임)에서%20찾을%20수%20있으며,%20완전하고%20정렬%20가능한%20튜토리얼은%20.md) > [Tutorials](Category_Tutorials.md) > Tutorials/ko

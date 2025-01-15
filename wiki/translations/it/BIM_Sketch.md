@@ -29,13 +29,5 @@ Lo strumento <img alt="" src=images/BIM_Sketch.svg  style="width:24px;"> [BIM Sc
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Sketch/it

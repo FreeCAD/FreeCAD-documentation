@@ -13,4 +13,4 @@ This page collects the documentation pages for the [Fasteners Workbench](Fastene
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Category:Fasteners/it
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > Category:Fasteners/it

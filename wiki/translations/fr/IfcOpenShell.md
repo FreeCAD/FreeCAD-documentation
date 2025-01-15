@@ -505,9 +505,7 @@ Le projet IfcOpenShell a également développé \"IFC Pipeline\", un programme d
 -   Quelles pages sont liées à [cette page](Special:WhatLinksHere/IfcOpenShell.md).
 
 
-{{BIM_Tools_navi
-
-}} {{FEM_Tools_navi}}
+ {{FEM_Tools_navi}}
 
 
 

@@ -36,13 +36,5 @@ La herramienta BIM Box le permite crear un estándar [Part Box](Part_Box.md), pe
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box/es

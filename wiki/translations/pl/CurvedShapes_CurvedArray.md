@@ -63,4 +63,4 @@ Tworzy tablicę i zmienia rozmiar elementów w granicach jednej lub więcej krzy
 
 
 ---
-⏵ [documentation index](../README.md) > [Name](Category_Name.md) > [External Command Reference](Category_External Command Reference.md) > CurvedShapes CurvedArray/pl
+⏵ [documentation index](../README.md) > [Name](Category_Name.md) > [External Command Reference](Category_External%20Command%20Reference.md) > CurvedShapes CurvedArray/pl

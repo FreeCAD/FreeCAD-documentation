@@ -100,13 +100,5 @@ Il est possible d\'ajouter vos propres propriétés aux objets. Celles-ci sont a
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Schedule/fr

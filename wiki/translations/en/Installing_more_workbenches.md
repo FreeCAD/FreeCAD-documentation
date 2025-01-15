@@ -47,4 +47,4 @@ See also a detailed description in the page [how to install additional workbench
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/en
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Installing more workbenches/en

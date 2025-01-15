@@ -137,13 +137,5 @@ Notre page est maintenant prête, et nous pouvons l\'exporter vers les formats S
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Manual:BIM modeling/fr

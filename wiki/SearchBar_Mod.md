@@ -21,4 +21,4 @@ For manual installation see [Installing more workbenches](Installing_more_workbe
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > SearchBar Mod
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > SearchBar Mod

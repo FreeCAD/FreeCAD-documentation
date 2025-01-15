@@ -28,13 +28,5 @@ Celem tej przeglądarki jest po prostu umożliwienie sprawdzenia, co naprawdę j
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcExplorer/pl

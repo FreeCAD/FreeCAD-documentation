@@ -57,13 +57,5 @@ Questo corrisponde approssimativamente a [IfcMaterial](https://standards.buildin
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch SetMaterial/it

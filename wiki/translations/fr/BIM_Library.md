@@ -36,13 +36,5 @@ L\'outil **BIM Bibliothèque** vous permet de placer dans le modèle en cours un
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Library/fr

@@ -393,4 +393,4 @@ Se importan e inicializan en `[https://github.com/FreeCAD/FreeCAD/blob/9c27f1078
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Property/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Property/es

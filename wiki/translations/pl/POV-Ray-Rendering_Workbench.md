@@ -121,4 +121,4 @@ Aby zakończyć instalację, ścieżka do pliku wykonywalnego POV-Ray musi być 
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > POV-Ray-Rendering Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > POV-Ray-Rendering Workbench/pl

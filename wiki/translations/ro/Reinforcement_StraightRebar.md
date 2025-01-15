@@ -256,8 +256,6 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 
 </div>
 
-{{BIM_Tools_navi}}
-
 
 
 ---

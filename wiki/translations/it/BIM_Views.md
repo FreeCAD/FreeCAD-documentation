@@ -55,13 +55,5 @@ Il gestore delle viste BIM mostrerà tutti i livelli (parti dell\'edificio) e i 
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Views/it

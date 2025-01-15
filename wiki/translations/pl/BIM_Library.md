@@ -39,13 +39,5 @@ Narzędzie **Biblioteka** pozwala na umieszczenie w bieżącym modelu obiektu z 
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Library/pl

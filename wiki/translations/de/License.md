@@ -75,4 +75,4 @@ Gleichwohl betrifft diese Entscheidung lediglich das Core-System von FreeCAD. Je
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > License/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > License/de

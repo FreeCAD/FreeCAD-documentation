@@ -105,4 +105,4 @@ OpenCascade (OCC) is an external CAD kernel that FreeCAD is utterly dependent on
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/de
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > FreeCAD Managing Expectations/de

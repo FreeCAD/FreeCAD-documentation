@@ -51,11 +51,6 @@ Componenta clonei va avea pur și simplu proprietatea **CloneOf**setată la obie
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch CloneComponent/ro

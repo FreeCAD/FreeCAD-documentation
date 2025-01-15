@@ -471,4 +471,4 @@ Teraz kliknij dwukrotnie plik wsadowy, aby uruchomić program FreeCAD. *([zobacz
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/pl

@@ -46,4 +46,4 @@ Ein 3D-Kamm wird für 3D-Kurven erstellt. Die Werte für Sample (Anzahl) und Sca
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/de
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External%20Command%20Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/de

@@ -79,4 +79,4 @@ Certains tutoriels vidéo sont disponibles pour les versions bêta de l\'atelier
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [EM](Category_EM.md) > EM Workbench/fr
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > [EM](Category_EM.md) > EM Workbench/fr

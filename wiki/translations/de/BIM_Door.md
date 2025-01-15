@@ -28,13 +28,5 @@ Das Werkzeug **BIM Tür** erstellt ein [Fenster](Arch_Window/de.md)-Objekt mit T
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Door/de

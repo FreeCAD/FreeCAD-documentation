@@ -15,13 +15,5 @@ L\'outil **BIM Cloner** est un raccourci vers l\'outil [Draft Cloner](Draft_Clon
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Clone/fr

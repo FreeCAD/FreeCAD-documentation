@@ -17,13 +17,5 @@ Das Werkzeug **BIM AEAnsicht** zentriert die Ansicht auf der aktuellen Arbeitseb
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM WPView/de

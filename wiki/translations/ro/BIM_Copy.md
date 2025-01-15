@@ -26,13 +26,5 @@ Instrumentul de copiere BIM este o comandă rapidă pentru instrumentul [Draft M
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Copy/ro

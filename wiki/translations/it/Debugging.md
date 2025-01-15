@@ -439,4 +439,4 @@ Per gli sviluppatori che hanno bisogno di approfondire il kernel OpenCasCade, l\
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Debugging/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Debugging/it

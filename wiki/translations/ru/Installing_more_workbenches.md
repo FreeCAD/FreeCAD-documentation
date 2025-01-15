@@ -51,4 +51,4 @@ Copy the workbench folder into `$USER_DIR/Mod/`, where `$USER_DIR` is the FreeCA
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Installing more workbenches/ru

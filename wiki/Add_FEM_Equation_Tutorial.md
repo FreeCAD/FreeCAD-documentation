@@ -197,4 +197,4 @@ We have just created a new equation class. To access it from the FEM GUI, we nee
 
 
 ---
-⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Add FEM Equation Tutorial
+⏵ [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Add FEM Equation Tutorial

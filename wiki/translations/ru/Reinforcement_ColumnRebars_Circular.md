@@ -227,8 +227,6 @@ rebar_group = CircularColumn.editReinforcement(
 
 </div>
 
-{{BIM_Tools_navi}}
-
 
 
 ---

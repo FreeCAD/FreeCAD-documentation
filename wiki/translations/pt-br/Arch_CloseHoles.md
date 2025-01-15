@@ -67,11 +67,6 @@ solid = Arch.closeHole(Wall.Shape)
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch CloseHoles/pt-br

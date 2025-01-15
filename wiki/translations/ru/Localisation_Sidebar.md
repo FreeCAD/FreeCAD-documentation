@@ -32,4 +32,4 @@ Do not add the language codes \"/fr\", \"/de\", \"/es\", \"/ru\", etc., if the t
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Wiki](Category_Wiki.md) > Localisation Sidebar/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Wiki](Category_Wiki.md) > Localisation Sidebar/ru

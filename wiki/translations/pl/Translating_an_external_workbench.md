@@ -398,4 +398,4 @@ Plik `outfile.ts` będzie zawierał zestaw ciągów znaków, które są przesył
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Translating an external workbench/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Translating an external workbench/pl

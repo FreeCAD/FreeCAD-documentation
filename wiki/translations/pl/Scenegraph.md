@@ -71,4 +71,4 @@ Zobacz stronę [wycinki Coin3d](Coin3d_snippets/pl.md) dzięki uprzejmości Mari
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scenegraph/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Scenegraph/pl

@@ -16,4 +16,4 @@ This page collects the documentation pages for the [SheetMetal Workbench](SheetM
 
 
 ---
-⏵ [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Category:SheetMetal
+⏵ [documentation index](../README.md) > [External Workbenches](Category_External%20Workbenches.md) > Category:SheetMetal

@@ -809,4 +809,4 @@ Navíc můžete nové makro přidat i na Váš uživatelský nástrojový pruh
 
 
 ---
-⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/cs
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python%20Code.md) > Macros recipes/cs

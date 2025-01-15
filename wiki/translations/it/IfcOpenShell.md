@@ -463,9 +463,7 @@ The IfcOpenShell project has also developed \"IFC Pipeline\", a self-hosted IFC 
 -   Pagine che puntano a [IfcOpenShell](Special:WhatLinksHere/IfcOpenShell.md).
 
 
-{{BIM_Tools_navi
-
-}} {{FEM_Tools_navi}}
+ {{FEM_Tools_navi}}
 
 
 

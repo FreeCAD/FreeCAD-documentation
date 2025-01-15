@@ -115,11 +115,6 @@ The Arch component object is also a base shared by all other Arch objects ([Arch
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Component/ru

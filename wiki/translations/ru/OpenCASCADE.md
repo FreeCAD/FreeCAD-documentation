@@ -82,4 +82,4 @@ OpenCascade версии 6.6 и более ранних версий регул�
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > OpenCASCADE/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > OpenCASCADE/ru

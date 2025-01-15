@@ -372,4 +372,4 @@ Qui sono elencati tutti i tutorial che non sono nel manuale **indipendentemente 
 
 
 ---
-⏵ [documentation index](../README.md) > [Tutorials/it]],  uno elenco completo e riordinabile si trova  nella ](Category_Tutorials/it]],  uno elenco completo e riordinabile si trova  nella .md) > [Tutorials](Category_Tutorials.md) > Tutorials/it
+⏵ [documentation index](../README.md) > [Tutorials/it]],  uno elenco completo e riordinabile si trova  nella ](Category_Tutorials/it]],%20%20uno%20elenco%20completo%20e%20riordinabile%20si%20trova%20%20nella%20.md) > [Tutorials](Category_Tutorials.md) > Tutorials/it

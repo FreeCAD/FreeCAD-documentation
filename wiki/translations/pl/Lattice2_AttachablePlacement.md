@@ -48,4 +48,4 @@ Polecenie <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Lattice2](Category_Lattice2.md) > Lattice2 AttachablePlacement/pl
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External%20Command%20Reference.md) > [Lattice2](Category_Lattice2.md) > Lattice2 AttachablePlacement/pl

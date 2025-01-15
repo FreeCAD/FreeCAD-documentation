@@ -94,13 +94,5 @@ Das Arch-Objekt Komponente ist auch eine Basis, die von allen anderen Arch-Objek
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Component/de

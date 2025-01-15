@@ -21,4 +21,4 @@ Creates a launch guide used to ensure a straight flight before the rocket become
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket CompLaunchGuide
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Rocket CompLaunchGuide

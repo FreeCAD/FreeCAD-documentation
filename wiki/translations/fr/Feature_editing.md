@@ -101,4 +101,4 @@ La page des [tutoriels](Tutorials/fr.md) fournit quelques exemples d\'utilisatio
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/fr
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/fr

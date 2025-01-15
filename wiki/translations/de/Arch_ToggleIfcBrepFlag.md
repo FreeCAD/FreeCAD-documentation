@@ -24,13 +24,5 @@ Das Werkzeug **Arch IfcBrepKennzeichnungUmschalten** schaltet die IfcBrep-Markie
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag/de

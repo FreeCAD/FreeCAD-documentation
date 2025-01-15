@@ -92,4 +92,4 @@ Aby przeprowadzić instalację samodzielnie, pobierz to repozytorium jako ZIP i:
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > ExplodedAssembly Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > ExplodedAssembly Workbench/pl

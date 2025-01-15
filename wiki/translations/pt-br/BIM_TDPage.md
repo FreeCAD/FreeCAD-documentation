@@ -50,11 +50,6 @@ The <img alt="" src=images/BIM_TDPage.svg  style="width:24px;"> [BIM TDPage](BIM
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM TDPage/pt-br

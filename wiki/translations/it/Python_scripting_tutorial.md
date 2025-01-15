@@ -289,4 +289,4 @@ Si può continuare alla pagina [Script di base per FreeCAD](FreeCAD_Scripting_Ba
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Python scripting tutorial/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Python scripting tutorial/it

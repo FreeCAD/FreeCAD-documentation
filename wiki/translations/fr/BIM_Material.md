@@ -50,13 +50,5 @@ Le gestionnaire des matériaux vous permet de :
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Material/fr

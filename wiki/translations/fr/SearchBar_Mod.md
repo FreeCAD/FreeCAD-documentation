@@ -22,4 +22,4 @@ Pour une installation manuelle, voir [Installer des ateliers supplémentaires](I
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > SearchBar Mod/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > SearchBar Mod/fr

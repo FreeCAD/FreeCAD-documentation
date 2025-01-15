@@ -29,13 +29,5 @@ L\'outil **BIM Texte** crée soit un texte, soit un objet **Texte**, dans la vue
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Text/fr

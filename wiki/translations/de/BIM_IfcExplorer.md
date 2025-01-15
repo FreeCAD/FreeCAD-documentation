@@ -28,13 +28,5 @@ Der Zweck dieses Explorers besteht einfach darin, das Überprüfen, was wirklich
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcExplorer/de

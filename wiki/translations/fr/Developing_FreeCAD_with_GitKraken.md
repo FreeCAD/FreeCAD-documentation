@@ -156,4 +156,4 @@ Désormais, chaque fois que de nouveaux commits sont effectués, ou que des bran
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Developer](Category_Developer.md) > [3rd Party](Category_3rd Party.md) > Developing FreeCAD with GitKraken/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Developer](Category_Developer.md) > [3rd Party](Category_3rd%20Party.md) > Developing FreeCAD with GitKraken/fr

@@ -181,13 +181,5 @@ Des propriétés géométriques modifiables telles que la \"hauteur\" ou la \"la
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > NativeIFC/fr

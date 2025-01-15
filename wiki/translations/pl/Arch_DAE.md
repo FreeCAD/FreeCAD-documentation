@@ -15,13 +15,5 @@ Funkcjonalność importu Collada w środowisku pracy BIM zależy od [pycollada](
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch DAE/pl

@@ -66,13 +66,5 @@ Dies entspricht in etwa einer Kombination aus [IfcMaterialLayerSet](https://stan
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch MultiMaterial/de

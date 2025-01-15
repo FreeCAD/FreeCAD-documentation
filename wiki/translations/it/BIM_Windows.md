@@ -33,13 +33,5 @@ La finestra di dialogo Gestione finestre BIM consente di sfogliare e modificare 
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Windows/it

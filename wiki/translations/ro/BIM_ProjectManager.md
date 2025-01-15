@@ -51,13 +51,5 @@ După ce ați completat diferitele opțiuni, conținutul expertului de configura
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM ProjectManager/ro

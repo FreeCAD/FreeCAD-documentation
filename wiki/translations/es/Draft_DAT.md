@@ -23,4 +23,4 @@ Hay muchos dialectos diferentes en este formato de modo que este módulo de este
 
 
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/es
+⏵ [documentation index](../README.md) > [File Formats](Category_File%20Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/es

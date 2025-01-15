@@ -411,4 +411,4 @@ Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu [
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > FreeCAD Scripting Basics/ro

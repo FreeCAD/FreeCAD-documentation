@@ -30,4 +30,4 @@ The Rebar tools are currently part of the [BIM Workbench](BIM_Workbench.md)
 
 
 ---
-⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > Civil Engineering Workbench
+⏵ [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [User Documentation](Category_User%20Documentation.md) > [Addons](Category_Addons.md) > Civil Engineering Workbench

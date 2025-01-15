@@ -23,13 +23,5 @@ Der Dialog **BIM Fenstermanager** ermöglicht, alle [Fenster und Türen](Arch_Wi
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Windows/de

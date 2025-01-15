@@ -98,4 +98,4 @@ self.dialog = FreeCADGui.PySideUic.loadUi(os.path.join(os.path.dirname(__file__)
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide Advanced Examples/ru
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > PySide Advanced Examples/ru

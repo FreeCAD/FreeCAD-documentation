@@ -28,13 +28,5 @@ Narzędzie <img alt="" src=images/BIM_TDPage.svg  style="width:24px;"> [BIM: Str
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM TDPage/pl

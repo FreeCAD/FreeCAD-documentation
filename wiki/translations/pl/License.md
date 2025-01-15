@@ -77,4 +77,4 @@ Niemniej jednak decyzja ta jest podejmowana tylko w odniesieniu do podstawowego 
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > License/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > License/pl

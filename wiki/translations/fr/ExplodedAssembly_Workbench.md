@@ -92,4 +92,4 @@ Pour installer manuellement, téléchargez ce dépôt en ZIP et :
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > ExplodedAssembly Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > ExplodedAssembly Workbench/fr

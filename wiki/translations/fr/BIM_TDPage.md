@@ -28,13 +28,5 @@ L\'outil **BIM Page** crée une nouvelle page TechDraw à partir d\'un modèle.
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM TDPage/fr

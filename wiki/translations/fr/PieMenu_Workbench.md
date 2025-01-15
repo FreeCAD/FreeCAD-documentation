@@ -212,4 +212,4 @@ La section inférieure contient une série de boutons qui vous permettent :
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > PieMenu Workbench/fr
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > PieMenu Workbench/fr

@@ -527,11 +527,6 @@ Mam nadzieję, że poradnik dostarczy Państwu dobrego przeglądu dostępnych na
 Plik utworzony podczas tego ćwiczenia można znaleźć [ze strony yorik-a](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd).
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch tutorial/pl

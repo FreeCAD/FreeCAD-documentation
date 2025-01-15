@@ -704,11 +704,6 @@ Soubor vytvořený tímto výukovým programem najdete [zde](http://yorik.uncrea
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch tutorial/cs

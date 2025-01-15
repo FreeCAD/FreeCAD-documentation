@@ -29,13 +29,5 @@ Das Werkzeug **BIM Quader** ermöglicht einen normalen [Part-Quader](Part_Box/de
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Box/de

@@ -54,4 +54,4 @@ Creates an array and resizes the items in the bounds of one or more hull curves.
 
 
 ---
-⏵ [documentation index](../README.md) > [Name](Category_Name.md) > [External Command Reference](Category_External Command Reference.md) > CurvedShapes CurvedArray/en
+⏵ [documentation index](../README.md) > [Name](Category_Name.md) > [External Command Reference](Category_External%20Command%20Reference.md) > CurvedShapes CurvedArray/en

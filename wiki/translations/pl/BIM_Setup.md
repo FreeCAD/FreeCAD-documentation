@@ -20,13 +20,5 @@ Po najechaniu myszką na poszczególne ustawienia, pojawi się podpowiedź wyja�
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Setup/pl

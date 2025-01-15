@@ -59,4 +59,4 @@ Dla krzywych 3D zostanie utworzony grzebień 3D. Próbka i skala mogą zostać z
 
 
 ---
-⏵ [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/pl
+⏵ [documentation index](../README.md) > [External Command Reference](Category_External%20Command%20Reference.md) > [Curves](Category_Curves.md) > Curves ParametricComb/pl

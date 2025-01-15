@@ -14,13 +14,5 @@ L\'outil **BIM Corbeille** permet de déplacer les objets sélectionnés vers le
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Trash/fr

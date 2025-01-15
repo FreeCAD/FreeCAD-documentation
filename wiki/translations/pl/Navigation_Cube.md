@@ -164,4 +164,4 @@ Poniższa tabela zawiera listę innych zaawansowanych parametrów Kostki nawigac
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Navigation Cube/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > Navigation Cube/pl

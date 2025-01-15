@@ -173,11 +173,6 @@ L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri ogg
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Component/it

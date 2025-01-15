@@ -17,13 +17,5 @@ Narzędzie **Widok płaszczyzny roboczej** wyśrodkowuje widok na bieżącej pł
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM WPView/pl

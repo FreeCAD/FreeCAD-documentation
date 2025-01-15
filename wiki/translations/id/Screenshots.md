@@ -122,4 +122,4 @@ Here are a few screenshots showing different parts of FreeCAD. See more screensh
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Screenshots](Category_Screenshots.md) > Screenshots/id
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > [Screenshots](Category_Screenshots.md) > Screenshots/id

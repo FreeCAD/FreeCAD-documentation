@@ -47,13 +47,5 @@ Acest instrument permite / dezactivează funcția IfcBrep a unui obiect Arch sel
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch ToggleIfcBrepFlag/ro

@@ -139,4 +139,4 @@ Vedere vari esempi in [Icona personalizzata nella visualizzazione ad albero](Cus
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Viewprovider/it
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Viewprovider/it

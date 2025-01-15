@@ -99,13 +99,5 @@ Where the first element of the list is an order number that is not used yet.
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Profile/pt-br

@@ -27,13 +27,5 @@ Remarquez que, bien que tout autre objet BIM puisse être ajouté à un projet, 
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Project/fr

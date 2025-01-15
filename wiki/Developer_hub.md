@@ -127,4 +127,4 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 
 ---
-⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub
+⏵ [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Developer hub

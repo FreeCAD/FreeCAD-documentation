@@ -523,11 +523,6 @@ Ich hoffe, dies gibt Ihnen einen guten Überblick über die verfügbaren Werkzeu
 Die in diesem Tutorial erzeugten Dateien finden Sie [hier](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd).
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch tutorial/de

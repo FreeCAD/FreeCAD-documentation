@@ -20,13 +20,5 @@ Schwebt der Mauszeigers über einer Einstellung, wird eine QuickInfo (tooltip) a
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Setup/de

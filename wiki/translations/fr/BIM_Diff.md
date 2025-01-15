@@ -37,13 +37,5 @@ Cet outil est principalement adapté aux fichiers IFC, car il utilise l\'ID glob
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Diff/fr

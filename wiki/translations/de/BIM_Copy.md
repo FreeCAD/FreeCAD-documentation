@@ -17,13 +17,5 @@ Das Werkzeug **BIM Kopieren** ist eine Kurzbefehl zum Standardwerkzeug [Draft Ve
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Copy/de

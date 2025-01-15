@@ -756,4 +756,4 @@ If the [Addon Manager](Std_AddonMgr.md) is not used, the macro can be installed 
 
 
 ---
-⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/en
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python%20Code.md) > Macros recipes/en

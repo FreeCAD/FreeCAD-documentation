@@ -56,13 +56,5 @@ print(list_bad)
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Check/sv

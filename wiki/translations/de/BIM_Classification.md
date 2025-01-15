@@ -27,13 +27,5 @@ Die **Klassifizierung** ermöglicht, einem BIM-Objekt oder -Material eine Standa
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Classification/de

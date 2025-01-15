@@ -68,4 +68,4 @@ Jeśli uważasz, że Twojego nazwiska brakuje na tej liście, dodaj je samodziel
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Ship](Category_Ship.md) > Ship Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > [Ship](Category_Ship.md) > Ship Workbench/pl

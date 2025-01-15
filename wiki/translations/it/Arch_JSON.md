@@ -23,13 +23,5 @@ Nota che le faccette formano triangoli e i loro valori di riferimento delle valo
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch JSON/it

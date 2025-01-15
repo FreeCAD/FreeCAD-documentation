@@ -148,4 +148,4 @@ PyAPI_FUNC(int) PyArg_VaParseTupleAndKeywords (PyObject *, PyObject *, const cha
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > Wrapping a Cplusplus class in Python
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Wrapping a Cplusplus class in Python

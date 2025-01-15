@@ -96,4 +96,4 @@ See [Line drawing function](Line_drawing_function.md).
 
 
 ---
-⏵ [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a ](Category_Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/pt-br
+⏵ [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a ](Category_Command_Reference|:Category:Command%20Reference]]%20page.%20Commands%20can%20be%20launched%20by%20a%20toolbar%20button,%20a%20menu%20item,%20or%20from%20a%20.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > [Glossary](Category_Glossary.md) > Command/pt-br

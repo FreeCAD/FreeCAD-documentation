@@ -203,8 +203,6 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
 </div>
 
-{{BIM_Tools_navi}}
-
 
 
 ---

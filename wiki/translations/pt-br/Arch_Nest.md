@@ -57,11 +57,6 @@ The algorithm behind the Nest tool is in constant evolution, and is currently no
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Nest/pt-br

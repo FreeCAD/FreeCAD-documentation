@@ -802,4 +802,4 @@ Wenn der [Erweiterungsverwalter](Std_AddonMgr/de.md) nicht verwendet wird, kann 
 
 
 ---
-⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python Code.md) > Macros recipes/de
+⏵ [documentation index](../README.md) > [Macros](Category_Macros.md) > [Python Code](Category_Python%20Code.md) > Macros recipes/de

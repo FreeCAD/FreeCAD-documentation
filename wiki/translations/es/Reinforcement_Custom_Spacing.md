@@ -23,8 +23,6 @@ La salida se genera mediante el cuadro de diálogo Distribución de barras de re
 
 <img alt="" src=images/RebarDistribution.png  style="width:800px;">
 
-{{BIM_Tools_navi}}
-
 
 
 ---

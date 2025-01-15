@@ -33,13 +33,5 @@ Le style de [Draft Basculer en mode construction](Draft_ToggleConstructionMode/f
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch ToggleSubs/fr

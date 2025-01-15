@@ -38,13 +38,5 @@ Tento nástroj identifikuje a vybírá netělesové (neuzavřené) (non-[manifol
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch SelectNonSolidMeshes/cs

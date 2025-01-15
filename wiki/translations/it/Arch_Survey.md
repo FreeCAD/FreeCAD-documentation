@@ -105,11 +105,6 @@ for obj in selection:
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Survey/it

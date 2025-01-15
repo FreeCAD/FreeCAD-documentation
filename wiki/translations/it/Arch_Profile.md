@@ -188,11 +188,6 @@ Dove il primo elemento della lista è un numero d\'ordine non ancora utilizzato.
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Profile/it

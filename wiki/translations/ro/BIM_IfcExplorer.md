@@ -55,11 +55,6 @@ Scopul acestui explorator este pur și simplu să vă permită să verificați c
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM IfcExplorer/ro

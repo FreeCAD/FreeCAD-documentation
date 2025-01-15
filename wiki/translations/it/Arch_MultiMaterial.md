@@ -67,13 +67,5 @@ Ciò corrisponde approssimativamente a una combinazione di [IfcMaterialLayerSet]
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch MultiMaterial/it

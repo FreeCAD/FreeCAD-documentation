@@ -112,13 +112,5 @@ wobei das erste Element der Liste eine Bestellnummer (order number) ist, die bis
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Profile/de

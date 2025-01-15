@@ -193,8 +193,6 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
 </div>
 
-{{BIM_Tools_navi}}
-
 
 
 ---

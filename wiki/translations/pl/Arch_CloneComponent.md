@@ -30,15 +30,7 @@ Komponent klona będzie miał po prostu właściwość **CloneOf** ustawioną na
 
 
 
-## Tworzenie skryptów 
-
-
-
-
-
-{{BIM_Tools_navi
-
-}}
+## Tworzenie skryptów
 
 
 

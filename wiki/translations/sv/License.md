@@ -156,4 +156,4 @@ Detta beslut är ändå bara gjort för FreeCAD\'s kärnsystem. Var och en som s
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > License/sv
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > License/sv

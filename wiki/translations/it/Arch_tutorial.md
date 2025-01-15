@@ -520,11 +520,6 @@ Spero che questo offra una buona panoramica degli strumenti disponibili, per ave
 Il file creato durante questo tutorial è disponibile [qui](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd)
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch tutorial/it

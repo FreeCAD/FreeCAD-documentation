@@ -27,13 +27,5 @@ Cette page a été mise à jour pour la version 1.0.
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [BIM](BIM_Workbench.md) > BIM Preferences/fr

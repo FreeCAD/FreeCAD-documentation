@@ -40,11 +40,6 @@ Tenga en cuenta que, aunque se puede añadir cualquier otro objeto BIM a un proy
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Project/es

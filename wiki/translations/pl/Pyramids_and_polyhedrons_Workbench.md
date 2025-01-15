@@ -54,4 +54,4 @@ Prosimy o przesyłanie opinii, pomysłów i przemyśleń na temat tego środowis
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Pyramids and polyhedrons Workbench/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Pyramids and polyhedrons Workbench/pl

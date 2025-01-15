@@ -17,10 +17,5 @@ By hovering the mouse over each setting, you will be shown a tooltip explaining 
 
 
 
-
- {{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Setup

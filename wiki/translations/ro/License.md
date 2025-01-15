@@ -151,4 +151,4 @@ Această decizie se face numai pentru nucleul sistemul FreeCAD. Fiecare scriitor
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > License/ro
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > License/ro

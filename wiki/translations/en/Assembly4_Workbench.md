@@ -35,4 +35,4 @@ Assembly4 was inspired by <img alt="" src=images/A2p_workbench.svg  style="width
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly4 Workbench/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Assembly4 Workbench/en

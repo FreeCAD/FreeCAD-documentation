@@ -35,4 +35,4 @@ Assembly4 wurde angeregt durch <img alt="" src=images/A2p_workbench.svg  style="
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly4 Workbench/de
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Assembly4 Workbench/de

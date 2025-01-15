@@ -31,13 +31,5 @@ Das Werkzeug **BIM Platte** erstellt eine **Platte** (Slab-Objekt), ein horizont
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Slab/de

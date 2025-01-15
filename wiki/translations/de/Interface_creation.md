@@ -43,4 +43,4 @@ Beispiele für diese Methode befinden sich unter [Dialogerstellung](Dialog_creat
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Interface creation/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Interface creation/de

@@ -29,13 +29,5 @@ Dacă glisați mouse-ul peste fiecare setare, veți primi un ttoltip care explic
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Setup/ro

@@ -60,13 +60,5 @@ I file IFC associati ad un progetto vengono salvati automaticamente ogni volta c
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Project/it

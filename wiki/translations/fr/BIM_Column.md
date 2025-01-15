@@ -28,13 +28,5 @@ L\'outil **BIM Colonne** crée un objet **Colonne**, un élément de structure v
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Column/fr

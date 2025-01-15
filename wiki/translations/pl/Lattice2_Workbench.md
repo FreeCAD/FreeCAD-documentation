@@ -178,4 +178,4 @@ Po zainstalowaniu środowiska roboczego powinno ono pojawić się na dole listy 
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Lattice2 Workbench/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Lattice2 Workbench/pl

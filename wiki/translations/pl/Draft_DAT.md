@@ -6,4 +6,4 @@ Istnieje wiele różnych dialektów tego formatu, więc ten moduł importujący 
 
 
 ---
-⏵ [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/pl
+⏵ [documentation index](../README.md) > [File Formats](Category_File%20Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/pl

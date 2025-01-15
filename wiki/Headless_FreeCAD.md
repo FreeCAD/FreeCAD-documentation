@@ -49,4 +49,4 @@ See: [forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=55794&p=48
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Headless FreeCAD
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Poweruser Documentation](Category_Poweruser%20Documentation.md) > Headless FreeCAD

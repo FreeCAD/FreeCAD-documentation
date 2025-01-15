@@ -88,4 +88,4 @@ The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/es
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/es

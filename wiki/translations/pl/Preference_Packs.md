@@ -380,4 +380,4 @@ Zobacz również stronę [Osobiste pakiety preferencji](Private_Preference_Packs
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Preference Packs/pl

@@ -14,4 +14,4 @@ pour Windows et MacOS, voir [Packaging](Packaging/fr.md).
 
 
 ---
-⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Linux packaging/fr
+⏵ [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Linux packaging/fr

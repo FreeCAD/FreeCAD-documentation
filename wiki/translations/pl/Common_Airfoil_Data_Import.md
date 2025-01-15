@@ -35,4 +35,4 @@ Dostępna jest makrodefinicja, dzięki której można zaimportować profil lotni
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Common Airfoil Data Import/pl
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > Common Airfoil Data Import/pl

@@ -24,10 +24,5 @@ The **BIM Text** tool creates a text, either a **Text** object, in the current 3
 
 
 
-
- {{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Text

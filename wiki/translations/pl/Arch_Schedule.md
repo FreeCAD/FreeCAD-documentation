@@ -102,13 +102,5 @@ Możliwe jest dodawanie własnych właściwości do obiektów. Są one nazywane 
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Schedule/pl

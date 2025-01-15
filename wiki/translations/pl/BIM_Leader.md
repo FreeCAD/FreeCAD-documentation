@@ -29,13 +29,5 @@ Narzędzie <img alt="" src=images/BIM_Leader.svg  style="width:24px;"> [BIM: Lin
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Leader/pl

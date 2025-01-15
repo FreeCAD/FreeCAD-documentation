@@ -164,8 +164,6 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 
 </div>
 
-{{BIM_Tools_navi}}
-
 
 
 ---

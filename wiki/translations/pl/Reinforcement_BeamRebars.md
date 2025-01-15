@@ -381,10 +381,5 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
 
 
 
-
-{{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [External_Command_Reference](Category_External_Command_Reference.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement BeamRebars/pl

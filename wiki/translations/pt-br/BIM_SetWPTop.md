@@ -50,11 +50,6 @@ The <img alt="" src=images/BIM_SetWPTop.svg  style="width:24px;"> [BIM SetWPTop]
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM SetWPTop/pt-br

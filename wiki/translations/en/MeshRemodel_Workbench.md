@@ -19,4 +19,4 @@ This workbench can be installed from the <img alt="" src=images/Std_AddonMgr.svg
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MeshRemodel Workbench/en
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > MeshRemodel Workbench/en

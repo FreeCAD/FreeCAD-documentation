@@ -249,9 +249,7 @@ Na dzień pisania tego poradnika *(FreeCAD 0.18, listopad 2018)*, środowisko pr
 Bliska interakcja między środowiskami pracy jest planowana na przyszłe wersje FreeCAD. W tych wersjach oczekuje się rozwiązania długotrwałych problemów, takich jak kontrola cech linii i powierzchni *(grubość linii, kolor linii, kolor powierzchni, wzory kreskowania i inne)*.
 
 
-{{BIM_Tools_navi
-
-}} {{Draft_Tools_navi}} {{TechDraw_Tools_navi}}
+ {{Draft_Tools_navi}} {{TechDraw_Tools_navi}}
 
 
 

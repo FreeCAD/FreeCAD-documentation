@@ -23,10 +23,5 @@ The <img alt="" src=images/BIM_SetWPSide.svg  style="width:24px;"> [BIM SetWPSid
 
 
 
-
- {{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM SetWPSide

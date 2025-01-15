@@ -22,4 +22,4 @@ Aby zainstalować go ręcznie zobacz stronę [Instalacja zewnętrznych środowis
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > SearchBar Mod/pl
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > SearchBar Mod/pl

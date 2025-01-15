@@ -433,4 +433,4 @@ Le fichier `outfile.ts` contiendra l\'ensemble des chaînes de caractères qui s
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Translating an external workbench/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Translating an external workbench/fr

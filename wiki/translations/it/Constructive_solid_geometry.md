@@ -37,4 +37,4 @@ La pagina [Tutorial](tutorials/it.md) fornisce alcuni esempi che usano il metodo
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/it
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/it

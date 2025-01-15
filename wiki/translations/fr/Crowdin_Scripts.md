@@ -88,4 +88,4 @@ Le script updatefromcrowdin.py extrait les modifications de crowdin vers votre r
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/fr
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts/fr

@@ -69,11 +69,6 @@ This roughly corresponds to a combination of [IfcMaterialLayerSet](https://stand
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch MultiMaterial/pt-br

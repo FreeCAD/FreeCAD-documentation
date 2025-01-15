@@ -559,4 +559,4 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
 
 ---
-⏵ [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [Developer Documentation](Category_Developer Documentation.md) > Extra python modules/fr
+⏵ [documentation index](../README.md) > [Python Code](Category_Python%20Code.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Extra python modules/fr

@@ -268,9 +268,7 @@ Der [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) hat nur minimale Kontrol
 Für zukünftige FreeCAD-Versionen ist eine engere Interaktion zwischen beiden Arbeitsbereichen geplant. Für diese Versionen wird erwartet, dass seit langem bestehende Probleme gelöst werden, wie zum Beispiel die Charakteristika von Linien und Flächen (Linienbreite, Linienfarbe, Flächenfarbe, Schraffuren u.a.).
 
 
-{{BIM_Tools_navi
-
-}} {{Draft_Tools_navi}} {{TechDraw_Tools_navi}}
+ {{Draft_Tools_navi}} {{TechDraw_Tools_navi}}
 
 
 

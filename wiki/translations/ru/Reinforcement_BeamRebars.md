@@ -389,8 +389,6 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
 
 </div>
 
-{{BIM_Tools_navi}}
-
 
 
 ---

@@ -55,4 +55,4 @@ Zobacz także szczegółowy opis na stronie [Instalacja zewnętrznych środowisk
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > Installing more workbenches/pl

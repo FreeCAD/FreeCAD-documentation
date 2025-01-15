@@ -81,4 +81,4 @@ Poiché ci sono molti video che trattano questo argomento, visitare [Video tutor
 
 
 ---
-⏵ [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/it
+⏵ [documentation index](../README.md) > [Common Questions](Category_Common%20Questions.md) > Video tutorials/it

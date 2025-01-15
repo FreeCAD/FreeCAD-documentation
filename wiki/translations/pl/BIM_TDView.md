@@ -28,13 +28,5 @@ Narzędzie <img alt="" src=images/BIM_TDView.svg  style="width:24px;"> [BIM: Wid
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM TDView/pl

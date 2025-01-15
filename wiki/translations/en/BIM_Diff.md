@@ -34,13 +34,5 @@ This tool is primarily suited for IFC files, as it uses the IFC Global ID to mak
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Diff/en

@@ -94,13 +94,5 @@ for obj in selection:
 
 
 
-
-
-{{BIM_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Arch Survey/cs

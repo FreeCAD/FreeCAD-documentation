@@ -43,4 +43,4 @@ Please direct your feedback, ideas, thoughts about this workbench to the dedicat
 
 
 ---
-⏵ [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Pyramids and polyhedrons Workbench
+⏵ [documentation index](../README.md) > [User Documentation](Category_User%20Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Pyramids and polyhedrons Workbench

@@ -16,4 +16,4 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 
 
 ---
-⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Artwork ReverseEngineering/it
+⏵ [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Reverse Engineering](Category_Reverse%20Engineering.md) > Artwork ReverseEngineering/it

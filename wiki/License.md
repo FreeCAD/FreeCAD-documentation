@@ -61,4 +61,4 @@ Nevertheless this decision is made only for the core system of FreeCAD. Every wr
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > License
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > License

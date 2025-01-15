@@ -21,10 +21,5 @@ Note that all the question of georeferenced units, with hundreds of projection s
 
 
 
-
- {{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Arch SHP

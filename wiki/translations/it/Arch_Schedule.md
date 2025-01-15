@@ -199,11 +199,6 @@ Dall\'ambiente Spreadsheet il foglio di calcolo può quindi essere esportato nor
 </div>
 
 
-{{BIM_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Arch Schedule/it

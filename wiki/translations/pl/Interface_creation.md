@@ -43,4 +43,4 @@ Przykłady tej metody można znaleźć w [Tworzenie interfejsu całkowicie w kod
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Interface creation/pl
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Interface creation/pl

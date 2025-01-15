@@ -45,4 +45,4 @@ Assembly4 è ispirato a <img alt="" src=images/A2p_workbench.svg  style="width:2
 
 
 ---
-⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly4 Workbench/it
+⏵ [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External%20Workbenches.md) > Assembly4 Workbench/it

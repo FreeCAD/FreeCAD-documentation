@@ -284,4 +284,4 @@ Jetzt kannst Du zur Seite [FreeCAD Grundlagen der Skripterstellung](FreeCAD_Scri
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Python scripting tutorial/de
+⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [Python Code](Category_Python%20Code.md) > Python scripting tutorial/de

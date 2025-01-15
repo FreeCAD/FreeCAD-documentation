@@ -170,4 +170,4 @@ Vedere nel forum la discussione [PDF inside the project](https://forum.freecadwe
 
 
 ---
-⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/it
+⏵ [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer%20Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/it

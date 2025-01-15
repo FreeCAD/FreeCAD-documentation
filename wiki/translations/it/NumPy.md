@@ -68,4 +68,4 @@ L\'output è:
 
 
 ---
-⏵ [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > NumPy/it
+⏵ [documentation index](../README.md) > [3rd Party](Category_3rd%20Party.md) > NumPy/it

@@ -23,10 +23,5 @@ The <img alt="" src=images/BIM_Shape2DView.svg  style="width:24px;"> [BIM Shape2
 
 
 
-
- {{BIM_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [BIM](BIM_Workbench.md) > BIM Shape2DView
