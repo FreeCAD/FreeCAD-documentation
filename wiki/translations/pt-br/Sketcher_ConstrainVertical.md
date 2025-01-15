@@ -69,11 +69,6 @@ See [Sketcher ConstraintHorizontal](Sketcher_ConstrainHorizontal#Scripting.md).
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/pt-br

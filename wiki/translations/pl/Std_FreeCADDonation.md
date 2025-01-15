@@ -25,13 +25,5 @@ Obecnie polecenie wskazuje na [<https://wiki.freecad.org/Donate>](https://wiki.f
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADDonation/pl

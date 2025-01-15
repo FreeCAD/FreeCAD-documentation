@@ -27,13 +27,5 @@ Il comando **Sincronizza la posizione** attiva la modalità SyncPlacement della 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncPlacement/it

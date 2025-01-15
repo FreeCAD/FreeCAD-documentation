@@ -43,13 +43,5 @@ Nu sunt adăugate extra constrâgeri pentru comportamentul copiei.
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/ro

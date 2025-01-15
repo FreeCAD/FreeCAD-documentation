@@ -50,13 +50,5 @@ La geometria di costruzione è contrassegnata con un [colore](Sketcher_Preferenc
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/it

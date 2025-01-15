@@ -103,13 +103,5 @@ Polecenie **Pomiary** daje dostęp do ujednoliconej funkcjonalności pomiarowej.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Measure/pl

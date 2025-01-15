@@ -39,10 +39,5 @@ The **Std TransformManip** command allows you to apply rotation increments and t
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TransformManip

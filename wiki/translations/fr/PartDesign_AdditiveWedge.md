@@ -56,13 +56,5 @@ Les Pyramides tronquées peuvent être utilisées pour créer des pyramides en f
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/fr

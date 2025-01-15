@@ -35,13 +35,5 @@ Wie Gewichte geändert werden, ist auf [dieser Seite](B-Splines/de#Ändern_des_G
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePoleWeight/de

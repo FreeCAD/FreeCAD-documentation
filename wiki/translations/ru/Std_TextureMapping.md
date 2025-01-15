@@ -38,11 +38,6 @@ The **Std TextureMapping** command temporarily maps a texture onto all objects i
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std TextureMapping/ru

@@ -72,13 +72,5 @@ FreeCAD.ActiveDocument.UndoMode = 1
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Undo/ro

@@ -130,13 +130,5 @@ Strona [skrypty szkicownika](Sketcher_scripting.md) wyjaśnia wartości, które 
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/pl

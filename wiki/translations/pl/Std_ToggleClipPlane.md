@@ -48,13 +48,5 @@ Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleClipPlane/pl

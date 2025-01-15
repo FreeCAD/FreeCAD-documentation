@@ -89,8 +89,6 @@ obj = App.ActiveDocument.addObject("Part::Part2DObjectPython", "Name")
 obj.Label = "Custom label"
 ```
 
- {{Document_objects_navi}}
-
 
 
 ---

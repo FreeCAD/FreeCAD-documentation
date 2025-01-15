@@ -31,13 +31,5 @@ La commande **Std Précédente** active la fenêtre précédente dans la [zone d
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ActivatePrevWindow/fr

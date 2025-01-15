@@ -35,13 +35,5 @@ Polecenie **Dostosuj** otwiera okno dialogowe Dostosuj dając dostęp do kilku o
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgCustomize/pl

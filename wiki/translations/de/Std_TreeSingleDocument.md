@@ -28,13 +28,5 @@ Im Modus Einzeldokument kann man zu einem anderen Dokument wechseln, indem man d
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSingleDocument/de

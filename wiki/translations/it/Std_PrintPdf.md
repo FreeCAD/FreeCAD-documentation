@@ -39,13 +39,5 @@ Il comando **Esporta PDF** ha principalmente lo scopo di creare dei file [PDF](P
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PrintPdf/it

@@ -31,13 +31,5 @@ Il comando **Vai all\'oggetto collegato** seleziona il **Linked Object**, l\'ogg
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinked/it

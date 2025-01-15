@@ -27,13 +27,5 @@ Der Befehl **Std BaumSyncPosition** schaltet den Sync-Position-Modus der [Bauman
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncPlacement/de

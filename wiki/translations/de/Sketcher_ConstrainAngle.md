@@ -133,13 +133,5 @@ Die Seite [Sketcher Skripten](Sketcher_scripting/de.md) erklärt die Werte, die 
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/de

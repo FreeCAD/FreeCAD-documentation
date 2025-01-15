@@ -46,11 +46,6 @@ The **Std SelForward** command restores the next recorded [Tree view](Tree_view.
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std SelForward/ru

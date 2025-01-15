@@ -26,13 +26,5 @@ Consulte [Girar para a Esquerda](Std_ViewRotateLeft/pt-br#Scripting.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewRotateRight/pt-br

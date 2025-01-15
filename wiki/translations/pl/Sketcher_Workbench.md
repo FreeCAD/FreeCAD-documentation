@@ -555,13 +555,5 @@ Aby uzyskać kilka pomysłów na to, co można osiągnąć za pomocą narzędzi 
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/pl

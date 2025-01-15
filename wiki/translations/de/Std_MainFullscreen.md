@@ -26,13 +26,5 @@ Der Befehl **Std HauptfensterVollbild** schaltet das Hauptfenster, die FreeCAD-O
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MainFullscreen/de

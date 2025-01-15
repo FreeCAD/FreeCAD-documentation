@@ -53,13 +53,5 @@ Il comando **Esporta** esporta gli oggetti selezionati in un formato file divers
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/it

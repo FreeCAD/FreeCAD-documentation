@@ -30,13 +30,5 @@ Il comando **Proprietà** visualizza l\'[Editor delle proprietà](Property_edito
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Properties/it

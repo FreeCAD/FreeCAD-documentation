@@ -40,13 +40,5 @@ Nie są dodawane żadne dodatkowe wiązania dla klona.
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/pl

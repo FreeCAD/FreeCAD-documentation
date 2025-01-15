@@ -20,10 +20,5 @@ Currently the command points to [<https://wiki.freecad.org/Donate>](https://wiki
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADDonation

@@ -114,13 +114,5 @@ Un objet Plan d\'image est dérivé d\'un objet [App GeoFeature](App_GeoFeature/
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/fr

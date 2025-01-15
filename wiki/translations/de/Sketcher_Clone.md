@@ -34,13 +34,5 @@ Es werden keine zusätzlichen Randbedingungen für den Klon hinzugefügt.
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/de

@@ -34,10 +34,5 @@ The <img alt="" src=images/Sketcher_Projection.svg  style="width:24px;"> [Sketch
 
 
 
-
- {{Sketcher_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Projection

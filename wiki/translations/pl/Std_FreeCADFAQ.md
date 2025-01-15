@@ -25,13 +25,5 @@ Obecnie polecenie wskazuje na stronę [<https://wiki.freecad.org/Frequently_aske
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADFAQ/pl

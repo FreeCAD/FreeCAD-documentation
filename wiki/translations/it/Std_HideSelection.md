@@ -38,13 +38,5 @@ Vedere [Commutare la visibilità](Std_ToggleVisibility/it#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std HideSelection/it

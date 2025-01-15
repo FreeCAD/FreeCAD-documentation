@@ -227,11 +227,6 @@ See [Combo view](Combo_view#Preferences.md).
 </div>
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Property editor/pt

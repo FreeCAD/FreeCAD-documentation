@@ -232,11 +232,5 @@ Pour avoir une idée de ce qui peut être réalisé avec les outils de PartDesig
 
 
 
-
-
- {{PartDesign_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/fr

@@ -70,11 +70,6 @@ Per cambiare lo spazio virtuale:
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/it

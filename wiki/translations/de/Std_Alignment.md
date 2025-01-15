@@ -42,13 +42,5 @@ Die folgenden zusätzlichen Möglichkeiten können im Kontextmenü gewählt werd
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Alignment/de

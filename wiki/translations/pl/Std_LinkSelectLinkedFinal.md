@@ -30,13 +30,5 @@ Polecenie **Przejdź do najgłębiej połączonego obiektu** wybiera właściwo�
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinkedFinal/pl

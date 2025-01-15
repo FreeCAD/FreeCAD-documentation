@@ -31,13 +31,5 @@ Note that if a whole object falls inside the rectangle, the object itself, inste
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std BoxElementSelection/pt-br

@@ -177,11 +177,6 @@ The **Std Measure** command gives access to the Unified Measurement Facility. It
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std Measure/pt-br

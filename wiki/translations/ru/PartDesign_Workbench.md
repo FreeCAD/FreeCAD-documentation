@@ -346,9 +346,6 @@ See the [feature editing](Feature_editing.md) page for a more complete explanati
 </div>
 
 
- {{PartDesign_Tools_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/ru

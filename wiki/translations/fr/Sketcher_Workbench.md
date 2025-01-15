@@ -548,13 +548,5 @@ Pour avoir une idée de ce qui peut être réalisé avec les outils de Sketcher,
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/fr

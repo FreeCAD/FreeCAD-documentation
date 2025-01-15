@@ -24,13 +24,5 @@ La commande **Std Exporter le graphe des dépendances** exporte le [graphe des d
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ExportDependencyGraph/fr

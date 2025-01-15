@@ -71,11 +71,6 @@ Modul de construcției este un instrument important al sketcher-ului. Când se u
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/ro

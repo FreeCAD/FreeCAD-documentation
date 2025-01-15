@@ -36,13 +36,5 @@ Il comando **Carica immagine** apre un\'immagine in una nuova scheda nella [Area
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewLoadImage/it

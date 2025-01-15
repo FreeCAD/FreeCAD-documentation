@@ -35,13 +35,5 @@ La modalità di Pre-selezione della vista ad albero può essere impostata anche 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreePreSelection/it

@@ -25,13 +25,5 @@ See [Std ViewIsometric](Std_ViewIsometric#Scripting.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewDimetric/en

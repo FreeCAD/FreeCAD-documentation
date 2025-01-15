@@ -139,11 +139,6 @@ obj.Label = "Custom label"
 ```
 
 
-{{Document_objects_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App GeoFeature/pt-br

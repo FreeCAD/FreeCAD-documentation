@@ -21,13 +21,5 @@ The **Std SceneInspector** command opens a dialog box displaying an overview of 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SceneInspector/en

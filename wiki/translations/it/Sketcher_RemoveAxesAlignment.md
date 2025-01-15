@@ -62,11 +62,6 @@ Questo strumento rimuove i vincoli di allineamento degli assi (<img alt="" src=i
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RemoveAxesAlignment/it

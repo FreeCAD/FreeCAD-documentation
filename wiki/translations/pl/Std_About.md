@@ -83,10 +83,5 @@ Na karcie Biblioteki znajduje się lista zewnętrznych bibliotek używanych prze
 
 
 
-
-{{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Common_Questions](Category_Common_Questions.md) > Std About/pl

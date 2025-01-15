@@ -35,13 +35,5 @@ O comando \"Carregar Imagem\" abre uma imagem em uma nova aba na [Área principa
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewLoadImage/pt-br

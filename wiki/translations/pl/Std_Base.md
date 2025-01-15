@@ -115,13 +115,5 @@ Istnieje siedem standardowych menu podrzędnych. Każde podmenu ma dedykowaną s
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/pl

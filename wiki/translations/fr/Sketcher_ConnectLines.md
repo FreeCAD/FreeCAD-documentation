@@ -33,13 +33,5 @@ Avant d\'utiliser cette commande, assurez-vous que des contraintes évidentes (h
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/fr

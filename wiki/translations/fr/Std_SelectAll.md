@@ -27,13 +27,5 @@ La commande **Std Tout Sélectionner** sélectionne tous les objets dans la [vue
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelectAll/fr

@@ -40,13 +40,5 @@ La commande **Std Fenêtres** ouvre une boîte de dialogue avec une liste de fen
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Windows/fr

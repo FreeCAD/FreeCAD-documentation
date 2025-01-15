@@ -55,13 +55,5 @@ Dim-OVP = Wymiarowe parametry w widoku. {{Version/pl|1.0}}
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcSlot/pl

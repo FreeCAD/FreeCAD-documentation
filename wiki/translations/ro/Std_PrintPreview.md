@@ -43,13 +43,5 @@ Această funcție vă permite să definiți aspectul paginii care va fi tipărit
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PrintPreview/ro

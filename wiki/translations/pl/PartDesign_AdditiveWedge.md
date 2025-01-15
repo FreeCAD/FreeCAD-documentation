@@ -60,13 +60,5 @@ Kliny mogą być używane do tworzenia piramid poprzez ustawienie **X2 min/max**
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/pl

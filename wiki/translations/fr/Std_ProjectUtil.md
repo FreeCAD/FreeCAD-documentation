@@ -61,13 +61,5 @@ Il est important de réaliser que les fichiers contenus dans un fichier de proje
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ProjectUtil/fr

@@ -35,13 +35,5 @@ La commande **Std Matériau** définit le matériau des objets sélectionnés.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SetMaterial/fr

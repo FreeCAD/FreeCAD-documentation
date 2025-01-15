@@ -27,13 +27,5 @@ Polecenie **Powiększ obszar** powoduje powiększenie prostokątnego obszaru zde
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewBoxZoom/pl

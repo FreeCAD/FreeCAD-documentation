@@ -43,11 +43,6 @@ Sketch.calculateConstraintError(iconstr)
 valuta una funzione di errore di un vincolo specificato dal suo indice {{Incode|iconstr}} nello schizzo. Se nel vincolo vi è una sola funzione di errore, il valore restituito è il valore restituito firmato della funzione di errore. Se al vincolo è associata più di una funzione di errore (cioè il vincolo rimuove più di un grado di libertà), il valore restituito è la radice della media del quadrato (RMS) di tutte le funzioni di errore (sempre positivo).
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint/it

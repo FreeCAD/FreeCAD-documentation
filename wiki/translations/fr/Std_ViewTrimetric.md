@@ -30,13 +30,5 @@ Voir [Std Vue isométrique](Std_ViewIsometric/fr#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewTrimetric/fr

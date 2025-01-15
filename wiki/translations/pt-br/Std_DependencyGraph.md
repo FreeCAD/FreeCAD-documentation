@@ -195,11 +195,6 @@ Você pode salvar um gráfico de dependência:
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [3rd_Party](Category_3rd_Party.md) > Std DependencyGraph/pt-br

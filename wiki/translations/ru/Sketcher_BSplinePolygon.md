@@ -40,11 +40,6 @@ The <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:24px;"> [Sk
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/ru

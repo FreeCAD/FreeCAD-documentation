@@ -25,13 +25,5 @@ La commande **Std Zoom fenêtre** effectue un zoom avant sur une zone rectangula
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewBoxZoom/fr

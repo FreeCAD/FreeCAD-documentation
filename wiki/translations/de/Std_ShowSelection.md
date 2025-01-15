@@ -41,13 +41,5 @@ See [Std ToggleVisibility](Std_ToggleVisibility#Scripting.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ShowSelection/de

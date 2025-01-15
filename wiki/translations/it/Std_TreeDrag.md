@@ -30,13 +30,5 @@ Il comando **Avvia il trascinamento** avvia un\'operazione di trascinamento per 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeDrag/it

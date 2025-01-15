@@ -24,13 +24,5 @@ La commande **Std Plein écran principal** bascule le mode plein écran de la fe
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MainFullscreen/fr

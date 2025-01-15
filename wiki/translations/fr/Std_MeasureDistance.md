@@ -70,13 +70,5 @@ La commande **Std Mesurer une distance** crée un objet distance qui mesure et a
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MeasureDistance/fr

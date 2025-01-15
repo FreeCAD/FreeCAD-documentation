@@ -36,13 +36,5 @@ Voir [Std Basculer la visibilité](Std_ToggleVisibility/fr#Script.md)
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std HideSelection/fr

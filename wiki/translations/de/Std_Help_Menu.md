@@ -59,15 +59,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_RestartInSafeMode.svg  style="width:32px;"> [Im sicheren Modus neu starten](Std_RestartInSafeMode/de.md): Startet FreeCAD zur Fehlerbehebung neu in einem \"Lieferzustand\" (factory reset). {{Version/de|1.0}}
 
--   <img alt="" src=images/Start_Start.svg  style="width:32px;"> [Start](Start_Start.md): Öffnet die Startseite. <small>(v1.0)</small> 
-
-
-
-
-
-{{Std_Base_navi
-
-}}
+-   <img alt="" src=images/Start_Start.svg  style="width:32px;"> [Start](Start_Start.md): Öffnet die Startseite. <small>(v1.0)</small>
 
 
 

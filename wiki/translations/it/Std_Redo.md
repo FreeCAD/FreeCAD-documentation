@@ -45,13 +45,5 @@ Vedere [Annulla](Std_Undo/it#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Redo/it

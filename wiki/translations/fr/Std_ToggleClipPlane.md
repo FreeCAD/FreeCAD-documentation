@@ -46,13 +46,5 @@ La commande **Std Couper selon des plans** permet de masquer temporairement les 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleClipPlane/fr

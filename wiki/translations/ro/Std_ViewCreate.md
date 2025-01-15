@@ -56,13 +56,5 @@ Această funcționalitate vă permite să creați ferestre noi de vizualizare 3D
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewCreate/ro

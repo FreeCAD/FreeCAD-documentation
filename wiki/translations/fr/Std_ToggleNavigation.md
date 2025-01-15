@@ -49,13 +49,5 @@ Ne pas confondre cette commande avec la commande [Std Mode édition](Std_Edit/fr
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleNavigation/fr

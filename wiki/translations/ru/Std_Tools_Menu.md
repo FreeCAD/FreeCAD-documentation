@@ -83,15 +83,7 @@
 
 -   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr.md): Opens the Addon manager with which [external workbenches](External_workbenches.md), [preference packs](Preference_Packs.md) and [macros](macros.md) can be installed.
 
--   <img alt="" src=images/Std_Measure.svg  style="width:32px;"> [Measure](Std_Measure.md): Measures objects. <small>(v1.0)</small> 
-
-
-
-
-
-{{Std_Base_navi
-
-}}
+-   <img alt="" src=images/Std_Measure.svg  style="width:32px;"> [Measure](Std_Measure.md): Measures objects. <small>(v1.0)</small>
 
 
 

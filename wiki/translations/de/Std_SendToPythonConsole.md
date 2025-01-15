@@ -88,15 +88,6 @@ Abhängig von dem ausgewählten Objekt und seiner ausgewählten Teilformen, fall
 :   
     
 ```pythonlnk_shp = Part.getShape(lnk)```
-    
-
-
-
-
-
-{{Std_Base_navi
-
-}}
 
 
 

@@ -32,13 +32,5 @@ Vedere anche: [Preferenze di Sketcher](Sketcher_Preferences/it#Display.md).
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/it

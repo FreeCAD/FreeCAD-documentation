@@ -23,10 +23,5 @@ In SingleDocument mode you can switch to a different document by activating a 3D
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSingleDocument

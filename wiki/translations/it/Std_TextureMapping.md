@@ -29,13 +29,5 @@ Il comando **Mappa una trama** mappa temporaneamente una trama su tutti gli ogge
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TextureMapping/it

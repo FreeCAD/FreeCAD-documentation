@@ -35,13 +35,5 @@ The **Std Windows** command opens a dialog box with a list of [Main view area](M
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Windows/en

@@ -63,11 +63,6 @@ obj.Selectable = not obj.Selectable
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std ToggleSelectability/ru

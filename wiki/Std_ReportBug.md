@@ -20,10 +20,5 @@ Currently the command points to [<https://github.com/FreeCAD/FreeCAD/issues>](ht
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ReportBug

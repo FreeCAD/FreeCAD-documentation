@@ -906,9 +906,7 @@ For some ideas of what can be achieved with Sketcher tools, have a look at: [Ske
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}} 
+ 
 
 [分类:用户文档](Category:User_Documentation/zh-cn.md)
 

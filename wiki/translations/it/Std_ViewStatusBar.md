@@ -23,13 +23,5 @@ Il comando **Barra di stato** attiva o disattiva la visualizzazione della [Barra
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewStatusBar/it

@@ -138,13 +138,5 @@ An Image Plane object is derived from an [App GeoFeature](App_GeoFeature.md) obj
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/ko

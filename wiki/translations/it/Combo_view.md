@@ -29,11 +29,6 @@ Vedere anche: [Editor delle Preferenze](Preferences_Editor/it.md).
 La Vista combinata è disponibile se **Modifica → Preferenze... → Generale → Generale → Modalità di visualizzazione ad albero** è impostato su {{Value|Combinata}}. Se è impostato su {{Value|Indipendente}} la Vista ad albero e l\'Editor delle proprietà vengono visualizzati come pannelli separati.
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Combo view/it

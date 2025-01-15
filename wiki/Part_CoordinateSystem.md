@@ -29,10 +29,5 @@ The **Part CoordinateSystem** command creates a coordinate system object that ca
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CoordinateSystem

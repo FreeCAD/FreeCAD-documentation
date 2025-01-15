@@ -30,11 +30,6 @@ Istnieje wiele narzędzi wymagających wyboru kształtów lub obiektów. W takic
 -   Użytkownicy migrujący z innych rozwiązań CAD, którzy używają klawisza **ESC** w ramach pracy, mogą uzyskać inne wyniki w programie FreeCAD. W programie FreeCAD po naciśnięciu klawisza **ESC**, jeśli panel zadań jest w trybie gotowości, nastąpi automatyczne opuszczenie panelu zadań. Aby wyłączyć tę funkcję, zobacz [Klawisz ESC](Fine-tuning/pl#Skróty_klawiaturowe.md) oraz [ustawienia](Sketcher_Preferences/pl#Ogólne.md).
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Task panel/pl

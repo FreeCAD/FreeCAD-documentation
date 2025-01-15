@@ -98,13 +98,5 @@ Le style **Filaire ombré** remplace **Display Mode** des objets. Ce style corre
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DrawStyle/fr

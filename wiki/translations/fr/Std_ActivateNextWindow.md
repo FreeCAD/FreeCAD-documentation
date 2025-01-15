@@ -31,13 +31,5 @@ La commande **Std Suivante** active la fenêtre suivante dans la [zone de vue pr
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ActivateNextWindow/fr

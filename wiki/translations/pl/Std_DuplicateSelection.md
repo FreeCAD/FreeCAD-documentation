@@ -37,13 +37,5 @@ Zobacz [Std: Wklej](Std_Paste/pl#Ustawienia.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DuplicateSelection/pl

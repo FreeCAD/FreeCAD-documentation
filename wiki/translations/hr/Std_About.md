@@ -70,10 +70,5 @@ The Libraries tab shows a list of the external libraries used by the program, an
 
 
 
-
-{{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Common_Questions](Category_Common_Questions.md) > Std About/hr

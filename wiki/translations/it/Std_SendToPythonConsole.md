@@ -88,15 +88,6 @@ A seconda dell\'oggetto selezionato e delle sue forme secondarie selezionate, se
 :   
     
 ```pythonlnk_shp = Part.getShape(lnk)```
-    
-
-
-
-
-
-{{Std_Base_navi
-
-}}
 
 
 

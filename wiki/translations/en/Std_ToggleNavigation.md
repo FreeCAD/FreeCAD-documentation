@@ -46,13 +46,5 @@ Do not confuse this command with the [Std Edit](Std_Edit.md) command.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleNavigation/en

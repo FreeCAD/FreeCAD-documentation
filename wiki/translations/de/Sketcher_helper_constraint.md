@@ -43,11 +43,6 @@ Sketch.calculateConstraintError(iconstr)
 wertet eine Fehlerfunktion einer Randbedingung aus, die durch ihren Index {{Incode|iconstr}} in der Skizze angegeben ist. Wenn es nur eine Fehlerfunktion in der Randbedingung gibt, ist der Rückgabewert der vorzeichenbehaftete Rückgabewert der Fehlerfunktion. Wenn der Randbedingung mehr als eine Fehlerfunktion zugeordnet ist (d.h. die Randbedingung entfernt mehr als einen Freiheitsgrad), ist der Rückgabewert der Effektivwert aller Fehlerfunktionen (immer positiv).
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint/de

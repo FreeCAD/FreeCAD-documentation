@@ -36,13 +36,5 @@ Der Befehl **Std MakroDirektAusführen** Führt das Makroaus, das sich im aktive
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgMacroExecuteDirect/de

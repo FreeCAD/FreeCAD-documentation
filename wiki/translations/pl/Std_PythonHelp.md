@@ -26,13 +26,5 @@ Serwer internetowy jest oparty na module Python [pydoc](https://docs.python.org/
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PythonHelp/pl

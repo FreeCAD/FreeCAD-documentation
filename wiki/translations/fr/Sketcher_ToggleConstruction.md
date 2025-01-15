@@ -48,13 +48,5 @@ La géométrie de construction est marquée par une [couleur](Sketcher_Preferenc
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/fr

@@ -24,11 +24,6 @@ Siehe [Std VerknüpfungErstellen](Std_LinkMake/de#Anwendung.md).
 Siehe [Std VerknüpfungHerstellen](Std_LinkMake/de#Eigenschaften.md).
 
 
-{{Std_Base_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App Link/de

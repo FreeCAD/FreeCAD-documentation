@@ -33,13 +33,5 @@ Siehe [Std AnsichtNachLinksDrehen](Std_ViewRotateLeft/de#Scripting.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewRotateRight/de

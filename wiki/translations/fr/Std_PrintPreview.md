@@ -28,13 +28,5 @@ La commande **Std Aperçu avant impression** affichera un aperçu du résultat d
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PrintPreview/fr

@@ -81,11 +81,6 @@ Para crear una pirámide regular con un vértice en el lado superior, los valore
 </div>
 
 
-{{PartDesign_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveWedge/es

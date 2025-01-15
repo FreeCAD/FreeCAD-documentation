@@ -28,13 +28,5 @@ The **Std ViewFullscreen** command switches [3D views](3D_view.md) to and from f
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewFullscreen/en

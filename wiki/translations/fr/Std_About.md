@@ -81,10 +81,5 @@ L\'onglet Bibliothèques affiche une liste des bibliothèques externes utilisée
 
 
 
-
-{{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Common_Questions](Category_Common_Questions.md) > Std About/fr

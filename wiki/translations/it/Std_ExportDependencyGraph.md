@@ -26,13 +26,5 @@ Il comando **Std Esporta grafico delle dipendenze** esporta il [grafico delle di
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ExportDependencyGraph/it

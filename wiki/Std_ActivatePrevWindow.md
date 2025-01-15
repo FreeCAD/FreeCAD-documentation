@@ -26,10 +26,5 @@ The **Std ActivatePrevWindow** command activates the previous window in the [Mai
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ActivatePrevWindow

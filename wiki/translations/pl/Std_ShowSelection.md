@@ -41,13 +41,5 @@ See [Std: Przełącz widoczność](Std_ToggleVisibility/pl#Tworzenie_skryptów.m
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ShowSelection/pl

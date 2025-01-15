@@ -24,11 +24,6 @@
 Смотри [Std Создать ссылку](Std_LinkMake/ru#Properties.md).
 
 
-{{Std_Base_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App Link/ru

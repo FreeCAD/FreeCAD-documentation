@@ -64,13 +64,5 @@ Il comando **Part Filtro di selezione** può essere utilizzato per limitare la s
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SelectFilter/it

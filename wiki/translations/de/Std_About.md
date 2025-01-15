@@ -84,10 +84,5 @@ Der Reiter Bibliotheken zeigt eine Liste der externen Bibliotheken, die vom Prog
 
 
 
-
-{{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Common_Questions](Category_Common_Questions.md) > Std About/de

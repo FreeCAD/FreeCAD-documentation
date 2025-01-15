@@ -98,13 +98,5 @@ print(obj.Placement.Matrix)
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Placement/de

@@ -38,13 +38,5 @@ FreeCADGui.updateCommands()
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelBoundingBox/en

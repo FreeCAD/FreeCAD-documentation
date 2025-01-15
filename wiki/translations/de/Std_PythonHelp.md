@@ -26,13 +26,5 @@ Der Webserver basiert auf dem Python Modul [pydoc](https://docs.python.org/3.8/l
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PythonHelp/de

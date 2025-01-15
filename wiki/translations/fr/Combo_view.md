@@ -29,11 +29,6 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md).
 La vue combinée est disponible si **Édition → Préférences... → Général → Général → Mode d'affichage de l'arborescence et des propriétés** est réglé sur {{Value|Combiné}}. S\'il est défini sur {{Value|Indépendant}}, l\'arborescence et l\'éditeur de propriétés apparaissent comme des panneaux distincts.
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Combo view/fr

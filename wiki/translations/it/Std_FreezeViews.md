@@ -121,13 +121,5 @@ Per ogni vista bloccata viene aggiunta un\'opzione **Ripristina vista** con la q
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreezeViews/it

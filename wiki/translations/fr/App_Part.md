@@ -22,11 +22,6 @@ Voir [Std Part](Std_Part/fr#Utilisation.md).
 Voir [Std Part](Std_Part/fr#Propri.C3.A9t.C3.A9s.md).
 
 
-{{Std_Base_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App Part/fr

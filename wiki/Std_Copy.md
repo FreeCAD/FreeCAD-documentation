@@ -30,10 +30,5 @@ The **Std Copy** command copies objects to the Clipboard.
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Copy

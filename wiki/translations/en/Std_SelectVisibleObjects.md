@@ -17,13 +17,5 @@ The **Std SelectVisibleObjects** command selects all visible objects. Note that 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelectVisibleObjects/en

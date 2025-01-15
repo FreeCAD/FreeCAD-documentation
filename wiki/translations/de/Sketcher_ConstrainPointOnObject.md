@@ -74,13 +74,5 @@ Die Seite [Sketcher Skripterstellung](Sketcher_scripting/de.md) erklärt, wie ma
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/de

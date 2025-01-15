@@ -53,13 +53,5 @@ Siehe [Sketcher HorizontalFestlegen](Sketcher_ConstrainHorizontal/de#Skripten.md
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/de

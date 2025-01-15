@@ -33,13 +33,5 @@ Le mode Synchroniser la vue de l\'arborescence peut également être défini dan
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncView/fr

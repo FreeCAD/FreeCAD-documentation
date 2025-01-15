@@ -21,13 +21,5 @@ La commande **Std Barre d\'état** bascule l\'affichage de la [Barre d\'état](S
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewStatusBar/fr

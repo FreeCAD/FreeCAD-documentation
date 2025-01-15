@@ -36,13 +36,5 @@ La commande **Std Sélection par boîte** sélectionne des objets dans une zone 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std BoxSelection/fr

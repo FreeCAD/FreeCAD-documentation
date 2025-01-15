@@ -33,13 +33,5 @@ Der **Std DlgEinstellungen**-Befehl öffnet den [Voreinstellungseditor](Preferen
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgPreferences/de

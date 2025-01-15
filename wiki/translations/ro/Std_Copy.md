@@ -37,13 +37,5 @@ Comanda **[16px|text-top=Std Copy|link=Std Copy/fr](File:Std_Copy.png.md) [copie
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Copy/ro

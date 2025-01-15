@@ -34,13 +34,5 @@ La commande **Std Sélection précédente** restaure la sélection précédente 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelBack/fr

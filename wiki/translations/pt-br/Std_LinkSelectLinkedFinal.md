@@ -37,11 +37,6 @@ Translations:Std LinkSelectLinkedFinal/1/pt-br
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinkedFinal/pt-br

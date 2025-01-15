@@ -22,13 +22,5 @@ The **Std SelectAll** command selects all objects in the [Tree view](Tree_view.m
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelectAll/en

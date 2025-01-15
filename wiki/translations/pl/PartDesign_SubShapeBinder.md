@@ -155,13 +155,5 @@ Obiekt Łącznik kształtów podrzędnych środowiska Projekt Części wywodzi s
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/pl

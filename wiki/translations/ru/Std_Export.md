@@ -64,13 +64,5 @@ The **Std Export** command exports selected objects to a different file format. 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/ru

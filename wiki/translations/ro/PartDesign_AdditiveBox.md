@@ -79,13 +79,5 @@ Caseta poate fi editată după crearea acesteia în două moduri:
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveBox/ro

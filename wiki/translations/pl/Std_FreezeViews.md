@@ -121,13 +121,5 @@ Dla każdego zamrożonego widoku dodana jest opcja **Przywróć widok**, za pomo
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreezeViews/pl

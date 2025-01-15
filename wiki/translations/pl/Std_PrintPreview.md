@@ -32,13 +32,5 @@ Polecenie **Podgląd wydruku** wyświetli podgląd wyniku polecenia [Drukuj](Std
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PrintPreview/pl

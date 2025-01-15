@@ -48,11 +48,6 @@ Această comandă permite editarea unei schițe deja existente.
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/ro

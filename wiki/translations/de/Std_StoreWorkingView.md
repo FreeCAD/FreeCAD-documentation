@@ -45,13 +45,5 @@ FreeCADGui.runCommand("Std_StoreWorkingView", 0)
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std StoreWorkingView/de

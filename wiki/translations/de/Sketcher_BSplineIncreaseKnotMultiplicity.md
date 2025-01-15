@@ -61,13 +61,5 @@ Nach dem Erhöhen der Vielfachheit der Knoten auf 2 ergibt das Bewegen des zweit
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseKnotMultiplicity/de

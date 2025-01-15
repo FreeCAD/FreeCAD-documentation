@@ -15,10 +15,5 @@ This command does not work at this time.
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MacroStepOver

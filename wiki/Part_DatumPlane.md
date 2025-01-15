@@ -22,10 +22,5 @@ See [Part CoordinateSystem](Part_CoordinateSystem#Notes.md).
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part DatumPlane

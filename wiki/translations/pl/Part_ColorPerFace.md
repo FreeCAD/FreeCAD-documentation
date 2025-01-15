@@ -56,13 +56,5 @@ Ta strona została zaktualizowana do wersji 1.0.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ColorPerFace/pl

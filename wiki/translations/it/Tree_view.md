@@ -169,11 +169,6 @@ Indica un oggetto [congelato](Std_ToggleFreeze/it.md) che non viene ricalcolato 
 Vedere [Vista combinata](Combo_view/it#Preferenze.md).
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Tree view/it

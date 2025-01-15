@@ -29,13 +29,5 @@ The **Std DlgMacroExecuteDirect** command executes the macro in the current Macr
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgMacroExecuteDirect/en

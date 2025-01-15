@@ -36,13 +36,5 @@ Seit FreeCAD Version 0.20 wird dieser Befehl und das Hilfesystem von einem separ
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std WhatsThis/de

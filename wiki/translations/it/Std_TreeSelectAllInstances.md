@@ -25,13 +25,5 @@ Il comando **Seleziona tutte le istanze** espande la [Vista ad albero](Tree_view
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSelectAllInstances/it

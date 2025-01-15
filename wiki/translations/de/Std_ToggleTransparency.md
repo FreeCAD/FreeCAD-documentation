@@ -36,13 +36,5 @@ Der Befehl **Std TransparenzmodusUmschalten** schaltet die Transparenz von ausge
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleTransparency/de

@@ -31,13 +31,5 @@ Il comando **Vai all\'oggetto collegato più profondo** seleziona l\'**Linked Ob
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinkedFinal/it

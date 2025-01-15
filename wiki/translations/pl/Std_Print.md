@@ -40,13 +40,5 @@ Polecenie **Drukuj** jest przeznaczone głównie do drukowania stron środowiska
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Print/pl

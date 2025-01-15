@@ -20,11 +20,6 @@ See [Std LinkMake](Std_LinkMake#Usage.md).
 See [Std LinkMake](Std_LinkMake#Properties.md).
 
 
-{{Std_Base_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App Link/en

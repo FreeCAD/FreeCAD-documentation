@@ -33,13 +33,5 @@ Il comando **Prossima** attiva la finestra successiva nell\'[Area della vista pr
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ActivateNextWindow/it

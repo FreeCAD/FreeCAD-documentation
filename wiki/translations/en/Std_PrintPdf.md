@@ -30,13 +30,5 @@ The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PrintPdf/en

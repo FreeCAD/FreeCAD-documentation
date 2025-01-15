@@ -37,13 +37,5 @@ Příkaz Kopírovat je součástí kopírování objektů [Document](Document_st
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Copy/cs

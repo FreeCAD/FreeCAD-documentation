@@ -33,13 +33,5 @@ Polecenie **Utwórz nowy widok** tworzy nowy [widok przestrzenny](3D_view/pl.md)
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewCreate/pl

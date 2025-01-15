@@ -20,11 +20,6 @@ Voir [Std Créer un lien](Std_LinkMake/fr#Utilisation.md).
 Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md).
 
 
-{{Std_Base_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App Link/fr

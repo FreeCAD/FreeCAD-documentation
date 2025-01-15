@@ -65,13 +65,5 @@ Führt das Makro aus, das sich derzeit im Makro-Editor befindet.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Macro Menu/de

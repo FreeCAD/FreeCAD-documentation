@@ -41,13 +41,5 @@ Pos-OVP = [Paramètres d\'affichage](Sketcher_Preferences/fr#Général.md) de po
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/fr

@@ -33,13 +33,5 @@ Le mode Enregistrer la sélection de l\'arborescence peut également être défi
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeRecordSelection/fr

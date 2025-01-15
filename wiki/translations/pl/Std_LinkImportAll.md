@@ -33,13 +33,5 @@ Polecenie to zasadniczo uruchamia funkcję **[<img src=images/Std_LinkImport.svg
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkImportAll/pl

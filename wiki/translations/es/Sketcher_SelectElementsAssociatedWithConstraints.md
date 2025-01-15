@@ -30,13 +30,5 @@ The <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg 
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/es

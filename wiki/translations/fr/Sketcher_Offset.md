@@ -55,13 +55,5 @@ Cet outil présente certaines limitations, principalement dues à des problèmes
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Offset/fr

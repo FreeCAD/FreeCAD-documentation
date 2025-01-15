@@ -133,13 +133,5 @@ Um objeto Plano de Imagem é derivado de um objeto [App GeoFeature](App_GeoFeatu
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/pt-br

@@ -101,13 +101,5 @@ La commande **Std Mesurer** donne accès à l\'outil de mesures unifiées. Elle 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Measure/fr

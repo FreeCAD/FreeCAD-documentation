@@ -67,13 +67,5 @@ Conul poate fi editat după crearea pe două căi:
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveCone/ro

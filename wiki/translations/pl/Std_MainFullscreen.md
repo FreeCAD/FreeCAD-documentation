@@ -26,13 +26,5 @@ Polecenie **Pełny ekran** przełącza tryb pełnoekranowy okna głównego progr
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MainFullscreen/pl

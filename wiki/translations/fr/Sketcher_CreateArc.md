@@ -48,13 +48,5 @@ Dim-OVP = Paramètres d\'affichage des dimensions. {{Version/fr|1.0}}
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/fr

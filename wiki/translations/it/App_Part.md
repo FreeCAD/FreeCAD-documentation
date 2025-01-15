@@ -22,11 +22,6 @@ Vedere [Std Part](Std_Part/it#Utilizzo.md).
 Vedere [Std Part](Std_Part/it#Proprietà.md).
 
 
-{{Std_Base_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App Part/it

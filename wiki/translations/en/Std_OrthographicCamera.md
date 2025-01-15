@@ -47,13 +47,5 @@ view.getCameraType()
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std OrthographicCamera/en

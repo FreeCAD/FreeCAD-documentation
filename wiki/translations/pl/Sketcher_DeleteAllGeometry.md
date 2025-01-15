@@ -32,13 +32,5 @@ Narzędzie <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:2
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry/pl

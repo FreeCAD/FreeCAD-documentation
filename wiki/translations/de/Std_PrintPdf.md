@@ -39,13 +39,5 @@ Der Befehl **Std DruckZuPDF** ist in erster Linie zum Erstellen von [PDF](PDF/de
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PrintPdf/de

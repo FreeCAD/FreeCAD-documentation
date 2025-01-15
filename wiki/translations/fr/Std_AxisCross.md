@@ -60,13 +60,5 @@ view.hasAxisCross()
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std AxisCross/fr

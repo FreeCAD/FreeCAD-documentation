@@ -28,13 +28,5 @@ Meniul instrumentului Zoom: ![](images/ZoomMenu.png )
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewBoxZoom/ro

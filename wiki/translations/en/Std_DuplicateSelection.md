@@ -28,13 +28,5 @@ See [Std Paste](Std_Paste#Preferences.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DuplicateSelection/en

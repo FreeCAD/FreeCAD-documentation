@@ -106,8 +106,6 @@ obj = App.ActiveDocument.addObject("Sketcher::SketchObjectPython", "CustomSketch
 obj.Label = "Custom label"
 ```
 
- {{Sketcher_Tools_navi}} {{Document_objects_navi}}
-
 
 
 ---

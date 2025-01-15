@@ -34,13 +34,5 @@ The **Std DemoMode** command will continuously rotate the camera in a [3D view](
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DemoMode/en

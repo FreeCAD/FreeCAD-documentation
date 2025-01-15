@@ -23,13 +23,5 @@ La commande pointe vers [<https://forum.freecad.org>](https://forum.freecad.org)
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADForum/fr

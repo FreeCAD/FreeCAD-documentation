@@ -26,13 +26,5 @@ Il web server è basato sul modulo [pydoc](https://docs.python.org/3.8/library/p
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PythonHelp/it

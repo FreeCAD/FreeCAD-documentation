@@ -64,13 +64,5 @@ La commande **Part Filtre** peut être utilisée pour restreindre la sélection 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SelectFilter/fr

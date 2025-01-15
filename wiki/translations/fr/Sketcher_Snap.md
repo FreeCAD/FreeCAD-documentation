@@ -35,13 +35,5 @@ L\'aimantation ne fonctionne que lors de la création d\'une géométrie. Notez 
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/fr

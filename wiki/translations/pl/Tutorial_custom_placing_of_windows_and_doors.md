@@ -357,7 +357,7 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 ```
 
 
- {{Draft_Tools_navi}} {{Sketcher_Tools_navi}}
+ {{Draft_Tools_navi}}
 
 
 

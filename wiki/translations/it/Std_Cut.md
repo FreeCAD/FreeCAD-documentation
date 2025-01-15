@@ -34,13 +34,5 @@ Per tagliare altri oggetti è possibile utilizzare il comando [Std Copy](Std_Cop
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Cut/it

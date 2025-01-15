@@ -35,13 +35,5 @@ Der Befehl **Std DlgAnpassen** öffnet das Dialogfeld Benutzerdefiniert, das Zug
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgCustomize/de

@@ -54,11 +54,6 @@ See [Sketcher CreateEllipseByCenter](Sketcher_CreateEllipseByCenter#Notes.md).
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/es

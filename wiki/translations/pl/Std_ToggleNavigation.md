@@ -52,13 +52,5 @@ Nie należy mylić tego polecenia z poleceniem [Std: Edycja](Std_Edit/pl.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleNavigation/pl

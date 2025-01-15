@@ -57,11 +57,6 @@ See [Std New](Std_New#Scripting.md).
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std CloseActiveWindow/ko

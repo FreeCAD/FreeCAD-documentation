@@ -25,13 +25,5 @@ La commande pointe vers [<https://wiki.freecad.org/User_hub>](https://wiki.freec
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADUserHub/fr

@@ -32,13 +32,5 @@ Zobacz również informacje na stronie [Ustawienia](Sketcher_Preferences/pl#Wyś
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/pl

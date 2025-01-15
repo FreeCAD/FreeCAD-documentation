@@ -32,13 +32,5 @@ The **Std ViewCreate** command creates a new [3D view](3D_view.md) for the activ
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewCreate/ru

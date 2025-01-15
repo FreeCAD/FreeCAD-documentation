@@ -20,13 +20,5 @@ Currently the command points to [<https://forum.freecad.org>](https://forum.free
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADForum/en

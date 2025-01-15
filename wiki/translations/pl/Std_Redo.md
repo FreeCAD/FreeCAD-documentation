@@ -45,13 +45,5 @@ Zobacz [Std: Cofnij](Std_Undo/pl#Tworzenie_skryptów.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Redo/pl

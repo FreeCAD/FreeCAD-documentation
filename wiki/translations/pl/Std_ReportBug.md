@@ -25,13 +25,5 @@ Obecnie polecenie wskazuje na stronę [<https://github.com/FreeCAD/FreeCAD/issue
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ReportBug/pl

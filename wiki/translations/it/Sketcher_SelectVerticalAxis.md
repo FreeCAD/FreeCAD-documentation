@@ -28,13 +28,5 @@ Lo strumento <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="widt
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectVerticalAxis/it

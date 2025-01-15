@@ -27,13 +27,5 @@ Voir [Std Stéréo rouge cyan](Std_ViewIvStereoRedGreen/fr#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewIvStereoOff/fr

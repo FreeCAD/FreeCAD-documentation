@@ -84,13 +84,5 @@ Die Seite [Sketcher Skripten](Sketcher_scripting.md) erklärt die Werte, die fü
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/de

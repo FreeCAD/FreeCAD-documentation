@@ -43,11 +43,6 @@ Sketch.calculateConstraintError(iconstr)
 évalue une fonction d\'erreur d\'une contrainte spécifiée par son index {{Incode|iconstr}} dans l\'esquisse. S\'il n\'y a qu\'une seule fonction d\'erreur dans la contrainte, la valeur de retour est la valeur de retour signée de la fonction d\'erreur. S\'il y a plus d\'une fonction d\'erreur associée à la contrainte (c\'est-à-dire que la contrainte supprime plus d\'un degré de liberté), la valeur de retour est la valeur efficace de toutes les fonctions d\'erreur (toujours positive).
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint/fr

@@ -37,13 +37,5 @@ Il comando **Copia** pone gli oggetti selezionati negli \"appunti\" per un succe
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Copy/it

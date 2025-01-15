@@ -36,13 +36,5 @@ Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewHome/pl

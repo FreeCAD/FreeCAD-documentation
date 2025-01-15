@@ -38,13 +38,5 @@ Zapoznaj się z informacjami na stronie [Utwórz zaokrąglenie](Sketcher_CreateF
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePointFillet/pl

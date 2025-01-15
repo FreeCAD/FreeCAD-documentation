@@ -27,10 +27,5 @@ The **Std RestartInSafeMode** command restarts FreeCAD in a *factory reset* stat
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std RestartInSafeMode

@@ -51,13 +51,5 @@ Voir [Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr#Script.md
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/fr

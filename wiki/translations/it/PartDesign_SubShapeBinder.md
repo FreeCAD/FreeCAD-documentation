@@ -189,11 +189,6 @@ See [PartDesign ShapeBinder](PartDesign_ShapeBinder#PartDesign_SubShapeBinder_vs
 </div>
 
 
-{{PartDesign_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/it

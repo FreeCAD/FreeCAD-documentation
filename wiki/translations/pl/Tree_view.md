@@ -171,11 +171,6 @@ Wskazuje to na [zamrożony](Std_ToggleFreeze/pl.md) obiekt, który nie jest pono
 Zobacz [Widok połączony](Combo_view/pl#Ustawienia.md).
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Tree view/pl

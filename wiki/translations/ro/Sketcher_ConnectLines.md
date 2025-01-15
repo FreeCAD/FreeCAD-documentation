@@ -43,13 +43,5 @@ Selectați elementele din vizualizarea 3D sau din caseta de listă din partea st
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/ro

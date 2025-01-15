@@ -59,13 +59,5 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MeasureDistance/en

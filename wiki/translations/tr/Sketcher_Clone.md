@@ -50,13 +50,5 @@ Bir klonun, klonunun bir Eskiz Kopyası haline geldiğine dikkat edin. Bağlant�
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/tr

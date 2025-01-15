@@ -266,11 +266,6 @@ App.ActiveDocument.addObject("Part::FeaturePython",
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std Part/it

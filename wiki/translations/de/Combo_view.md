@@ -29,11 +29,6 @@ Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
 Die Combo-Ansicht steht zur Verfügung, wenn **Bearbeiten → Einstellungen... → Allgemein → Allgemein → Anzeige von Baumansicht und Eigenschaften-Ansicht** auf {{Value|Kombiniert}} eingestellt ist. Ist {{Value|Eigenständig}} eingestellt, werden Baumansicht und Eigenschaften-Ansicht als separate Fenster angezeigt.
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Combo view/de

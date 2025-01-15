@@ -186,13 +186,5 @@ Veja também: [Editor de Preferências](Preferences_Editor/pt-br.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgMacroExecute/pt-br

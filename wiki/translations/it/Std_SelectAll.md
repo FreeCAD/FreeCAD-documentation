@@ -29,13 +29,5 @@ Il comando **Seleziona tutto** permette di selezionare tutti gli elementi di un 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelectAll/it

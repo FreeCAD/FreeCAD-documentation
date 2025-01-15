@@ -30,13 +30,5 @@ Einrasten funktioniert nur während Geometrie erstellt wird. Man beachte, dass d
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/de

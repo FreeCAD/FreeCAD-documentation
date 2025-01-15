@@ -111,13 +111,5 @@ Par exemple, une [analyse FEM](FEM_Analysis/fr.md) est un objet `App::DocumentOb
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Group/fr

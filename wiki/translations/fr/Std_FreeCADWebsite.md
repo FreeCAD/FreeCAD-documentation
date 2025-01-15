@@ -23,13 +23,5 @@ Actuellement, cette commande pointe vers [<https://www.freecad.org/>](https://ww
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADWebsite/fr

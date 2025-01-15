@@ -41,13 +41,5 @@ Il comando **Visualizza rotazione oggetti** ruota continuamente la telecamera in
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DemoMode/it

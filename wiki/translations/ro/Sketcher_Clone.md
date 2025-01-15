@@ -59,13 +59,5 @@ Nu sunt adăugate extra constrâgeri pentru compartamentul clonei.
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/ro

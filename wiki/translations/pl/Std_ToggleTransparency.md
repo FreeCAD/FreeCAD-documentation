@@ -36,13 +36,5 @@ Polecenie **Włącz / wyłącz przezroczystość** przełącza przezroczystość
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleTransparency/pl

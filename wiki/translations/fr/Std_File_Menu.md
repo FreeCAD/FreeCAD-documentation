@@ -71,13 +71,5 @@ Les outils suivants sont disponibles dans ce menu :
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std File Menu/fr

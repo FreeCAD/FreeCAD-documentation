@@ -24,13 +24,5 @@ Le serveur Web est basé sur le module [pydoc](https://docs.python.org/3.8/libra
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PythonHelp/fr

@@ -475,12 +475,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 For some ideas of what can be achieved with Sketcher tools, have a look at: [Sketcher examples](Sketcher_Examples.md).
 
- <img alt="" src=images/Sketcher_ExampleHinge-01.gif  style="width:80px;"> <img alt="" src=images/Sketcher_ExampleHinge-15.png  style="width:90px;"> 
-
-
-
-
- {{Sketcher_Tools_navi}}
+ <img alt="" src=images/Sketcher_ExampleHinge-01.gif  style="width:80px;"> <img alt="" src=images/Sketcher_ExampleHinge-15.png  style="width:90px;">
 
 
 

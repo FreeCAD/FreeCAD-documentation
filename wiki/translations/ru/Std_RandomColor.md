@@ -59,11 +59,6 @@ This page has been updated for version 1.0.
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std RandomColor/ru

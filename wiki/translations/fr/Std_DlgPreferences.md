@@ -31,13 +31,5 @@ La commande **Std Préférences** ouvre le [Réglage des préférences](Preferen
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgPreferences/fr

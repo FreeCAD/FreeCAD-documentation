@@ -83,10 +83,5 @@ La scheda Librerie mostra un elenco delle librerie esterne utilizzate dal progra
 
 
 
-
-{{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Common_Questions](Category_Common_Questions.md) > Std About/it

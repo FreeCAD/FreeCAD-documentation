@@ -48,13 +48,5 @@ Der Befehl **Std Schnittebene** blendet Objekte und Teile von Objekten aus, die 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleClipPlane/de

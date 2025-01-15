@@ -35,13 +35,5 @@ Tryb Wybór wstępny w widoku drzewa można również ustawić w preferencjach: 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreePreSelection/pl

@@ -27,13 +27,5 @@ Il comando **Affianca** riorganizza le finestre nell\'[Area della vista principa
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TileWindows/it

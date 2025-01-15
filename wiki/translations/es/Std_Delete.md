@@ -64,11 +64,6 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std Delete/es

@@ -40,11 +40,6 @@ El comando **Std InspectorEscenas** abre un cuadro de diálogo que muestra una v
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std SceneInspector/es

@@ -23,13 +23,5 @@ Polecenie **Wybierz widoczne obiekty** zaznacza wszystkie widoczne obiekty. Zauw
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelectVisibleObjects/pl

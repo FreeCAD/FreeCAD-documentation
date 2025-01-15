@@ -51,13 +51,5 @@ Non confondere questo comando con il comando [Modalità modifica](Std_Edit/it.md
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleNavigation/it

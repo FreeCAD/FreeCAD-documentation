@@ -35,13 +35,5 @@ Od wersji FreeCAD 0.20 polecenie to i system pomocy są zarządzane przez oddzie
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std OnlineHelp/pl

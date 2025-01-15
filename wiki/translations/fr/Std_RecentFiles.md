@@ -35,13 +35,5 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std RecentFiles/fr

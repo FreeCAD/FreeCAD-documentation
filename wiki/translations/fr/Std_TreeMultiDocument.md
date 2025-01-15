@@ -24,13 +24,5 @@ La commande **Std Tous les documents** bascule le mode Document de la [vue en ar
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeMultiDocument/fr

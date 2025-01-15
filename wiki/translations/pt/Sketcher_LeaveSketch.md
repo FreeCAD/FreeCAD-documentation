@@ -27,11 +27,6 @@ The <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketc
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/pt

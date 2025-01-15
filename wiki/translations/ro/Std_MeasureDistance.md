@@ -94,13 +94,5 @@ Pentru mai multe posibilități de măsurare / dimensionare puteți utiliza
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MeasureDistance/ro

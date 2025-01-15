@@ -33,13 +33,5 @@ Le mode Synchroniser la sélection de l\'arborescence peut également être déf
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncSelection/fr

@@ -30,13 +30,5 @@ Polecenie **Odwzorowanie tekstury \...** tymczasowo mapuje teksturę na wszystki
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TextureMapping/pl

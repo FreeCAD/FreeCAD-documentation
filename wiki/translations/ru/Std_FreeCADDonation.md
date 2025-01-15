@@ -31,13 +31,5 @@ The **Std FreeCADDonation** command opens the FreeCAD Donate wiki page in the sy
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADDonation/ru

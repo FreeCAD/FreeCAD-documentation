@@ -41,11 +41,6 @@ If the Tree view [SyncSelection](Std_TreeSyncSelection.md) mode is off, the Tree
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std TreeSelection/ru

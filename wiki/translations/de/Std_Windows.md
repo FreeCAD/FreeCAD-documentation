@@ -43,13 +43,5 @@ Die ersten 10 Fenster im Hauptansichtsbereich sind auch im Menü **Fenster** auf
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Windows/de

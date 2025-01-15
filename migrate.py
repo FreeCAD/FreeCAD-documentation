@@ -88,7 +88,9 @@ PART_API_PAGES = ["Vertex","Edge","Wire","Face","Shell","Solid","CompSolid","Com
 # templates that are safe to remove entirely
 UNUSED_TEMPLATES = ["Userdocnavi","Powerdocnavi","Arch Tools navi","\\#translation:","clear",
                    "Part Tools navi","Draft Tools navi","UnfinishedDocu","Tutorials navi",
-                   "Arch_Tools_navi", "BIM_Tools_navi"]
+                   "Arch_Tools_navi", "BIM_Tools_navi", "Std_Base_navi", "Interface_navi",
+                   "Document_objects_navi", "Mesh_Tools_navi", "Sketcher_Tools_navi",
+                   "PartDesign_Tools_navi"]
 
 
 class MediaWiki:

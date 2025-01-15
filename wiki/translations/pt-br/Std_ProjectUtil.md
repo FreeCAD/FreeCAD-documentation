@@ -56,13 +56,5 @@ It is important to realize that the files inside a FreeCAD project file are inte
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ProjectUtil/pt-br

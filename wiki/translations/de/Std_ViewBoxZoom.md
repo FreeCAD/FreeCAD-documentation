@@ -27,13 +27,5 @@ Der Befehl **Std AnsichtRechteckauswahl** vergrößert einen vom Benutzer eingeg
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewBoxZoom/de

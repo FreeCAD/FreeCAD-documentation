@@ -35,13 +35,5 @@ Vor Verwendung dieses Befehls ist sicherzustellen, dass offensichtliche Beschrä
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/de

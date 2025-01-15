@@ -44,13 +44,5 @@ Der Befehl **Std NeustartImSicherenModus**\' startet FreeCAD zur Fehlerbehebung 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std RestartInSafeMode/de

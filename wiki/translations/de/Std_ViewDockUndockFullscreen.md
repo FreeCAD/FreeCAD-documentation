@@ -68,13 +68,5 @@ Die Menüoption **Abgedockt** koppelt die aktive [3D-Ansicht](3D_view/de.md) inn
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewDockUndockFullscreen/de

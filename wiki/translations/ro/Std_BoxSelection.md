@@ -47,13 +47,5 @@ The **Std BoxSelection** command selects objects from a user defined rectangular
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std BoxSelection/ro

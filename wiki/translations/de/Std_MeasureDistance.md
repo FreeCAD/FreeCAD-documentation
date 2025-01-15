@@ -72,13 +72,5 @@ Das Werkzeug **Std AbstendMessen** erstellt ein Distance-Objekt, das den Abstand
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MeasureDistance/de

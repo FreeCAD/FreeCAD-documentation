@@ -69,11 +69,6 @@ Each segment now has 2 control points and each knot is coincident with an additi
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree/ru

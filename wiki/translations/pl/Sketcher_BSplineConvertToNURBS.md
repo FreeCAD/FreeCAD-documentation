@@ -43,13 +43,5 @@ Upewnij się, że elementy [stopień](Sketcher_BSplineDegree/pl.md), [ramka kont
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineConvertToNURBS/pl

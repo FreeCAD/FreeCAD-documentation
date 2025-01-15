@@ -83,11 +83,6 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std MeasureDistance/ru

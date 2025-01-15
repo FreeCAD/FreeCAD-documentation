@@ -30,13 +30,5 @@ Polecenie **Przeciąganie w widoku drzewa** inicjuje operację przeciągania dla
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeDrag/pl

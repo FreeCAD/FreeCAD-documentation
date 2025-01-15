@@ -71,11 +71,6 @@ La geometría de Construcción es una importante herramienta del Croquizador. Cu
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/es

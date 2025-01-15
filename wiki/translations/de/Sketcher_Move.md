@@ -38,13 +38,5 @@ Der Befehl <img alt="" src=images/Sketcher_Move.svg  style="width:16px;"> [Sketc
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/de

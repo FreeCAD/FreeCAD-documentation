@@ -26,13 +26,5 @@ The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the sou
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinkedFinal/en

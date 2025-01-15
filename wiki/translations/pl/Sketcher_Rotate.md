@@ -52,13 +52,5 @@ Dim-OVP = Wymiarowe parametry w widoku.
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Rotate/pl

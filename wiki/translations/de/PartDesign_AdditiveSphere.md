@@ -58,13 +58,5 @@ Die Kugel kann auf zwei verschieden Wege bearbeitet werden:
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveSphere/de

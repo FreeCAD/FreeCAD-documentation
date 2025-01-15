@@ -88,15 +88,6 @@ The **Std SendToPythonConsole** command creates variables in the [Python console
 :   
     
 ```pythonlnk_shp = Part.getShape(lnk)```
-    
-
-
-
-
-
-{{Std_Base_navi
-
-}}
 
 
 

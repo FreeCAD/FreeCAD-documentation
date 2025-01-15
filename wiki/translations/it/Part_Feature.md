@@ -209,11 +209,6 @@ Se lo si desidera, l\'attributo `Label` può essere modificato in un testo più 
 -   Per impostazione predefinita, l\'`Label` è univoco, proprio come l\'`Name`. Tuttavia, questo comportamento può essere modificato nell\'[editor delle preferenze](Preferences_Editor/it.md), **Modifica → Preferenze → Generale → Documento → Consenti etichette oggetto duplicate in un documento**. Ciò significa che in generale l\'`Label` può essere ripetuto nello stesso documento; durante il test per un elemento specifico, l\'utente dovrebbe fare affidamento su `Name` anziché su `Label`.
 
 
-{{Document_objects_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/it

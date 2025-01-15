@@ -86,15 +86,6 @@ Les variables suivantes sont créées en fonction de l\'objet sélectionné et d
 :   
     
 ```pythonlnk_shp = Part.getShape(lnk)```
-    
-
-
-
-
-
-{{Std_Base_navi
-
-}}
 
 
 

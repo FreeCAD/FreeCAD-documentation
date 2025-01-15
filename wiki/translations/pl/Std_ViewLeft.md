@@ -37,13 +37,5 @@ Zobacz [Std: Widok od przodu](Std_ViewFront/pl#Tworzenie_skryptów.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewLeft/pl

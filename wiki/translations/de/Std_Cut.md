@@ -33,13 +33,5 @@ Um andere Objekte auszuschneiden, kannst der Befehl [Std Kopieren](Std_Copy/de.m
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Cut/de

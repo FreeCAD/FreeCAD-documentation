@@ -26,13 +26,5 @@ Polecenie **Eksportuj wykres zależności** eksportuje [graf zależności](Std_D
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ExportDependencyGraph/pl

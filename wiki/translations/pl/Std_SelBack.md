@@ -36,13 +36,5 @@ Polecenie **Przywróć wybór** przywraca poprzedni zarejestrowany wybór z [Wid
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelBack/pl

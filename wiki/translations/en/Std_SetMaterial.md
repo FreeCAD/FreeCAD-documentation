@@ -32,13 +32,5 @@ The **Std SetMaterial** command sets the material of selected objects.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SetMaterial/en

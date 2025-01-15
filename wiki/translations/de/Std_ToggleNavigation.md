@@ -51,13 +51,5 @@ Nicht mit dem Befehl [Std Bearbeiten](Std_Edit/de.md) verwechseln.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleNavigation/de

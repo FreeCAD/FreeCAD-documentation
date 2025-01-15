@@ -45,11 +45,6 @@ The tool will connect the elements in the order of their selection, so make sure
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/ru

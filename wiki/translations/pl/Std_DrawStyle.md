@@ -102,13 +102,5 @@ Styl **Płaskie linie** zastępuje styl **Tryb wyświetlania** obiektów. Ten st
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DrawStyle/pl

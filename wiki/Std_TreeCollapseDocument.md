@@ -21,10 +21,5 @@ The **Std TreeCollapseDocument** command switches the [Tree view](Tree_view.md) 
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeCollapseDocument

@@ -44,13 +44,5 @@ I vincoli dimensionali che esistono prima della funzione di copia rimangono coll
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/it

@@ -44,13 +44,5 @@ Construction geometry is marked with a dedicated [color](Sketcher_Preferences#Ap
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/sv

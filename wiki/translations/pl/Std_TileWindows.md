@@ -27,13 +27,5 @@ Polecenie **Sąsiadująco** zmienia układ okien w [Głównym obszarze widoku](M
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TileWindows/pl

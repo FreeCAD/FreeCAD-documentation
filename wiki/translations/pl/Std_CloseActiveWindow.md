@@ -49,13 +49,5 @@ Zobacz [Std: Nowy](Std_New/pl#Tworzenie_skryptów.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std CloseActiveWindow/pl

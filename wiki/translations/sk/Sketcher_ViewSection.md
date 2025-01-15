@@ -54,11 +54,6 @@ Tento príkaz môžete spustiť viacerými spôsobmi:
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/sk

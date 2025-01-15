@@ -41,11 +41,6 @@ Seleziona gli elementi dello schizzo che sono associati a determinati vincoli
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsAssociatedWithConstraints/it

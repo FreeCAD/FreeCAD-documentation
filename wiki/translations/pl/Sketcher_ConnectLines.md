@@ -35,13 +35,5 @@ Przed użyciem tego polecenia upewnij się, że oczywiste wiązania *(poziome, p
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/pl

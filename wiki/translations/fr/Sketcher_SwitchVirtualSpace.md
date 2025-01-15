@@ -46,13 +46,5 @@ Une esquisse possède deux espaces virtuels qui peuvent contenir des contraintes
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/fr

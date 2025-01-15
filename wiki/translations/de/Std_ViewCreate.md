@@ -32,13 +32,5 @@ Der Befehl **Std Neue Ansicht** erstellt eine neue [3D-Ansicht für](3D_view/de.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewCreate/de

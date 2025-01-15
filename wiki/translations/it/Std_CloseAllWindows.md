@@ -45,13 +45,5 @@ Vedere [Nuovo](Std_New/it#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std CloseAllWindows/it

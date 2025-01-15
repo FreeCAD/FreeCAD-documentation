@@ -36,13 +36,5 @@ Polecenie **Zaznacz obszar** wybiera obiekty z prostokątnego obszaru zdefiniowa
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std BoxSelection/pl

@@ -36,13 +36,5 @@ Polecenie **Załaduj obraz** otwiera obraz w nowej karcie w [głównego obszaru 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewLoadImage/pl

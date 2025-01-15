@@ -58,11 +58,6 @@ If you decrease the multiplicity of a knot to zero, the knot vanishes. Mathemati
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseKnotMultiplicity/it

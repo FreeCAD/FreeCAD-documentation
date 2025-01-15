@@ -39,13 +39,5 @@ Wird die Vielfachheit eines Knotens auf null reduziert, wird der Knoten entfernt
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseKnotMultiplicity/de

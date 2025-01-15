@@ -19,13 +19,5 @@ Consente di ingrandire l\'area di una casella rettangolare nella [vista 3D](3D_v
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewBoxZoom/it

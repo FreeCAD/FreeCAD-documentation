@@ -63,13 +63,5 @@ view.getStereoType()
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewIvStereoRedGreen/ru

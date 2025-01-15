@@ -27,13 +27,5 @@ Polecenie **Kaskadowo** zmienia układ okien w [Głównym obszarze widoku](Main_
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std CascadeWindows/pl

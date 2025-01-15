@@ -110,13 +110,5 @@ Na przykład [Analiza MES](FEM_Analysis/pl.md) jest obiektem `App::DocumentObjec
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Group/pl

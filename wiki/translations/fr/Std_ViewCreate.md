@@ -28,13 +28,5 @@ La commande **Std Créer une nouvelle vue‏‎** crée une nouvelle [vue 3D](3D
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewCreate/fr

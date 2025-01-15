@@ -49,13 +49,5 @@ The **Part SelectFilter** command can be used to restrict selection in the [3D v
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SelectFilter/en

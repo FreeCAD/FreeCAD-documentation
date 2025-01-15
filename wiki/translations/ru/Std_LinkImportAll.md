@@ -44,11 +44,6 @@ This command essentially runs **[<img src=images/Std_LinkImport.svg style="width
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std LinkImportAll/ru

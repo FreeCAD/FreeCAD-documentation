@@ -170,11 +170,6 @@ Dieser zeigt ein [eingefrorenes](Std_ToggleFreeze/de.md) Objekt an, das nicht ne
 Siehe [Combo-Ansicht](Combo_view/de#Einstellungen.md).
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Tree view/de

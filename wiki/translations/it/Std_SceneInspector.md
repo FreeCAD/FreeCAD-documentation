@@ -26,13 +26,5 @@ Il comando **Ispettore di scena** apre una finestra di dialogo che mostra una pa
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SceneInspector/it

@@ -35,13 +35,5 @@ L\'aggancio funziona solo durante la creazione della geometria. Tenere presente 
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/it

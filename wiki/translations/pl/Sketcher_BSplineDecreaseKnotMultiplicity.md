@@ -39,13 +39,5 @@ Zmniejszenie krotności węzła do zera powoduje jego zniknięcie. W sensie mate
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseKnotMultiplicity/pl

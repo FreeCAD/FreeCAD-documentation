@@ -50,11 +50,6 @@ The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std PrintPdf/ru

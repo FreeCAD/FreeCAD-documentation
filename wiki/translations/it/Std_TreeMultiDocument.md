@@ -26,13 +26,5 @@ Il comando **Multi documento** imposta DocumentMode della [vista ad albero](Tree
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeMultiDocument/it

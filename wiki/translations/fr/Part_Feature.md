@@ -209,11 +209,6 @@ Si vous le souhaitez, l\'attribut `Label` peut être remplacé par un texte plus
 -   Par défaut, `Label` est unique, tout comme `Name`. Ce comportement peut être modifié dans [Réglage des préférences](Preferences_Editor/fr.md), **Édition → Préférences → Général → Document → Autoriser la duplication des étiquettes dans un document**. Cela signifie qu\'en général, `Label` peut être répété dans le même document. Lors du test d\'un élément spécifique, l\'utilisateur doit s\'appuyer sur `Name` plutôt que sur `Label`.
 
 
-{{Document_objects_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/fr

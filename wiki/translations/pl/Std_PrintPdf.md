@@ -39,13 +39,5 @@ Polecenie **Std PrintPdf** jest przeznaczone głównie do tworzenia plików [PDF
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PrintPdf/pl

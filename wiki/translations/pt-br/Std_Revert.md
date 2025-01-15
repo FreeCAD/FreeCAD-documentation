@@ -22,13 +22,5 @@ The **Std Revert** command closes the active document and reopens the last saved
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Revert/pt-br

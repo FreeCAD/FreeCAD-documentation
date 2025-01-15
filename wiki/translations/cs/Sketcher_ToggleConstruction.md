@@ -71,11 +71,6 @@ Konstrukční mód je důležitý nástroj Náčrtu. Při použití náčrtu ve 
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/cs

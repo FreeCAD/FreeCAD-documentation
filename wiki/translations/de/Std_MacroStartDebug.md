@@ -17,13 +17,5 @@ Dieser Befehl funktioniert zur Zeit nicht.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MacroStartDebug/de

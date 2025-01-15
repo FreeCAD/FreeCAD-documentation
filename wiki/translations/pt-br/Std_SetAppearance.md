@@ -60,13 +60,5 @@ This page has been updated for version 1.0.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SetAppearance/pt-br

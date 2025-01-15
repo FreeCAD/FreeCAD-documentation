@@ -31,13 +31,5 @@ Narzędzie <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:24px;"> 
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ArcOverlay/pl

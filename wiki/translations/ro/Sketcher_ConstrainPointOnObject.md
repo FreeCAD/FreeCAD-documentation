@@ -103,13 +103,5 @@ Pentru a identifica numărul care are indică liniile și punctele? Vă rog să 
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/ro

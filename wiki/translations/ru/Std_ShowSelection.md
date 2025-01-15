@@ -51,11 +51,6 @@ See [Std ToggleVisibility](Std_ToggleVisibility#Scripting.md).
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std ShowSelection/ru

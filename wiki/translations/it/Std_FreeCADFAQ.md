@@ -25,13 +25,5 @@ Attualmente il comando punta a [<https://wiki.freecad.org/Frequently_asked_quest
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADFAQ/it

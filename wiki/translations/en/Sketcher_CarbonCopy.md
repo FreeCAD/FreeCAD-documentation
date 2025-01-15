@@ -37,13 +37,5 @@ Dimensional constraints which exist before the copy function remain linked to th
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/en

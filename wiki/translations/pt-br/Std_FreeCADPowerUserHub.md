@@ -20,13 +20,5 @@ Currently the command points to [<https://wiki.freecad.org/Power_users_hub>](htt
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADPowerUserHub/pt-br

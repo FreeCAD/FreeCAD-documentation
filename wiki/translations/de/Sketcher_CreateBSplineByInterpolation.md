@@ -43,13 +43,5 @@ Siehe [Sketcher B-SplineErstellen](Sketcher_CreateBSpline/de#Einschränkungen.md
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSplineByInterpolation/de

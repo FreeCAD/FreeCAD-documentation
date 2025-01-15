@@ -31,13 +31,5 @@ Jeżeli tryb [Synchronizacja wyboru](Std_TreeSyncSelection/pl.md) widoku drzewa 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSelection/pl

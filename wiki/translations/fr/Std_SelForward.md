@@ -36,13 +36,5 @@ La commande **Std Sélection suivante** restaure la sélection suivante enregist
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelForward/fr

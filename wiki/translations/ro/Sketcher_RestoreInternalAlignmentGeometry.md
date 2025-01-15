@@ -51,13 +51,5 @@ Dacă există sloturi de aliniere libere pentru elementul selectat, se creează 
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/ro

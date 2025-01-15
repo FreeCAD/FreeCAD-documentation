@@ -54,13 +54,5 @@ Le Cylindre peut être édité après sa création de deux façons :
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCylinder/fr

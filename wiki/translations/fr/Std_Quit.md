@@ -32,13 +32,5 @@ La commande **Std Quitter** ferme l\'application FreeCAD et enregistre éventuel
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Quit/fr

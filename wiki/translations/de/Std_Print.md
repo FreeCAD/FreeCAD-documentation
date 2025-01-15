@@ -38,13 +38,5 @@ Die **Drucken**-Anweisung ist in erster Linie zum Drucken von [TechDraw Arbeitsb
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Print/de

@@ -67,11 +67,6 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std ToggleClipPlane/ru

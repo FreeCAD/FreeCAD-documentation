@@ -29,11 +29,6 @@ Zobacz też: [Edytor preferencji](Preferences_Editor/pl.md).
 Widok połączony jest dostępny jeśli **Edycja → Preferencje... → Ogólne → Ogólne → Tryb widoku drzewa** jest ustawiony na {{Value|Połączony}}. Jeśli jest ustawiony na {{Value|Niezależny}} to widok drzewa i edytor właściwości pojawiają się jako osobne panele.
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Combo view/pl

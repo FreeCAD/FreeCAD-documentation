@@ -176,13 +176,5 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainAngle/ro

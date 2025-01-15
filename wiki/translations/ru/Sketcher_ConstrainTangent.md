@@ -215,13 +215,5 @@ Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoid
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainTangent/ru

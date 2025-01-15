@@ -33,13 +33,5 @@ Le mode Présélection de l\'arborescence peut également être défini dans les
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreePreSelection/fr

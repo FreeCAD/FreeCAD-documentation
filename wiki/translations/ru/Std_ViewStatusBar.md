@@ -30,11 +30,6 @@ The **Std ViewStatusBar** command toggles the display of the [Status bar](Status
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std ViewStatusBar/ru

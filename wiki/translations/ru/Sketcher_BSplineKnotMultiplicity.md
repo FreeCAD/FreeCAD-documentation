@@ -40,11 +40,6 @@ The <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:24
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/ru

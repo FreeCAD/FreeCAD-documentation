@@ -115,13 +115,5 @@ Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat ei
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/de

@@ -35,13 +35,5 @@ A partire dalla versione 0.20 di FreeCAD questo comando e il sistema di Aiuto so
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std OnlineHelp/it

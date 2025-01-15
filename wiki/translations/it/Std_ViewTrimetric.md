@@ -32,13 +32,5 @@ Vedere [Assonometria isometrica](Std_ViewIsometric/it#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewTrimetric/it

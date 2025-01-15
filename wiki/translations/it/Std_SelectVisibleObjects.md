@@ -22,13 +22,5 @@ Il comando **Seleziona gli oggetti visibili** seleziona tutti gli oggetti visibi
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelectVisibleObjects/it

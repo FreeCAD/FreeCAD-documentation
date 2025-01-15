@@ -67,13 +67,5 @@ Polecenie **Przelicznik jednostek** otwiera okno dialogowe Przelicznika jednoste
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std UnitsCalculator/pl

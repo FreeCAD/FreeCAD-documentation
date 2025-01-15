@@ -102,13 +102,5 @@ Lo stile **Facce piene** sovrascrive la proprietà **Display Mode** degli oggett
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DrawStyle/it

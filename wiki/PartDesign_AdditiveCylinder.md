@@ -45,12 +45,7 @@ The Cylinder can be edited after its creation in two ways:
 
 -    **First Angle**: angle in first direction. <small>(v0.20)</small> 
 
--    **Second Angle**: angle in second direction. <small>(v0.20)</small> 
-
-
-
-
- {{PartDesign_Tools_navi}}
+-    **Second Angle**: angle in second direction. <small>(v0.20)</small>
 
 
 

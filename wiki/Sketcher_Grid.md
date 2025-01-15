@@ -28,10 +28,5 @@ See also: [Sketcher Preferences](Sketcher_Preferences#Grid.md).
 
 
 
-
- {{Sketcher_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Grid

@@ -37,13 +37,5 @@ Vedere [Vista frontale](Std_ViewFront/it#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewRear/it

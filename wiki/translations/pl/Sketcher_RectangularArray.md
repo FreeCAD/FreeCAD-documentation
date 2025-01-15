@@ -47,13 +47,5 @@ Narzędzie <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/pl

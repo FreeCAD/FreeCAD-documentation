@@ -40,8 +40,6 @@ Sketch.calculateConstraintError(iconstr)
 
 evaluates an error function of a constraint specified by its index {{Incode|iconstr}} in the sketch. If there is only one error function in the constraint, the return value is the signed return value of the error function. If there is more than one error function associated with the constraint (i.e. the constraint removes more than one degree of freedom), the return value is the RMS of all the error functions (always positive).
 
- {{Sketcher_Tools_navi}}
-
 
 
 ---

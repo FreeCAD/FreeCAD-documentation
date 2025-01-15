@@ -63,13 +63,5 @@ W tym menu dostępne są następujące narzędzia:
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Help Menu/pl

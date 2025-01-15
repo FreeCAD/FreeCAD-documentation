@@ -36,13 +36,5 @@ Der Befehl **Std AnsichtBildLaden** öffnet ein Bild in einem neuen Reiter im [H
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewLoadImage/de

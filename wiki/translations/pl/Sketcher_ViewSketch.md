@@ -28,13 +28,5 @@ Zobacz również informacje na stronie [Wyświetlanie](Sketcher_Preferences/pl#W
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/pl

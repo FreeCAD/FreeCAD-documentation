@@ -31,13 +31,5 @@ Falls der Baumansicht [Sync-Auswahl](Std_TreeSyncSelection/de.md)-Modus ausgesch
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSelection/de

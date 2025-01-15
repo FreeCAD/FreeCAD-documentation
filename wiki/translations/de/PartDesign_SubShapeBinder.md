@@ -146,13 +146,5 @@ Ein PartDesign-Teilformbinder (Binder-Objekt) ist von einem [Part-Formelement](P
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/de

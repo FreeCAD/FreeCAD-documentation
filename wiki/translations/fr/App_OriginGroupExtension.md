@@ -17,11 +17,6 @@ Les axes et les plans sont des objets de type `App::Line` et `App::Plane` respec
 *Diagramme simplifié des relations entre les objets principaux du programme. Deux d'entre eux ont un objet Origine pour contrôler le placement des objets regroupés sous eux.*
 
 
-{{Document_objects_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App OriginGroupExtension/fr

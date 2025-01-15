@@ -30,11 +30,6 @@ Es gibt viele Werkzeuge, die die Auswahl von Formen oder Objekten erfordern. In 
 -   Benutzer, die von anderen CAD-Anwendungen umsteigen, die die **ESC**-Taste als Teil ihres Arbeitsablaufs verwenden, können in FreeCAD andere Ergebnisse erhalten. Wenn die **ESC**-Taste in FreeCAD gedrückt wird, wird das Aufgaben-Fenster geschlossen, das im Fokus liegt. Um diese Funktion zu deaktivieren, siehe [Feinabstimmung](Fine-tuning/de#Esc-Taste.md) und [Sketcher Voreinstellungen](Sketcher_Preferences/de#Allgemein.md).
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Task panel/de

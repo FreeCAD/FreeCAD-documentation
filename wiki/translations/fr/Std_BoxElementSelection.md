@@ -36,13 +36,5 @@ Remarquez que si un objet entier se trouve à l\'intérieur du rectangle, c\'est
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std BoxElementSelection/fr

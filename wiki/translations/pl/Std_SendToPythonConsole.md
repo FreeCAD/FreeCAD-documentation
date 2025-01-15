@@ -88,15 +88,6 @@ W zależności od wybranego obiektu i jego wybranych kształtów podrzędnych, j
 :   
     
 ```pythonlnk_shp = Part.getShape(lnk)```
-    
-
-
-
-
-
-{{Std_Base_navi
-
-}}
 
 
 

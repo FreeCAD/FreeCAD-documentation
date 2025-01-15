@@ -62,13 +62,5 @@ obj.Visibility = not obj.Visibility
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleVisibility/fr

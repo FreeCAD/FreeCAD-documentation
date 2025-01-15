@@ -28,13 +28,5 @@ W trybie pojedynczego dokumentu możesz przełączyć się na inny dokument, akt
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSingleDocument/pl

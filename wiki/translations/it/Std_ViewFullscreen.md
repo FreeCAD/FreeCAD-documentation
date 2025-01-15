@@ -35,13 +35,5 @@ Il comando **Vista 3D a schermo intero** commuta la [Vista 3D](3D_view/it.md) da
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewFullscreen/it

@@ -109,13 +109,5 @@ Il comando **Misurare** dà accesso al Unified Measurement Facility. Esso ha sos
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Measure/it

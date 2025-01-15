@@ -63,13 +63,5 @@ La commande **Std Convertisseur d\'unités** ouvre le convertisseur d\'unités. 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std UnitsCalculator/fr

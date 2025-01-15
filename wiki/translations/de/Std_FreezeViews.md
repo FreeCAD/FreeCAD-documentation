@@ -121,13 +121,5 @@ For each frozen view a **Restore view** option is added with which it can be res
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreezeViews/de

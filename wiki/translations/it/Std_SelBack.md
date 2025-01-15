@@ -36,13 +36,5 @@ Il comando **Selezione precedente** ripristina la selezione [Vista ad albero](Tr
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelBack/it

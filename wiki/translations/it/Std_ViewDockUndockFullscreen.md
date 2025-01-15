@@ -68,13 +68,5 @@ L\'opzione di menu **Sganciata** sgancia la [Vista 3D](3D_view/it.md) attiva dal
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewDockUndockFullscreen/it

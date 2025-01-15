@@ -30,11 +30,6 @@ Esistono molti strumenti che richiedono la selezione di forme o oggetti. In tali
 -   Gli utenti che migrano da altre soluzioni CAD che utilizzano il tasto **ESC** come parte del loro flusso di lavoro potrebbero ottenere risultati diversi in FreeCAD. Quando si preme **ESC** in FreeCAD, il Pannello delle azioni che ha il focus si chiuderà. Per disabilitare questa funzionalità, consultare [Ottimizzare l\'installazione](Fine-tuning/it#Escape_key.md) e [Preferenze di Sketcher](Sketcher_Preferences/it#Generale.md).
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Task panel/it

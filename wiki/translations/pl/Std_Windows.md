@@ -44,13 +44,5 @@ Polecenie **Okna** otwiera okno dialogowe z listą okien [Głównego obszaru wid
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Windows/pl

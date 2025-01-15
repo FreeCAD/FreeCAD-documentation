@@ -37,13 +37,5 @@ Il comando **Materiale** imposta il materiale degli oggetti selezionati.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SetMaterial/it

@@ -26,13 +26,5 @@ En mode Document unique, vous pouvez basculer vers un autre document en activant
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSingleDocument/fr

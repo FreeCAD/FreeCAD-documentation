@@ -33,13 +33,5 @@ Vedere [Ruota la vista a sinistra](Std_ViewRotateLeft/it#Script.md)
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewRotateRight/it

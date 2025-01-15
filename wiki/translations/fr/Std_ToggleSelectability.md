@@ -46,13 +46,5 @@ obj.Selectable = not obj.Selectable
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleSelectability/fr

@@ -96,8 +96,6 @@ FreeCAD распространяется под лицензией [GNU Lesser G
 
 </div>
 
-{{Std_Base_navi}}
-
 
 
 ---

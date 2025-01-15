@@ -48,13 +48,5 @@ Pentru mai multe informații despre modul de selectare, puteți consulta și pag
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelectAll/ro

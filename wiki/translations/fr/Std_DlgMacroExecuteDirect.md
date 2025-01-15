@@ -34,13 +34,5 @@ La commande **Std Exécuter la macro dans l\'éditeur** exécute la macro dans l
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgMacroExecuteDirect/fr

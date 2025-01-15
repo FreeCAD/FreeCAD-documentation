@@ -37,13 +37,5 @@ Należy pamiętać, że szkic może również zawierać nadmiarowe więzy, jeśl
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/pl

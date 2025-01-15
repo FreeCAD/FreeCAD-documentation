@@ -37,13 +37,5 @@ Please note that a sketch can also have redundant constraints if one of the othe
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints/pt-br

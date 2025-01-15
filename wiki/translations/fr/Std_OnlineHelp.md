@@ -33,13 +33,5 @@ Depuis la version 0.20 de FreeCAD, cette commande et le système d\'aide sont g�
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std OnlineHelp/fr

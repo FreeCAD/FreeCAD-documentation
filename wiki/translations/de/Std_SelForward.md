@@ -36,13 +36,5 @@ Der Befehl **Std AuswahlVorwärts** stellt die nächste aufgezeichnete Auswahl i
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelForward/de

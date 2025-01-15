@@ -35,13 +35,5 @@ Przyciąganie działa tylko podczas tworzenia geometrii. Należy pamiętać, że
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/pl

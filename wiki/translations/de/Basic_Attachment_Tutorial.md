@@ -301,11 +301,6 @@ Happy Attaching!
 [Top](#Top.md)
 
 
-{{PartDesign_Tools_navi
-
-}} {{Sketcher_Tools_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Basic Attachment Tutorial/de

@@ -36,13 +36,5 @@ Il comando **Esci** chiude l\'applicazione FreeCAD e facoltativamente salva i do
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Quit/it

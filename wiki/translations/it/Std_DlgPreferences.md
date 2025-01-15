@@ -33,13 +33,5 @@ Il comando **Preferenze\...** apre l\'[editor delle preferenze](Preferences_Edit
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgPreferences/it

@@ -66,13 +66,5 @@ Deschide caseta de dialog a calculatorului unității, care permite transformare
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std UnitsCalculator/ro

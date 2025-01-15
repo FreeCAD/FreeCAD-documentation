@@ -25,13 +25,5 @@ La commande **Std Sélectionner toutes les instances** développe la [vue en arb
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSelectAllInstances/fr

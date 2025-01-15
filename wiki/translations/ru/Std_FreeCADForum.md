@@ -25,13 +25,5 @@ The **Std FreeCADForum** command opens the FreeCAD forum website in the system\'
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADForum/ru

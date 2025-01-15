@@ -26,13 +26,5 @@ Il comando **Comprimi/espandi** imposta DocumentMode della [vista ad albero](Tre
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeCollapseDocument/it

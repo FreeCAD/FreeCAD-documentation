@@ -49,13 +49,5 @@ Eine Skizze besitzt zwei virtuelle Bereiche, die Randbedingungen enthalten könn
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/de

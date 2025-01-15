@@ -42,13 +42,5 @@ Das Werkzeug <img alt="" src=images/Sketcher_BSplineConvertToNURBS.svg  style="w
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineConvertToNURBS/de

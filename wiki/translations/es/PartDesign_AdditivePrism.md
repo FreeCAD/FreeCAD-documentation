@@ -87,11 +87,6 @@ Tras su creación, el Prisma puede ser editado de dos maneras:
 </div>
 
 
-{{PartDesign_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/es

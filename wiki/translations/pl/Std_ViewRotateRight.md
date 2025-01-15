@@ -33,13 +33,5 @@ Zobacz [Std: Odwróć widok w lewo ](Std_ViewRotateLeft/pl#Tworzenie_skryptów.m
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewRotateRight/pl

@@ -96,11 +96,6 @@ FreeCADGui.ActiveDocument.resetEdit()
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std Edit/ko

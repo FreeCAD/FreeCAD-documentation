@@ -49,13 +49,5 @@ La commande **Std Exporter** exporte les objets sélectionnés vers un format de
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/fr

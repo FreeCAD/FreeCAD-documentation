@@ -30,13 +30,5 @@ Polecenie **Wybierz powiązane łącza** wybiera **Powiązany obiekt**, będący
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinked/pl

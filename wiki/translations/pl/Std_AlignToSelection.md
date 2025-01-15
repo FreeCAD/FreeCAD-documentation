@@ -30,13 +30,5 @@ Polecenie **Std: Wyrównaj do zaznaczenia** kieruję kamerę w aktywnym [widoku 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std AlignToSelection/pl

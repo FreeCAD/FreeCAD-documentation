@@ -51,11 +51,6 @@ The <img alt="" src=images/Sketcher_BSplineConvertToNURBS.svg  style="width:24px
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineConvertToNURBS/ru

@@ -23,13 +23,5 @@ La commande pointe vers [<https://wiki.freecad.org/Frequently_asked_questions>](
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADFAQ/fr

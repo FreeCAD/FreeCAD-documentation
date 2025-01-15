@@ -148,8 +148,6 @@ obj = App.ActiveDocument.addObject("Mesh::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 
- {{Mesh_Tools_navi}} {{Document_objects_navi}}
-
 
 
 ---

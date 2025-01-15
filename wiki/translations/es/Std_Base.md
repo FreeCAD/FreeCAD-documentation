@@ -140,11 +140,6 @@ El menú estándar se compone de 7 submenús. Cada submenú tiene una página de
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/es

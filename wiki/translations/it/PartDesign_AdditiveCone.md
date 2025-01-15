@@ -75,11 +75,6 @@ Dopo la sua creazione il cono può essere modificato in due modi:
 </div>
 
 
-{{PartDesign_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveCone/it

@@ -31,13 +31,5 @@ Der Befehl **Std ZumLetztenVerknüpftenObjektGehen** wählt die {{PropertyData/d
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinkedFinal/de

@@ -29,13 +29,5 @@ La commande **Std Objet lié le plus profond** sélectionne **Linked Object**, l
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinkedFinal/fr

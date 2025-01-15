@@ -26,13 +26,5 @@ Polecenie **Wiele dokumentów w widoku drzewa** przełącza tryb widoczności do
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeMultiDocument/pl

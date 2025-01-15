@@ -21,8 +21,6 @@ See [Std Part](Std_Part#Usage.md).
 
 See [Std Part](Std_Part#Properties.md).
 
- {{Std_Base_navi}} {{Document_objects_navi}}
-
 
 
 ---

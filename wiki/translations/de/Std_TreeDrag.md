@@ -30,13 +30,5 @@ Der Befehl **Std TreeDrag** startet das Ziehen von ausgewählten Objekten in der
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeDrag/de

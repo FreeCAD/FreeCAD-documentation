@@ -29,13 +29,5 @@ Im Falle von deckungsgleichen Objekten gibt die Rendering-Reihenfolge vor, welch
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RenderingOrder/de

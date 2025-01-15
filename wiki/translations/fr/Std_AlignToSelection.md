@@ -28,13 +28,5 @@ La commande **Std Aligner sur la sélection** pointe la caméra dans la [vue 3D]
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std AlignToSelection/fr

@@ -72,13 +72,5 @@ Polecenie **Wymiarowanie odległości** tworzy obiekt odległość, który mierz
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MeasureDistance/pl

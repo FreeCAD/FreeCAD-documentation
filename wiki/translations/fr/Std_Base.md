@@ -113,13 +113,5 @@ Le menu standard est composé de 7 sous-menus. Chaque sous-menu a une page dédi
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/fr

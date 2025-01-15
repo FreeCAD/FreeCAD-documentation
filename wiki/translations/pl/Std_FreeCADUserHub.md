@@ -26,13 +26,5 @@ Obecnie polecenie wskazuje na [<https://wiki.freecad.org/User_hub>](https://wiki
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADUserHub/pl

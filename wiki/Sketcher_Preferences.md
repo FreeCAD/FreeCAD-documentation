@@ -360,10 +360,5 @@ See [forum topic](https://forum.freecad.org/viewtopic.php?t=70975&start=10).
 
 
 
-
- {{Sketcher_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences

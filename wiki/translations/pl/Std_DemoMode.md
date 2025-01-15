@@ -41,13 +41,5 @@ Polecenie **Widok obrotowy** powoduje ciągły obrót ujęcia widoku w oknie [wi
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DemoMode/pl

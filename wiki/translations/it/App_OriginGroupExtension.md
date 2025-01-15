@@ -17,11 +17,6 @@ Gli assi e i piani sono oggetti di tipo `App::Line` e `App::Plane` rispettivamen
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. Due di essi hanno un oggetto Origin per controllare il posizionamento degli oggetti raggruppati sotto di essi.*
 
 
-{{Document_objects_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App OriginGroupExtension/it

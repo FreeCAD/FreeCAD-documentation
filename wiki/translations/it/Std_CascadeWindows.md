@@ -27,13 +27,5 @@ Il comando **A cascata** riorganizza le finestre nell\'[Area della vista princip
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std CascadeWindows/it

@@ -30,13 +30,5 @@ Il comando **Seleziona tutti i collegamenti** seleziona tutti gli oggetti [App L
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectAllLinks/it

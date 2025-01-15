@@ -40,13 +40,5 @@ Per esempi di scripting vedere [Nuovo](Std_New/it#Scripting.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Open/it

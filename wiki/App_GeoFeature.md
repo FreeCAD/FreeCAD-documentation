@@ -138,8 +138,6 @@ obj = App.ActiveDocument.addObject("App::GeometryPython", "Name")
 obj.Label = "Custom label"
 ```
 
- {{Document_objects_navi}}
-
 
 
 ---

@@ -30,13 +30,5 @@ See [Std ViewFront](Std_ViewFront#Scripting.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewLeft/en

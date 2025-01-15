@@ -34,13 +34,5 @@ Cette commande exécute essentiellement **[<img src=images/Std_LinkImport.svg st
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkImportAll/fr

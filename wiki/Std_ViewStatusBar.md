@@ -18,10 +18,5 @@ The **Std ViewStatusBar** command toggles the display of the [Status bar](Status
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewStatusBar

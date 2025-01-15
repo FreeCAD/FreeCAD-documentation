@@ -42,13 +42,5 @@ Voir [Std Vue orthographique](Std_OrthographicCamera/fr#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PerspectiveCamera/fr

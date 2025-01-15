@@ -29,13 +29,5 @@ The **Std LinkSelectAllLinks** command selects all [App Link](App_Link.md) objec
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectAllLinks/de

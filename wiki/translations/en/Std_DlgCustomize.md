@@ -30,13 +30,5 @@ The **Std DlgCustomize** command opens the Customize dialog box giving access to
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgCustomize/en

@@ -26,13 +26,5 @@ Der Befehl **Std BaumMehrfachdokument** ändert den Dokument-Modus der [Baumansi
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeMultiDocument/de

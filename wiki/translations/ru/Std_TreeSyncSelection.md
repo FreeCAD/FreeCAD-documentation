@@ -35,13 +35,5 @@ The Tree view SyncSelection mode can also be set in the preferences: **Edit→ P
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncSelection/ru

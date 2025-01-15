@@ -49,13 +49,5 @@ Vedere anche: [Aiuti per il disegno](Sketcher_Workbench/it#Drawing_aids.md).
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/it

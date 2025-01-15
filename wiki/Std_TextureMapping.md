@@ -25,10 +25,5 @@ The **Std TextureMapping** command temporarily maps a texture onto all objects i
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TextureMapping

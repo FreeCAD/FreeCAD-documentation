@@ -32,13 +32,5 @@ Es werden keine weiteren Randbedingungen hinzugefügt.
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/de

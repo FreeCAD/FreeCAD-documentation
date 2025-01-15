@@ -65,11 +65,6 @@ These methods create and return a document and load a project file into it. The 
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std Open/ru

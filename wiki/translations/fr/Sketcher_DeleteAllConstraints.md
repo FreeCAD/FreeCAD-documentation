@@ -30,13 +30,5 @@ L\'outil <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/fr

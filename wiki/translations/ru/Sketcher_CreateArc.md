@@ -56,11 +56,6 @@ Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small>
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/ru

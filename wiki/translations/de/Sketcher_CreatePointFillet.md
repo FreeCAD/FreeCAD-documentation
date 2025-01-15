@@ -38,13 +38,5 @@ Siehe [Sketcher VerrundungErstellen](Sketcher_CreateFillet/de#Hinweise.md).
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePointFillet/de

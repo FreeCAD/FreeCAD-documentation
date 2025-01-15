@@ -42,13 +42,5 @@ Alegeți ** Edit** → ** Preferences** din meniul principal.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgPreferences/ro

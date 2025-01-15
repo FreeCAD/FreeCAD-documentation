@@ -87,11 +87,6 @@ For a scripting example see [Std New](Std_New#Scripting.md).
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std Open/ko

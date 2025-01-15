@@ -61,13 +61,5 @@ Po zwiększeniu krotności węzłów do 2, przesunięcie drugiego punktu kontrol
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseKnotMultiplicity/pl

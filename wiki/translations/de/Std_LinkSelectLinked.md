@@ -30,13 +30,5 @@ Der Befehl **Std ZumVerknüpftenObjektGehen** wählt die {{PropertyData/de|Linke
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinked/de

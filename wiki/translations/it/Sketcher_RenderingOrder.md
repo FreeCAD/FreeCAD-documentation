@@ -29,13 +29,5 @@ In caso di oggetti coincidenti, l\'ordine di visualizzazione determina quali ele
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RenderingOrder/it

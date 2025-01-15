@@ -35,13 +35,5 @@ La modalità Registra la selezione della vista ad albero può essere impostata a
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeRecordSelection/it

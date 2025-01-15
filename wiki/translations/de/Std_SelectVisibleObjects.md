@@ -22,13 +22,5 @@ Der Befehl **Std SichtbareObjekteAuswählen** wählt alle sichtbaren Objekte aus
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelectVisibleObjects/de

@@ -50,13 +50,5 @@ Geometria konstrukcji jest oznaczona specjalnym [kolorem](Sketcher_Preferences/p
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/pl

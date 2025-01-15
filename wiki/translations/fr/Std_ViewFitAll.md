@@ -54,13 +54,5 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewFitAll/fr

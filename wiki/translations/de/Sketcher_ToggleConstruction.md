@@ -50,13 +50,5 @@ Hilfsgeometrie wird mit einer bestimmten [Farbe](Sketcher_Preferences/de#Darstel
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/de

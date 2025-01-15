@@ -45,13 +45,5 @@ FreeCADGui.SendMsgToActiveView("ViewSelection")
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewFitSelection/pl

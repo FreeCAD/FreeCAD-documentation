@@ -37,13 +37,5 @@ Instrumentul va conecta elementele în ordinea alegerii lor, deci asigurați-vă
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/ro

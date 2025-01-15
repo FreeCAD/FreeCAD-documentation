@@ -31,13 +31,5 @@ Grzebień krzywizny wskazuje krzywiznę *(wartość pochodnej drugiego rzędu)* 
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/pl

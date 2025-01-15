@@ -58,13 +58,5 @@ Graniastosłup można edytować po jego utworzeniu na dwa sposoby:
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePrism/pl

@@ -17,11 +17,6 @@ Die Achsen und Ebenen sind vom Typ `App::Line` bzw. `App::Plane`. Jedes dieser E
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Zwei von ihnen besitzen ein Origin-Objekt (Ursprung), um die Lage der Objekte zu bestimmen, die unter ihnen gruppiert sind.*
 
 
-{{Document_objects_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App OriginGroupExtension/de

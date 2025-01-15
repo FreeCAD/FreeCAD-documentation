@@ -36,13 +36,5 @@ Voir [Sketcher Congé](Sketcher_CreateFillet/fr#Remarques.md).
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePointFillet/fr

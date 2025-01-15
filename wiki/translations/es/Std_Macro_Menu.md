@@ -87,13 +87,5 @@ Las siguientes herramientas están disponibles en este menú:
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Macro Menu/es

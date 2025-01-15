@@ -29,13 +29,5 @@ Polecenie **Std: Zaznacz wszystko** wybiera wszystkie obiekty w oknie [Widoku dr
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelectAll/pl

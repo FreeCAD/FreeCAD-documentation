@@ -58,13 +58,5 @@ Chaque segment a maintenant 2 points de contrôle et chaque nœud coïncide avec
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseDegree/fr

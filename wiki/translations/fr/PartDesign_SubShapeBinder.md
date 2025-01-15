@@ -149,13 +149,5 @@ Un objet PartDesign Sous forme liée est dérivé d\'un objet [Part Feature](Par
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubShapeBinder/fr

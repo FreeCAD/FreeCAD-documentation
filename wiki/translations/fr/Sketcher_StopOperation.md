@@ -24,13 +24,5 @@ Voir aussi : [Modes continus](Sketcher_Workbench/fr#Modes_continus.md).
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/fr

@@ -54,13 +54,5 @@ Contrairement aux contraintes de conduite, les contraintes de référence ne con
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/fr

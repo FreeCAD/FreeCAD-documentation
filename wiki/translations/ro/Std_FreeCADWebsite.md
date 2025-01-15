@@ -42,13 +42,5 @@ Currently the command points to [<https://www.freecad.org>](https://www.freecad.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADWebsite/ro

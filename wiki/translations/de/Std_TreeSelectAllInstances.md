@@ -54,11 +54,6 @@ The **Std TreeSelectAllInstances** command expands the [Tree view](Tree_view.md)
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std TreeSelectAllInstances/de

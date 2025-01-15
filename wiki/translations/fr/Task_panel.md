@@ -30,11 +30,6 @@ De nombreux outils nécessitent la sélection de formes ou d\'objets. Dans ce ca
 -   Les utilisateurs venant d\'autres solutions de CAO qui utilisent la touche **Échap** dans le cadre de leur flux de travail peuvent obtenir des résultats différents dans FreeCAD. Lorsque la touche **Échap** est pressée dans FreeCAD, le panneau des tâches en cours d\'exécution se ferme. Pour désactiver cette fonction, voir [Réglage fin](Fine-tuning/fr#Touche_Échap.md) et [Sketcher Préférences](Sketcher_Preferences/fr#G.C3.A9n.C3.A9ral.md).
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Task panel/fr

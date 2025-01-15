@@ -25,13 +25,5 @@ La commande **Std Cascade** réorganise les fenêtres dans la [Zone de vue princ
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std CascadeWindows/fr

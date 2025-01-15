@@ -45,13 +45,5 @@ Voir aussi : [Aides au dessin](Sketcher_Workbench/fr#Aides_au_dessin.md).
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/fr

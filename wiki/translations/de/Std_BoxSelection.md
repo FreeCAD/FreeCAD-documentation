@@ -36,13 +36,5 @@ Der Befehl **Std Rechteckauswahl** wählt die Objekte innerhalb eines benutzerde
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std BoxSelection/de

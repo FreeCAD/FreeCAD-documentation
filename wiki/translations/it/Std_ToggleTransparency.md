@@ -36,13 +36,5 @@ Il comando **Attiva/disattiva trasparenza** commuta la trasparenza degli oggetti
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleTransparency/it

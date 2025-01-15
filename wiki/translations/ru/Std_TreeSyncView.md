@@ -45,11 +45,6 @@ The Tree view SyncView mode can also be set in the preferences: **Edit → Prefe
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncView/ru

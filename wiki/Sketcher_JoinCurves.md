@@ -30,10 +30,5 @@ The <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:24px;"> [Sketch
 
 
 
-
- {{Sketcher_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher JoinCurves

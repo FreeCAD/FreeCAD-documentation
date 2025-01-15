@@ -37,13 +37,5 @@ Siehe [Std Vorderansicht](Std_ViewFront/de#Skripten.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewBottom/de

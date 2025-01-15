@@ -102,13 +102,5 @@ Die Darstellungsart **Flache Linien** überlagert die {{PropertyView/de|Display 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DrawStyle/de

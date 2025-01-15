@@ -22,13 +22,5 @@ The **Std TreeSyncPlacement** command toggles the [Tree view](Tree_view.md) Sync
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncPlacement/en

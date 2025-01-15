@@ -29,13 +29,5 @@ Narzędzie <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg 
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RestoreInternalAlignmentGeometry/pl

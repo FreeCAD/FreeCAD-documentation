@@ -28,13 +28,5 @@ The **Std TreeMultiDocument** command switches the [Tree view](Tree_view.md) Doc
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeMultiDocument/ru

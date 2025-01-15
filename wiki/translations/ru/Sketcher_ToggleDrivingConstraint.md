@@ -62,11 +62,6 @@ Contrary to driving constraints, reference constraints do not constrain the sket
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/ru

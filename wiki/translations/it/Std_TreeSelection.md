@@ -31,13 +31,5 @@ Se [Sincronizza la selezione](Std_TreeSyncSelection/it.md) della vista ad albero
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSelection/it

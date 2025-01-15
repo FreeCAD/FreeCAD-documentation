@@ -28,13 +28,5 @@ Il comando **Personalizza** apre la finestra di dialogo Personalizza dando acces
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgCustomize/it

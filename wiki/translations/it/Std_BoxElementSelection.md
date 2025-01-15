@@ -39,13 +39,5 @@ Si noti che se un intero oggetto rientra nel rettangolo, viene selezionato l\'og
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std BoxElementSelection/it

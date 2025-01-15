@@ -39,13 +39,5 @@ Zapoznaj się z informacjami na stronie: [Edytor preferencji](Preferences_Editor
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std RecentFiles/pl

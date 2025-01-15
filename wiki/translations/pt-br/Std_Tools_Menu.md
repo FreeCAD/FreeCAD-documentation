@@ -81,13 +81,5 @@ As seguintes ferramentas estão disponíveis neste menu:
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/pt-br

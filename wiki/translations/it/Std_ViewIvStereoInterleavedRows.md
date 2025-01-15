@@ -35,13 +35,5 @@ Vedere [Stereo rosso/ciano](Std_ViewIvStereoRedGreen/it#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewIvStereoInterleavedRows/it

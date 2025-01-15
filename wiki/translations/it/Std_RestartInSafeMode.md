@@ -34,13 +34,5 @@ Il comando **Riavvia in modalità provvisoria** riavvia FreeCAD in uno stato di 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std RestartInSafeMode/it

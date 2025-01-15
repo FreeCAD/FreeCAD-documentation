@@ -25,13 +25,5 @@ Attualmente il comando punta a [<https://www.freecad.org>](https://www.freecad.o
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADWebsite/it

@@ -41,11 +41,6 @@ The **Std LinkSelectLinked** command selects the **Linked Object**, the source o
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinked/ru

@@ -30,13 +30,5 @@ Snapping only works while creating geometry. Note that snapping is just a drawin
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Snap/en

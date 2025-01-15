@@ -25,13 +25,5 @@ Il comando **Crea una nuova vista** crea una nuova [vista 3D](3D_view/it.md) per
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewCreate/it

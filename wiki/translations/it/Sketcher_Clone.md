@@ -52,11 +52,6 @@ Non vengono aggiunti ulteriori vincoli per il clone.
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/it

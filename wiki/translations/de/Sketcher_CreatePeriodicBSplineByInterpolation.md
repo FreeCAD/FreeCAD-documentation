@@ -43,13 +43,5 @@ Siehe [Sketcher B-SplineErstellen](Sketcher_CreateBSpline/de#Hinweise.md).
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSplineByInterpolation/de

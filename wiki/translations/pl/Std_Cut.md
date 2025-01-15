@@ -34,13 +34,5 @@ Aby wyciąć obiekty innych typów, można użyć polecenia [Kopiuj](Std_Copy/pl
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Cut/pl

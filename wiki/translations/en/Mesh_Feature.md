@@ -149,11 +149,6 @@ obj.Label = "Custom label"
 ```
 
 
-{{Mesh_Tools_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Mesh_Workbench.md) > Mesh Feature/en

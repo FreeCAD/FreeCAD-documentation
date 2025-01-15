@@ -25,13 +25,5 @@ Polecenie **Std: Wybierz wszystkie wystąpienia** rozszerza [widok drzewa](Tree_
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSelectAllInstances/pl

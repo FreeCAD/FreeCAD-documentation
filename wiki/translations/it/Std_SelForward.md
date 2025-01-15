@@ -36,13 +36,5 @@ Il comando **Selezione successiva** ripristina la successiva selezione [Vista ad
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelForward/it

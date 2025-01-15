@@ -23,13 +23,5 @@ La commande pointe vers [<https://github.com/FreeCAD/FreeCAD/issues>](https://gi
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ReportBug/fr

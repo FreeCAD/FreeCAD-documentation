@@ -42,13 +42,5 @@ Dim-OVP = Dimensional On-View-Parameters. <small>(v1.0)</small>
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/hr

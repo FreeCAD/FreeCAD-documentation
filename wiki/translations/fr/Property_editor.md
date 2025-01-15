@@ -104,13 +104,5 @@ Voir [Vue combinée](Combo_view/fr#Préférences.md).
 
 
 
-
-
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Property editor/fr

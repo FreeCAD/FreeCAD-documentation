@@ -74,11 +74,6 @@ doc.recompute()
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std TextDocument/ru

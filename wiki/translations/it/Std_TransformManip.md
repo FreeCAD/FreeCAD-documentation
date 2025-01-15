@@ -46,13 +46,5 @@ Il comando **Trasforma** consente di applicare incrementi di rotazione e increme
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TransformManip/it

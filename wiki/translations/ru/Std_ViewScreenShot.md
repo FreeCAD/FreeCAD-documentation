@@ -149,11 +149,6 @@ App.closeDocument(App.ActiveDocument.Name)
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std ViewScreenShot/ru

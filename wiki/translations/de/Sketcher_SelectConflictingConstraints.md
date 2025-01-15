@@ -42,13 +42,5 @@ Wobei *(#, #, #)* die Indizes der Randbedingungen sind. Anklicken des unterstric
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/de

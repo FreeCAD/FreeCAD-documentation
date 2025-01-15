@@ -25,13 +25,5 @@ Aktuell verweist dieser Befehl auf die Seite [<https://wiki.freecad.org/User_hub
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADUserHub/de

@@ -23,13 +23,5 @@ La commande pointe vers [<https://wiki.freecad.org/Power_users_hub>](https://wik
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADPowerUserHub/fr

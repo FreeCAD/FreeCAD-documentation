@@ -25,13 +25,5 @@ Aktuell verweist der Befehl auf die Seite [<https://www.freecad.org>](https://ww
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADWebsite/de

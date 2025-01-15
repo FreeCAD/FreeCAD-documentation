@@ -35,13 +35,5 @@ Voir [Ellipse par son centre](Sketcher_CreateEllipseByCenter/fr#Remarques.md)
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/fr

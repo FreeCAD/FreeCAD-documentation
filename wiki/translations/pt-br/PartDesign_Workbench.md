@@ -269,11 +269,5 @@ Para algumas ideias do que pode ser alcançado com as ferramentas do PartDesign,
 
 
 
-
-
- {{PartDesign_Tools_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/pt-br

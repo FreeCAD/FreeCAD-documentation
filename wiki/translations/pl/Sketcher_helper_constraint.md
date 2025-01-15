@@ -43,11 +43,6 @@ Sketch.calculateConstraintError(iconstr)
 ocenia funkcję błędu wiązania określonego przez jego indeks {{Incode|iconstr}} w szkicu. Jeśli w wiązaniu występuje tylko jedna funkcja błędu, zwracaną wartością jest podpisana wartość zwracana przez funkcję błędu. Jeśli z więzem związana jest więcej niż jedna funkcja błędu *(tj. wiązanie usuwa więcej niż jeden stopień swobody)*, zwracaną wartością jest RMS wszystkich funkcji błędu *(zawsze dodatnia)*.
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint/pl

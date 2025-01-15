@@ -63,13 +63,5 @@ Es ist wichtig zu erkennen, dass die Dateien innerhalb einer FreeCAD-Projektdate
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ProjectUtil/de

@@ -26,13 +26,5 @@ Obecnie polecenie wskazuje na [<https://www.freecad.org>](https://www.freecad.or
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADWebsite/pl

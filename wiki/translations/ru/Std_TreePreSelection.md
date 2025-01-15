@@ -37,13 +37,5 @@ The Tree view PreSelection mode can also be set in the preferences: **Edit→ Pr
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreePreSelection/ru

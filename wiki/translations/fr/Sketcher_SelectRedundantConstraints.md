@@ -42,13 +42,5 @@ Notez qu\'une esquisse peut également présenter des contraintes redondantes si
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectRedundantConstraints/fr

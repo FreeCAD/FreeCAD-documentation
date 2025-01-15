@@ -29,13 +29,5 @@ Polecenie **Przywróć** powoduje zamknięcie aktywnego dokumentu i ponowne otwa
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Revert/pl

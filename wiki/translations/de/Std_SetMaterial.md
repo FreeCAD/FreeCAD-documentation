@@ -54,13 +54,5 @@ Der Befehl **Std SetMaterial** legt das Material für ausgewählte Objekte fest.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SetMaterial/de

@@ -86,11 +86,6 @@ Es importante darse cuenta de que los archivos dentro de un archivo de proyecto 
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std ProjectUtil/es

@@ -35,13 +35,5 @@ Tryb Zapisu zaznaczenia w widoku drzewa można również ustawić w preferencjac
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeRecordSelection/pl

@@ -36,13 +36,5 @@ Der Befehl **Std Beenden** schließt das Programm FreeCAD und speichert bei Beda
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Quit/de

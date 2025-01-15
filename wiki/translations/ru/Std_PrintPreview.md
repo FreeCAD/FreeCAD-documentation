@@ -32,13 +32,5 @@ The **Std PrintPreview** command will show a preview of the result of the [Std P
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PrintPreview/ru

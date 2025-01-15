@@ -39,13 +39,5 @@ La commande **Std Vue en rotation** fera tourner la caméra en continu dans une 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DemoMode/fr

@@ -107,13 +107,5 @@ Pour chaque vue figée, une option **Vue de restauration** est ajoutée avec laq
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreezeViews/fr

@@ -37,13 +37,5 @@ Si vous réduisez la multiplicité d\'un nœud à zéro, le nœud disparaît. Ma
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDecreaseKnotMultiplicity/fr

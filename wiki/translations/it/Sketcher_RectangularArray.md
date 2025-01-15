@@ -46,13 +46,5 @@ Il comando <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:16
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/it

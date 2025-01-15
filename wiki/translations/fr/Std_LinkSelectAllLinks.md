@@ -30,13 +30,5 @@ La commande *Std Tous les liens* sélectionne tous les objets [App Link](App_Lin
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectAllLinks/fr

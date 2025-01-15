@@ -33,13 +33,5 @@ Zapoznaj się również z informacjami na stronie [Pomoce kreślarskie](Sketcher
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateTriangle/pl

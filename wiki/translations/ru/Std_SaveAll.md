@@ -37,13 +37,5 @@ See [Std New](Std_New#Scripting.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SaveAll/ru

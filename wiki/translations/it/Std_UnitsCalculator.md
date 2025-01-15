@@ -67,13 +67,5 @@ Il comando **Convertitore di unità** apre il Convertitore di unità. Il Convert
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std UnitsCalculator/it

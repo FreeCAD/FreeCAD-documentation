@@ -42,13 +42,5 @@ Când instrumentul este activat, indicatorul maouse-ului se schimbă într-o cur
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/ro

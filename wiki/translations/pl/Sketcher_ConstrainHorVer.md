@@ -65,13 +65,5 @@ Więcej niż dwa punkty są przetwarzane w kolejności wyboru, po jednej parze n
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorVer/pl

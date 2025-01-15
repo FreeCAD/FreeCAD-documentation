@@ -40,13 +40,5 @@ Il comando **Stampa** ha principalmente lo scopo di stampare le pagine di [TechD
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Print/it

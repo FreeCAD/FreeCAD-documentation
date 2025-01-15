@@ -36,13 +36,5 @@ Polecenie **Ponów wybór** przywraca następny zarejestrowany wybór z [Widoku 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelForward/pl

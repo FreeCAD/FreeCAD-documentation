@@ -102,13 +102,5 @@ Vedere [Vista combinata](Combo_view/it#Preferenze.md).
 
 
 
-
-
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Property editor/it

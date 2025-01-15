@@ -39,13 +39,5 @@ The <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:16px;"> [
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher RectangularArray/en

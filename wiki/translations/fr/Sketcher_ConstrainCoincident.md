@@ -86,13 +86,5 @@ La page [Sketcher : Écrire un script](Sketcher_scripting/fr.md) explique les va
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/fr

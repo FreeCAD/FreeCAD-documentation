@@ -81,15 +81,6 @@ Depending on the selected object and its selected subshapes, if any, the followi
 :   
     
 ```pythonlnk_shp = Part.getShape(lnk)```
-    
-
-
-
-
-
-{{Std_Base_navi
-
-}}
 
 
 

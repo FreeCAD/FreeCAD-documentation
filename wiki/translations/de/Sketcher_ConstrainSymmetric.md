@@ -92,13 +92,5 @@ Die [Skizzierer Skripten](Sketcher_scripting.md) Seite erklärt die Werte, die f
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainSymmetric/de

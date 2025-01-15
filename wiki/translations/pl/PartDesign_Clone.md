@@ -46,13 +46,5 @@ Funkcja **Klon** środowiska Projekt Części tworzy połączoną kopię wybrane
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Clone/pl

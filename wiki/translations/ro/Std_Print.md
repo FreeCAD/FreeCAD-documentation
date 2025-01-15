@@ -37,13 +37,5 @@ The **Std Print** command is primarily intended to print [TechDraw Workbench](Te
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Print/ro

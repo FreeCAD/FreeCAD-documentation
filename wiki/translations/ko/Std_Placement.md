@@ -130,11 +130,6 @@ print(obj.Placement.Matrix)
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std Placement/ko

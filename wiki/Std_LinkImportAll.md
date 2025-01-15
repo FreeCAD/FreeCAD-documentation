@@ -31,10 +31,5 @@ This command essentially runs **[<img src=images/Std_LinkImport.svg style="width
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkImportAll

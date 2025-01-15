@@ -108,13 +108,5 @@ Zum Beispiel ist ein [FEM Analyse](FEM_Analysis/de.md) ein `App::DocumentObjectG
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Group/de

@@ -34,13 +34,5 @@ La commande **Std Bascule de la transparence** fait basculer la transparence des
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleTransparency/fr

@@ -17,11 +17,6 @@ Osie i płaszczyzny są obiektami typu `App::Line` i `App::Plane` odpowiednio. K
 *Diagram uproszczonych relacji między głównymi obiektami w programie. Dwa z nich posiadają obiekt Odniesienia położenia ''(Origin)'', aby kontrolować położenie obiektów zgrupowanych pod nimi.*
 
 
-{{Document_objects_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App OriginGroupExtension/pl

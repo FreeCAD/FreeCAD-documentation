@@ -36,13 +36,5 @@ Polecenie **Std: Restart w trybie bezpiecznym** restartuje program FreeCAD w sta
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std RestartInSafeMode/pl

@@ -56,13 +56,5 @@ Aceasta este comanda standard pentru a exporta obiecte din interiorul unui docum
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/ro

@@ -64,13 +64,5 @@ Polecenie **Część: Filtr wyboru** może być wykorzystane do ograniczenia wyb
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SelectFilter/pl

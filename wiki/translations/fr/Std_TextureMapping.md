@@ -28,13 +28,5 @@ La commande **Std Appliquer une texture** applique temporairement une texture su
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TextureMapping/fr

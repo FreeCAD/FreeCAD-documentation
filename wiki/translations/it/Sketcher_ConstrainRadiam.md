@@ -84,13 +84,5 @@ La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega i valori che pos
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/it

@@ -26,13 +26,5 @@ The **Std ActivateNextWindow** command activates the next window in the [Main vi
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ActivateNextWindow/en

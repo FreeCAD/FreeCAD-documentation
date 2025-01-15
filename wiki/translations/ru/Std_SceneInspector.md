@@ -33,11 +33,6 @@ The **Std SceneInspector** command opens a dialog box displaying an overview of 
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std SceneInspector/ru

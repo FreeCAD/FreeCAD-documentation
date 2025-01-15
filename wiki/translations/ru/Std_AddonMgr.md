@@ -164,11 +164,6 @@ Then define the functions {{Incode|installation_succeeded}} and {{Incode|install
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std AddonMgr/ru

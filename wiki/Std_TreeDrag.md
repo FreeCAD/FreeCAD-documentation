@@ -25,10 +25,5 @@ The **Std TreeDrag** command initiates a drag operation for selected objects in 
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeDrag

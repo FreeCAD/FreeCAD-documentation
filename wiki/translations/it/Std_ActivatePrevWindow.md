@@ -33,13 +33,5 @@ Il comando **Precedente** attiva la finestra precedente nell\'[Area della vista 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ActivatePrevWindow/it

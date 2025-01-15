@@ -33,13 +33,5 @@ Polecenie **Std: Okno dialogowe preferencji** otwiera edytor [Edytor ustawień](
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgPreferences/pl

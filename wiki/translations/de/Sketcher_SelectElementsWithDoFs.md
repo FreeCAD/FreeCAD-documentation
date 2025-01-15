@@ -41,13 +41,5 @@ Bitte beachten, dass eine Skizze auch überflüssige Randbedingungen enthalten k
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectElementsWithDoFs/de

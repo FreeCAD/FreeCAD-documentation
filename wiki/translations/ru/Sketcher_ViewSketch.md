@@ -42,13 +42,5 @@ See also: [Sketcher Preferences](Sketcher_Preferences#Display.md).
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/ru

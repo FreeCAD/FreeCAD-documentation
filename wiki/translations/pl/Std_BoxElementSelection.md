@@ -38,13 +38,5 @@ Zauważ, że jeśli cały obiekt mieści się w prostokącie, sam obiekt zostani
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std BoxElementSelection/pl

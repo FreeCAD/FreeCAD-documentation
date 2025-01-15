@@ -73,11 +73,6 @@ Dopo la sua creazione l\'ellissoide può essere modificato in due modi:
 </div>
 
 
-{{PartDesign_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveEllipsoid/it

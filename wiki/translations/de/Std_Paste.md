@@ -45,13 +45,5 @@ Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Paste/de

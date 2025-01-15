@@ -23,13 +23,5 @@ Polecenie **Pasek stanu** przełącza wyświetlanie [Paska statusu](Status_bar/p
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewStatusBar/pl

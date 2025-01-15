@@ -52,11 +52,6 @@ Tenga en cuenta que no se añadirá ninguna restricción de simetría adicional.
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Symmetry/es

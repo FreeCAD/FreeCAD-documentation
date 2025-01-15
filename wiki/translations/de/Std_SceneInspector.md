@@ -25,13 +25,5 @@ Der Befehl **Std SceneInspector** öffnet ein Dialogfeld, das eine Übersicht ü
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SceneInspector/de

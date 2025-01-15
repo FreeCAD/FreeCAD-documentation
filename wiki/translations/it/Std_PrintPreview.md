@@ -32,13 +32,5 @@ Il comando **Anteprima di stampa** mostra un\'anteprima del risultato del comand
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PrintPreview/it

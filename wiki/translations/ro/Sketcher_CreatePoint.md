@@ -47,13 +47,5 @@ Pos-OVP = Positional [On-View-Parameters](Sketcher_Preferences#General.md). <sma
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/ro

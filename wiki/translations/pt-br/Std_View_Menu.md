@@ -188,13 +188,5 @@ The following tools are available in this menu:
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/pt-br

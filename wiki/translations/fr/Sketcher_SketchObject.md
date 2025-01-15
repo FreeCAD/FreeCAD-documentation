@@ -120,11 +120,6 @@ obj.Label = "Custom label"
 ```
 
 
-{{Sketcher_Tools_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SketchObject/fr

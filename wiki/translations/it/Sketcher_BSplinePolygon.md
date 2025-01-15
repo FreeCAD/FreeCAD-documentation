@@ -50,11 +50,6 @@ Mostra o nasconde la visualizzazione del poligono di definizione di una B-spline
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/it

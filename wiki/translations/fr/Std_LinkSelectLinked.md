@@ -29,13 +29,5 @@ La commande **Std Objet lié** sélectionne {{PropertyData/fr|Linked Object}}, l
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinked/fr

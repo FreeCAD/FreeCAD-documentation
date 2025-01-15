@@ -29,13 +29,5 @@ Der **Std AllesAuswählen** Befehl wählt alle Objekte in der [Baumansicht](Tree
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelectAll/de

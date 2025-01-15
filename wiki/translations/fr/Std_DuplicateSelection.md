@@ -35,13 +35,5 @@ Voir [Std Coller](Std_Paste/fr#Préférences.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DuplicateSelection/fr

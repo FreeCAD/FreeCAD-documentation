@@ -20,13 +20,5 @@ La commande **Std Sélection objets visibles** sélectionne tous les objets visi
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelectVisibleObjects/fr

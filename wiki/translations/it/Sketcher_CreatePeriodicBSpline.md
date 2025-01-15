@@ -43,13 +43,5 @@ Vedere [Sketcher Crea B-spline](Sketcher_CreateBSpline/it#Limitations.md).
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/it

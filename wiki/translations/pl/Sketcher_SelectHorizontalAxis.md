@@ -28,13 +28,5 @@ Narzędzie <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="widt
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectHorizontalAxis/pl

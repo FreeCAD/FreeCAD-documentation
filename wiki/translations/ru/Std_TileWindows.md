@@ -26,13 +26,5 @@ The **Std TileWindows** command rearranges the windows in the [Main view area](M
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TileWindows/ru

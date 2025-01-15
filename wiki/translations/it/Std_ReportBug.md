@@ -34,13 +34,5 @@ Attualmente il comando punta a [<https://github.com/FreeCAD/FreeCAD/issues>](htt
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ReportBug/it

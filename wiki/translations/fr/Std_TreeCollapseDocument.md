@@ -24,13 +24,5 @@ La commande **Std Réduire/développer** bascule du mode document de la [vue en 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeCollapseDocument/fr

@@ -48,11 +48,6 @@ Since FreeCAD version 0.20 this command and the Help system are managed by a sep
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std WhatsThis/ru

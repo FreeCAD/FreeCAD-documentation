@@ -170,11 +170,6 @@ Ceci indique un objet [figé](Std_ToggleFreeze/fr.md) qui n\'est pas recalculé 
 Voir [Vue combinée](Combo_view/fr#Préférences.md).
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Tree view/fr

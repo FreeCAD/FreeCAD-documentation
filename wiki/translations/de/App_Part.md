@@ -26,11 +26,6 @@ Siehe [Std Part](Std_Part/de#Anwendung.md).
 Siehe [Std Part](Std_Part/de#Eigenschaften.md).
 
 
-{{Std_Base_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App Part/de

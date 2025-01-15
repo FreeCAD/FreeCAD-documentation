@@ -44,13 +44,5 @@ Maßliche Randbedingungen, die vor der Pausfunktion bestehen, bleiben über [Aus
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/de

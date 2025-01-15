@@ -72,13 +72,5 @@ Il comando **Misura la distanza** crea un oggetto distanza che misura e visualiz
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MeasureDistance/it

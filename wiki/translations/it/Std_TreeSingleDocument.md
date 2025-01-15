@@ -28,13 +28,5 @@ Nella modalità Documento singolo è possibile passare a un altro documento atti
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSingleDocument/it

@@ -34,13 +34,5 @@ Das Werkzeug wird die Elemente in der Reihenfolge ihrer Auswahl verbinden, so da
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/de

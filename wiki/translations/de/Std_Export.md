@@ -51,13 +51,5 @@ Siehe [Import-Export-Einstellungen](Import_Export_Preferences/de.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/de

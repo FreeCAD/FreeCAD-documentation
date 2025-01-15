@@ -59,13 +59,5 @@ Après avoir augmenté la multiplicité des nœuds à 2, le déplacement du deux
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineIncreaseKnotMultiplicity/fr

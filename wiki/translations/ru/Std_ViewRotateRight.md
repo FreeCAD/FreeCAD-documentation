@@ -41,11 +41,6 @@ See [Std ViewRotateLeft](Std_ViewRotateLeft#Scripting.md).
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std ViewRotateRight/ru

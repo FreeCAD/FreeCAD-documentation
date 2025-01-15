@@ -29,13 +29,5 @@ The **Std ToggleTransparency** command toggles the transparency of selected obje
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleTransparency/en

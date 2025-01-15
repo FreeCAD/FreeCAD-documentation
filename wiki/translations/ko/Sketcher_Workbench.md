@@ -561,13 +561,5 @@ FreeCAD의 다른 곳과 마찬가지로, 한 번의 마우스 왼쪽 클릭으�
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/ko

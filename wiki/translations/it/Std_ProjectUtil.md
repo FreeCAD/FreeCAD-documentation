@@ -63,13 +63,5 @@ Con il comando **Utilità di progetto** è possibile estrarre i file da un file 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ProjectUtil/it

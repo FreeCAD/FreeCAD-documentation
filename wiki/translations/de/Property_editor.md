@@ -104,13 +104,5 @@ Siehe [Combo-Ansicht](Combo_view/de#Einstellungen.md).
 
 
 
-
-
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Property editor/de

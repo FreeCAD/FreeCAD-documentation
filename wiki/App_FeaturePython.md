@@ -85,8 +85,6 @@ obj = App.ActiveDocument.addObject("App::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 
- {{Document_objects_navi}}
-
 
 
 ---

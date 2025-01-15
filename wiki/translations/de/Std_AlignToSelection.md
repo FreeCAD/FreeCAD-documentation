@@ -30,13 +30,5 @@ Der Befehl **Std AusrichtenZurAuswahl** richtet die Kamera der aktiven [3D-Ansic
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std AlignToSelection/de

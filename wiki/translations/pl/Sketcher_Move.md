@@ -39,13 +39,5 @@ Polecenie <img alt="" src=images/Sketcher_Move.svg  style="width:16px;"> **Przes
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/pl

@@ -49,13 +49,5 @@ Il comando **Piano di taglio** nasconde temporaneamente oggetti e parti di ogget
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ToggleClipPlane/it

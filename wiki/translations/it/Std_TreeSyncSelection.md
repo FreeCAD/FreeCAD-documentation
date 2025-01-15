@@ -35,13 +35,5 @@ La modalità Sincronizza la selezione della vista ad albero può anche essere im
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncSelection/it

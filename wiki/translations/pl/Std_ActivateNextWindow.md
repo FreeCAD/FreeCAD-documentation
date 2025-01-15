@@ -33,13 +33,5 @@ Polecenie **Następne** aktywuje następne okno w [Głównym obszarze widoku](Ma
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ActivateNextWindow/pl

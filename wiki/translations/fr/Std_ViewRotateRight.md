@@ -31,13 +31,5 @@ Voir [Std Rotation à gauche](Std_ViewRotateLeft/fr#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewRotateRight/fr

@@ -48,13 +48,5 @@ Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Open/pl

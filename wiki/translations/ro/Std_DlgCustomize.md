@@ -39,13 +39,5 @@ Alegeți ** Tools** → **<img src="images/Std_DlgCustomize.png" width=32px> Cus
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgCustomize/ro

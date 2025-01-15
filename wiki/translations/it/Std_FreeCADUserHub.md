@@ -25,13 +25,5 @@ Attualmente il comando punta a [<https://wiki.freecad.org/User_hub>](https://wik
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADUserHub/it

@@ -48,11 +48,6 @@ Hay varias formas de invocar el comando Editar croquis:
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/es

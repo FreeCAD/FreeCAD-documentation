@@ -59,11 +59,6 @@ The **Std ToggleNavigation** command is intended for certain inspection operatio
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std ToggleNavigation/ru

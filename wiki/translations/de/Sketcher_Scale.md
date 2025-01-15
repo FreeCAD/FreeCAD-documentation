@@ -64,11 +64,6 @@ Dim-OVP = Dimensional On-View-Parameters (In-Ansicht-Parameter zur maßlichen Fe
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Scale/de

@@ -23,13 +23,5 @@ Before using this command make sure that obvious constraints (horizontal, vertic
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/es

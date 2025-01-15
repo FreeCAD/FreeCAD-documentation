@@ -25,10 +25,5 @@ The **Std Properties** command displays the [Property view panel](Property_edito
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Properties

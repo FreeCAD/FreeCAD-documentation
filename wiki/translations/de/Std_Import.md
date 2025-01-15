@@ -137,13 +137,5 @@ Eine Bildebene (Image-Plane-Objekt) wird von einem [App GeoFeature](App_GeoFeatu
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/de

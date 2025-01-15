@@ -43,13 +43,5 @@ Zobacz stronę [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline/
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSplineByInterpolation/pl

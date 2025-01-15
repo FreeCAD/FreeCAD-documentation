@@ -49,11 +49,6 @@ The <img alt="" src=images/Sketcher_Move.svg  style="width:16px;"> [Sketcher Mov
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/ru

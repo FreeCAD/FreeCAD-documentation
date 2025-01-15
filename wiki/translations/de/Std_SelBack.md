@@ -35,13 +35,5 @@ The **Std SelBack** command restores the previous recorded [Tree view](Tree_view
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SelBack/de

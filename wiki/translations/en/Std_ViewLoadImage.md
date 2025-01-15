@@ -25,15 +25,7 @@ The **Std ViewLoadImage** command opens an image in a new tab in the [Main view 
 
 ## Notes
 
--   To insert an image in the 3D view the [Std Import](Std_Import.md) command should be used. <small>(v0.21)</small> 
-
-
-
-
-
-{{Std_Base_navi
-
-}}
+-   To insert an image in the 3D view the [Std Import](Std_Import.md) command should be used. <small>(v0.21)</small>
 
 
 

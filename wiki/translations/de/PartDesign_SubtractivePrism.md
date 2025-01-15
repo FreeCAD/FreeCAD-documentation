@@ -64,13 +64,5 @@ Das Prisma kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePrism/de

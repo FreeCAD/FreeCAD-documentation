@@ -25,13 +25,5 @@ La commande **Std Synchroniser le placement** bascule le mode Synchroniser le pl
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncPlacement/fr

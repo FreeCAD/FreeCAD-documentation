@@ -44,13 +44,5 @@ La commande **Std Transformer** permet d\'appliquer des incréments de rotation 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TransformManip/fr

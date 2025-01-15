@@ -40,13 +40,5 @@ Où *(#, #, #)* sont les indices des contraintes. Cliquez sur le texte souligné
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/fr

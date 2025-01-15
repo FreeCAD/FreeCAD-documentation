@@ -44,11 +44,6 @@ How to change weights is described on [this page](B-Splines#Changing_the_Weight.
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePoleWeight/ru

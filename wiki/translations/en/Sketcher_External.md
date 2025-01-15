@@ -47,13 +47,5 @@ See also: [Drawing aids](Sketcher_Workbench#Drawing_aids.md).
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/en

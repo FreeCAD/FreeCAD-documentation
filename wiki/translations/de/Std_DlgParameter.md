@@ -170,13 +170,5 @@ App.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").SetBool('dxfCreateP
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgParameter/de

@@ -29,13 +29,5 @@ Le peigne de courbure indique la courbure (valeur de la dérivée de second ordr
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/fr

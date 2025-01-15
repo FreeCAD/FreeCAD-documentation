@@ -34,13 +34,5 @@ Narzędzie połączy elementy w kolejności ich zaznaczenia, więc upewnij się,
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/pl

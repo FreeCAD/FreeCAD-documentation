@@ -29,13 +29,5 @@ Si le mode de la vue en arborescence [Synchroniser la sélection](Std_TreeSyncSe
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSelection/fr

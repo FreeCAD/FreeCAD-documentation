@@ -37,13 +37,5 @@ Vedere [Incolla](Std_Paste/it#Preferenze.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DuplicateSelection/it

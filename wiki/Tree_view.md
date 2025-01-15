@@ -131,8 +131,6 @@ This indicates a [frozen](Std_ToggleFreeze.md) object that is not recomputed whe
 
 See [Combo view](Combo_view#Preferences.md).
 
- {{Interface_navi}} {{Std_Base_navi}}
-
 
 
 ---

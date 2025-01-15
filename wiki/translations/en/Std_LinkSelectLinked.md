@@ -26,13 +26,5 @@ The **Std LinkSelectLinked** command selects the **Linked Object**, the source o
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinked/en

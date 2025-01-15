@@ -20,11 +20,6 @@ Zobacz stronę [Std: Utwórz łącze](Std_LinkMake/pl#U.C5.BCycie.md)
 Zobacz stronę [Std: Utwórz łącze](Std_LinkMake/pl.md).
 
 
-{{Std_Base_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App Link/pl

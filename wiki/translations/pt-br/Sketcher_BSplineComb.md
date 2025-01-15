@@ -26,13 +26,5 @@ The curvature comb indicates the curvature (value of the second-order derivative
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/pt-br

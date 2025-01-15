@@ -51,11 +51,6 @@ See also: [Sketcher Preferences](Sketcher_Preferences#Display.md).
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/zh-cn

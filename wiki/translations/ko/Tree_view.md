@@ -192,11 +192,6 @@ This indicates a [linked](Std_LinkMake.md) object loaded from an external docume
 See [Combo view](Combo_view#Preferences.md).
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Tree view/ko

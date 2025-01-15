@@ -41,11 +41,6 @@ The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the sou
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectLinkedFinal/ru

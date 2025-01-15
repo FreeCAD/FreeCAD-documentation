@@ -69,10 +69,5 @@ FreeCADGui.setUserEditMode(MODENAME)  # Where MODENAME is a string available in 
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std UserEditMode

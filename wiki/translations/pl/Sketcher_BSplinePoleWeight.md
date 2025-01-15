@@ -35,13 +35,5 @@ Sposób zmiany wag jest opisany na stronie przedstawiającej [Krzywe złożone](
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePoleWeight/pl

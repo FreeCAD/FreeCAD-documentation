@@ -151,13 +151,5 @@ Quindi definire le funzioni {{Incode|installation_succeeded}} e {{Incode|install
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std AddonMgr/it

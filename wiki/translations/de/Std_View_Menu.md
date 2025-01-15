@@ -190,13 +190,5 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/de

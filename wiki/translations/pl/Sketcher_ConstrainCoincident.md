@@ -88,13 +88,5 @@ Strona [skrypty w środowisku szkicownika](Sketcher_scripting/pl.md) opisuje war
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/pl

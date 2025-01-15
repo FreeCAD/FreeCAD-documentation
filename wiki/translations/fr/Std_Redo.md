@@ -41,13 +41,5 @@ Voir [Std Annuler](Std_Undo/fr#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Redo/fr

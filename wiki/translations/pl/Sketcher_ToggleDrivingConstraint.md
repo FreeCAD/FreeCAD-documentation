@@ -64,13 +64,5 @@ W przeciwieństwie do wiązań prowadzących, wiązania referencyjne nie wiąż�
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleDrivingConstraint/pl

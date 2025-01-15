@@ -33,13 +33,5 @@ Der Befehl **Std Druckvorschau** zeigt eine Vorschau auf das Ergebnis des Befehl
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PrintPreview/de

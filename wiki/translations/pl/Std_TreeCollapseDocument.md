@@ -26,13 +26,5 @@ Polecenie **Zwiń / rozwiń dokumenty w widoku drzewa** przełącza tryb dokumen
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeCollapseDocument/pl

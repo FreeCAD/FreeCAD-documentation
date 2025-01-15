@@ -51,11 +51,6 @@ Where *(#, #, #)* are the indices of the constraints. Clicking the underlined te
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SelectConflictingConstraints/ru

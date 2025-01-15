@@ -183,13 +183,5 @@ Lokalizację plików makroinstrukcji użytkownika można również zmienić w pr
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgMacroExecute/pl

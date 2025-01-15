@@ -47,13 +47,5 @@ Das Werkzeug **Std Bewegen** ermöglicht Rotations- und Verschiebungswerte inkre
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TransformManip/de

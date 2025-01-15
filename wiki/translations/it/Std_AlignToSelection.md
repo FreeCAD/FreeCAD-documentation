@@ -30,13 +30,5 @@ Il comando **Allinea alla selezione** punta la telecamera nella [Vista 3D](3D_vi
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std AlignToSelection/it

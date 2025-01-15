@@ -44,13 +44,5 @@ Il comando **Finestre** apre una finestra di dialogo con un elenco di finestre d
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Windows/it

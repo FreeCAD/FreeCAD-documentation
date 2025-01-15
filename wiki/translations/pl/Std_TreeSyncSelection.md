@@ -35,13 +35,5 @@ Tryb Synchronizacja widoku drzewa można również ustawić w preferencjach: **E
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncSelection/pl

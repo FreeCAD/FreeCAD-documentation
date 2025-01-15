@@ -18,13 +18,5 @@ In questo momento questo comando non funziona.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MacroStepOver/it

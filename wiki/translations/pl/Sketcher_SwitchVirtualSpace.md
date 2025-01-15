@@ -48,13 +48,5 @@ Szkic ma dwie wirtualne przestrzenie, które mogą zawierać wiązania. Wszystki
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher SwitchVirtualSpace/pl

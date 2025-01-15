@@ -20,11 +20,6 @@ Vedere la pagina [Crea link](Std_LinkMake/it#Utilizzo.md).
 Vedere [Crea link](Std_LinkMake/it#Proprietà.md).
 
 
-{{Std_Base_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App Link/it

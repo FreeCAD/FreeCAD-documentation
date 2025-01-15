@@ -33,13 +33,5 @@ Vedere anche: [Preferenze Sketcher](Sketcher_Preferences/it#Griglia.md).
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Grid/it

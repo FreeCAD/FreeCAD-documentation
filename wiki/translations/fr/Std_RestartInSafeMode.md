@@ -34,13 +34,5 @@ La commande **Std Redémarrer en mode sans échec** redémarre FreeCAD dans un �
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std RestartInSafeMode/fr

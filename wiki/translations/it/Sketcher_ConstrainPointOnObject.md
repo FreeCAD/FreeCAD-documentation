@@ -74,13 +74,5 @@ La pagina [Sketcher scripting](Sketcher_scripting/it.md) spiega come identificar
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/it

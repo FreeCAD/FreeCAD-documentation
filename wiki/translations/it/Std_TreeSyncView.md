@@ -35,13 +35,5 @@ La modalità Sincronizza la vista della vista ad albero può essere impostata an
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncView/it

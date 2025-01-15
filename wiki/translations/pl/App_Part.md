@@ -26,11 +26,6 @@ Zapoznaj się z informacjami na stronie [Std: Część](Std_Part/pl#Użycie.md).
 Zapoznaj się z informacjami na stronie [Std: Część](Std_Part/pl#Właściwości.md).
 
 
-{{Std_Base_navi
-
-}} {{Document_objects_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App Part/pl

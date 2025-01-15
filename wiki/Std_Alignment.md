@@ -35,10 +35,5 @@ The following additional options are available in the context menu:
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Alignment

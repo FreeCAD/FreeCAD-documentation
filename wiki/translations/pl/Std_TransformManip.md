@@ -46,13 +46,5 @@ Narzędzie **Przemieszczenie** pozwala na stosowanie przyrostów obrotu oraz prz
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TransformManip/pl

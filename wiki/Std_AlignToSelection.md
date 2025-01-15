@@ -25,10 +25,5 @@ The **Std AlignToSelection** command points the camera in the active [3D view](3
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std AlignToSelection

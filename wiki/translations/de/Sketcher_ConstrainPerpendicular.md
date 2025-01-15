@@ -127,13 +127,5 @@ Die Seite [Sketcher Skripterstellung](Sketcher_scripting/de.md) erklärt die Wer
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/de

@@ -44,13 +44,5 @@ Pour un exemple de script, voir [Std Nouveau](Std_New/fr#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Open/fr

@@ -23,13 +23,5 @@ Actuellement, la commande pointe vers [<https://wiki.freecad.org/Donate>](https:
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADDonation/fr

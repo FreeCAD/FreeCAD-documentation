@@ -54,13 +54,5 @@ Keile können zur Erstellung von Pyramiden verwendet werden, wenn die {{Property
 
 
 
-
-
-{{PartDesign_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditiveWedge/de

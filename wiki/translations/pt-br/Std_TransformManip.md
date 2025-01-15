@@ -58,13 +58,5 @@ Na {{VersionMinus|0.21}}, não há botão **Cancelar**, nessas versões você po
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TransformManip/pt-br

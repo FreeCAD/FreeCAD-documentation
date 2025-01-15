@@ -29,13 +29,5 @@ Der Befehl **Std Rückgängig** schließt das aktive Dokument und öffnet die zu
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Revert/de

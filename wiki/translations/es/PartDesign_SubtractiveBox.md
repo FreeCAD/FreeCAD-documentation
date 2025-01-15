@@ -75,11 +75,6 @@ Tras su creación, la Caja puede ser editada de dos maneras:
 </div>
 
 
-{{PartDesign_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveBox/es

@@ -36,10 +36,5 @@ FreeCADGui.runCommand("Std_RecallWorkingView", 0)
 
 
 
-
- {{Std_Base_navi}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std RecallWorkingView

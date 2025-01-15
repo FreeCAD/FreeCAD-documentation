@@ -52,13 +52,5 @@ The **Std UnitsCalculator** command opens the Units converter. The Units convert
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std UnitsCalculator/pt-br

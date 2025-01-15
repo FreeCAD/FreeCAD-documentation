@@ -84,13 +84,5 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) opisuje wartości, który
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainRadiam/pl

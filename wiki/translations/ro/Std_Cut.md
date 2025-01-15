@@ -55,13 +55,5 @@ Pentru [select](Draft_Select/it.md) mai multe obiecte:
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Cut/ro

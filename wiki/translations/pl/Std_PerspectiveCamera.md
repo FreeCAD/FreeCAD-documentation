@@ -42,13 +42,5 @@ Zobacz [Std: Widok ortogonalny](Std_OrthographicCamera/pl#Tworzenie_skrpytów.md
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PerspectiveCamera/pl

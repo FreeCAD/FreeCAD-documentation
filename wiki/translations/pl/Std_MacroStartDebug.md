@@ -18,13 +18,5 @@ To polecenie w tej chwili nie działa.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MacroStartDebug/pl

@@ -33,13 +33,5 @@ Questo comando essenzialmente esegue <img alt="" src=images/Std_LinkImport.svg  
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkImportAll/it

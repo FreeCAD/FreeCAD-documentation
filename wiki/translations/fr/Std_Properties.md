@@ -28,13 +28,5 @@ La commande **Std Propriétés** affiche le panneau de l\'[éditeur de propriét
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Properties/fr

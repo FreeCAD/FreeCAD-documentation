@@ -33,13 +33,5 @@ La commande **Std Personnaliser** ouvre la fenêtre de dialogue Personnaliser do
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgCustomize/fr

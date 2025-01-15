@@ -33,13 +33,5 @@ Ta strona została zaktualizowana do wersji 1.0.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std RandomColor/pl

@@ -32,13 +32,5 @@ Zobacz [Std: Widok izometryczny](Std_ViewIsometric/pl#Tworzenie_skryptów.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewDimetric/pl

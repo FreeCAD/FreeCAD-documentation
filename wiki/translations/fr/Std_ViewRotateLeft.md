@@ -41,13 +41,5 @@ view.viewRotateLeft()
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewRotateLeft/fr

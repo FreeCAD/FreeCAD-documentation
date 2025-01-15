@@ -51,13 +51,5 @@ doc.saveCopy(fnm)
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SaveCopy/fr

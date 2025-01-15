@@ -150,13 +150,5 @@ FreeCAD.closeDocument(doc.Name)
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std New/ko

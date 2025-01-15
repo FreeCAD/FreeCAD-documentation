@@ -76,11 +76,6 @@ See also: [Preferences Editor](Preferences_Editor.md).
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std DlgMacroRecord/ru

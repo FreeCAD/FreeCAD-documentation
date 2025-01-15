@@ -36,13 +36,5 @@ Polecenie **Materiał** ustawia materiał dla wybranych obiektów.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SetMaterial/pl

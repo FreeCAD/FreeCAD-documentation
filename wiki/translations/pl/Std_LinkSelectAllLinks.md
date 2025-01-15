@@ -30,13 +30,5 @@ Polecenie **Wybierz wszystkie łącza** wybiera wszystkie obiekty [App Link](App
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std LinkSelectAllLinks/pl

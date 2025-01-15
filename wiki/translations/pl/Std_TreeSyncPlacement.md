@@ -27,13 +27,5 @@ Polecenie **Synchronizuj położenie** przełącza [Widok drzewa](Tree_view/pl.m
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeSyncPlacement/pl

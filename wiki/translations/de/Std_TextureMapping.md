@@ -30,13 +30,5 @@ Der Befehl **Std Texturabbildung** bildet temporär eine Textur auf allen Objekt
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TextureMapping/de

@@ -65,11 +65,6 @@ view.viewIsometric()
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std ViewIsometric/ru

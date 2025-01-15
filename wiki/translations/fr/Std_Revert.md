@@ -25,13 +25,5 @@ La commande **Std Rétablir** ferme le document actif et rouvre la dernière ver
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Revert/fr

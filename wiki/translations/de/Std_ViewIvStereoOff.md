@@ -29,13 +29,5 @@ Siehe [Std AnsichtStereoRotGrün](Std_ViewIvStereoRedGreen/de#Scripting.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewIvStereoOff/de

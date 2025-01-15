@@ -33,13 +33,5 @@ Pour couper d\'autres objets, vous pouvez utiliser la commande [Std Copier](Std_
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Cut/fr

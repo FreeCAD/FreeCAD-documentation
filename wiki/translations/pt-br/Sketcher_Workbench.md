@@ -1144,13 +1144,5 @@ For some ideas of what can be achieved with Sketcher tools, have a look at: [Ske
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/pt-br

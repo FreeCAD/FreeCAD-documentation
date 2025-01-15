@@ -30,13 +30,5 @@ Der Befehl **Std Eigenschaften** Zeigt das Fenster [Eigenschaften-Ansicht](Prope
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Properties/de

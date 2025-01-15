@@ -63,13 +63,5 @@ Ważne jest, aby zdać sobie sprawę, że pliki wewnątrz pliku projektu FreeCAD
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ProjectUtil/pl

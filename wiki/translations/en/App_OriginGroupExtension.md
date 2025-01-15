@@ -17,11 +17,6 @@ The axes and planes are objects of type `App::Line` and `App::Plane` respectivel
 *Simplified diagram of the relationships between the core objects in the program. Two of them have an Origin object to control the placement of the objects grouped under them.*
 
 
-{{Document_objects_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > App OriginGroupExtension/en

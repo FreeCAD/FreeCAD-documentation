@@ -33,13 +33,5 @@ Aucune contrainte supplémentaire n\'est ajoutée pour le clone.
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/fr

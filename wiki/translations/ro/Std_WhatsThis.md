@@ -51,13 +51,5 @@ Since FreeCAD version 0.20 this command and the Help system are managed by a sep
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std WhatsThis/ro

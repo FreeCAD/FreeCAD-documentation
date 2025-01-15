@@ -34,13 +34,5 @@ La commande **Std Charger une image** ouvre une image dans un nouvel onglet de l
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewLoadImage/fr

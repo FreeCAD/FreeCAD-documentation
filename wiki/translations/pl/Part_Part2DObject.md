@@ -97,11 +97,6 @@ obj.Label = "Custom label"
 ```
 
 
-{{Document_objects_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Part2DObject/pl

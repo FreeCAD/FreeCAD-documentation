@@ -26,13 +26,5 @@ Il comando **Schermo intero** attiva o disattiva la modalità a schermo intero d
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MainFullscreen/it

@@ -16,13 +16,5 @@ Cette commande ne fonctionne pas pour le moment.
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std MacroStopDebug/fr

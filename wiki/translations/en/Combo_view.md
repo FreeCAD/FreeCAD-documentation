@@ -25,11 +25,6 @@ See also: [Preferences Editor](Preferences_Editor.md).
 The Combo view is available if **Edit → Preferences... → General → General → Tree view mode** is set to {{Value|Combined}}. If it is set to {{Value|Independent}} the Tree view and the Property editor appear as separate panels.
 
 
-{{Interface_navi
-
-}} {{Std_Base_navi}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Combo view/en

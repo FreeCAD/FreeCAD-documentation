@@ -36,13 +36,5 @@ Polecenie **Wykonaj makrodefinicję w trakcie edycji** powoduje wykonanie makra 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgMacroExecuteDirect/pl

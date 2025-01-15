@@ -35,13 +35,5 @@ Voir [Std Vue de face](Std_ViewFront/fr#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewRight/fr

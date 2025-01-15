@@ -48,11 +48,6 @@ Questo strumento elimina tutti i vincoli dallo schizzo in corso di modifica e la
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/it

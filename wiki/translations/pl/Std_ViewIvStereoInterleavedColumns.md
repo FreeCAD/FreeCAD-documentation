@@ -35,13 +35,5 @@ Zobacz [Std: Widok stereo czerwony / cyjan](Std_ViewIvStereoRedGreen/pl#Tworzeni
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewIvStereoInterleavedColumns/pl

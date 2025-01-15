@@ -29,13 +29,5 @@ Il comando **Ripristina** chiude il documento attivo e riapre l\'ultima versione
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std Revert/it

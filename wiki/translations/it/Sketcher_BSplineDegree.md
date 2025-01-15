@@ -50,11 +50,6 @@ Mostra o nasconde la visualizzazione del **grado** di una B-spline (vedere: [B-s
 </div>
 
 
-{{Sketcher_Tools_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/it

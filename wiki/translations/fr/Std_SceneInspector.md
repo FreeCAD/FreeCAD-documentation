@@ -24,13 +24,5 @@ La commande **Std Inspecteur du graphe de scène‏‎** ouvre une fenêtre de d
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std SceneInspector/fr

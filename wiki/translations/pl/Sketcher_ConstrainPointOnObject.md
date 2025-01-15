@@ -74,13 +74,5 @@ Na stronie [Skrypty Szkicownika](Sketcher_scripting/pl.md) wyjaśniono, jak iden
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPointOnObject/pl

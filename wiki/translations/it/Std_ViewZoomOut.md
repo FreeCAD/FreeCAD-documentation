@@ -44,13 +44,5 @@ Vedere [Ingrandisci](Std_ViewZoomIn/it#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std ViewZoomOut/it

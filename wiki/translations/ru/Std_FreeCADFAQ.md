@@ -36,11 +36,6 @@ Currently the command points to [<https://wiki.freecad.org/Frequently_asked_ques
 </div>
 
 
-{{Std_Base_navi
-
-}}
-
-
 
 ---
 ⏵ [documentation index](../README.md) > Std FreeCADFAQ/ru

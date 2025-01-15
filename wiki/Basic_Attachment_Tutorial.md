@@ -300,8 +300,6 @@ Happy Attaching!
 
 [Top](#Top.md)
 
- {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}}
-
 
 
 ---

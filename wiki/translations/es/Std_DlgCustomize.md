@@ -41,13 +41,5 @@ El comando **Std DiálogoPersonalizar** abre el cuadro de diálogo Personalizar 
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std DlgCustomize/es

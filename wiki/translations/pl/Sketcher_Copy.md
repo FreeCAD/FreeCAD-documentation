@@ -34,13 +34,5 @@ Nie są dodawane żadne dodatkowe wiązania.
 
 
 
-
-
-{{Sketcher_Tools_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/pl

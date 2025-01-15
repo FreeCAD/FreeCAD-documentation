@@ -26,13 +26,5 @@ Der Befehl **Std BaumDokumentReduzieren** wechselt den Dokument-Modus der [Bauma
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeCollapseDocument/de

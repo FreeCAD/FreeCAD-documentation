@@ -34,13 +34,5 @@ Vedere [Vista ortografica](Std_OrthographicCamera/it#Script.md).
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std PerspectiveCamera/it

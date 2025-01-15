@@ -28,13 +28,5 @@ La commande **Std Déplacement** lance une opération de glissement pour les obj
 
 
 
-
-
-{{Std_Base_navi
-
-}}
-
-
-
 ---
 ⏵ [documentation index](../README.md) > Std TreeDrag/fr
