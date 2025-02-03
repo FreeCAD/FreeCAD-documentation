@@ -14,7 +14,7 @@
     <description>The complete FreeCAD documentation for local use.</description>
     <name>Offline Documentation</name>
 
-    <icon />
+    <icon>Resources/Icons/Addon.svg</icon>
 
     <maintainer
         email = 'yorik@uncreated.net'
