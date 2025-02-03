@@ -1,19 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
-  <name>FreeCAD documentation</name>
-  <description>The FreeCAD documentation for offline use</description>
-  <version>1.0.0-alpha</version>
-  <date>2022-03-14</date>
-  <maintainer email="yorik@uncreated.net">Yorik van Havre</maintainer>
-  <license file="LICENSE">CC0-1.0</license>
-  <url type="repository" branch="main">https://github.com/FreeCAD/FreeCAD-documentation</url>
-  <!-- No icon yet <icon></icon> -->
+<?xml
+    standalone = 'no'
+    encoding = 'UTF-8'
+    version = '1.0'
+?>
+<package
+    format = '1'
+    xmlns = 'https://wiki.freecad.org/Package_Metadata'
+>
 
-  <content>
-    <workbench>
-      <classname>Documentation</classname>
-      <subdirectory>./</subdirectory>
-    </workbench>
-  </content>
+    <version>1.0.0-alpha</version>
+    <date>2022-03-14</date>
+
+    <description>The complete FreeCAD documentation for local use.</description>
+    <name>Offline Documentation</name>
+
+    <icon />
+
+    <maintainer
+        email = 'yorik@uncreated.net'
+    >Yorik van Havre</maintainer>
+
+    <author>The FreeCAD Wiki Contributor</maintainer>
+
+    <license
+        file = 'LICENSE'
+    >CC0-1.0</license>
+
+
+    <url type = 'documentation' />
+    <url type = 'discussion' />
+    <url type = 'bugtracker' />
+
+    <url
+        branch = 'main'
+        type = 'repository'
+    >https://github.com/FreeCAD/FreeCAD-documentation</url>
+
+    <url
+        type = 'readme'
+    >https://github.com/FreeCAD/FreeCAD-documentation/blob/main/README.md</url>
+
+
+    <content>
+        <workbench>
+            <classname>Documentation</classname>
+            <subdirectory>./</subdirectory>
+        </workbench>
+    </content>
 
 </package>
