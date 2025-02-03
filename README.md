@@ -66,3 +66,10 @@ This documentation is fully translatable by users to other languages, and is in 
 * FreeCAD participates to the [Google Summer of Code](wiki/Google_Summer_of_Code.md) since 2016. Learn how to participate
 * All the development communication happens on the [forum](http://forum.freecadweb.org), so be sure to visit it if you are interested in participating.
 
+<br/>
+<br/>
+
+*Addon icon commissioned from [IncursioArt]*
+
+
+[IncursioArt]: https://vgen.co/IncursioArt
